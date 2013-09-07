@@ -1,0 +1,80 @@
+.topLeft { background-image:url('/fplcommon/wrapper/images/NT_outline_tl.gif'); background-position:0 0; background-repeat:no-repeat; height:16px; width:20px; }
+.topRight { background-image:url('/fplcommon/wrapper/images/NT_outline_tr.gif'); background-position:-1 0; background-repeat:no-repeat; height:16px; width:20px; }
+* html .topRight { background-image:url('/fplcommon/wrapper/images/NT_outline_tr.gif'); background-position:right top; background-repeat:no-repeat; height:16px; width:20px; }
+.topLineBg { background-image:url('/fplcommon/wrapper/images/NT_outline_TOP.gif'); background-position:top; background-repeat:repeat-x; height:16px; }
+.botRight { background-image:url('/fplcommon/wrapper/images/NT_outline_br.gif'); background-position:-1 0; background-repeat:no-repeat; height:16px; width:20px; }
+* html .botRight { background-image:url('/fplcommon/wrapper/images/NT_outline_br.gif'); background-position:right top; background-repeat:no-repeat; height:16px; width:20px; }
+.botLeft { background-image:url('/fplcommon/wrapper/images/NT_outline_bl.gif'); background-position:0 0; background-repeat:no-repeat; height:16px; width:20px; }
+.botLineBg { background-image:url('/fplcommon/wrapper/images/NT_outline_bcBG.gif'); background-repeat:repeat-x; height:16px; }
+.leftLineBg { background-image:url('/fplcommon/wrapper/images/left_line.jpg'); background-position:0 0; background-repeat:repeat-y; width:20px; }
+.rightLineBg { background-image:url('/fplcommon/wrapper/images/right_line.jpg'); background-position:-10 0; background-repeat:repeat-y; width:20px; }
+* html .rightLineBg { background-image:url('/fplcommon/wrapper/images/right_line.jpg'); background-position:-15 0; background-repeat:repeat-y; border-right:1px solid #AEC3D0; width:20px; }
+*:first-child+html .rightLineBg { background-image:url('/fplcommon/wrapper/images/left_line.gif'); background-position:1 0; background-repeat:repeat-y; width:25px; }
+
+.mainBox .topLeft { background-image:url('/fplcommon/wrapper/images/NT_outline_tl.gif'); background-position:right bottom; background-repeat:no-repeat; height:16px; width:11px; }
+.mainBox .topRight { background-image:url('/fplcommon/wrapper/images/NT_outline_tr.gif'); background-position:left bottom; background-repeat:no-repeat; height:16px; width:11px; }
+.mainBox .topLineBg { background-image:url('/fplcommon/wrapper/images/NT_outline_TOP.gif'); background-position:top; background-repeat:repeat-x; height:16px; }
+.mainBox .botRight { background-image:url('/fplcommon/wrapper/images/NT_outline_br.gif'); background-position:top left; background-repeat:no-repeat; height:16px; width:11px; }
+.mainBox .botLeft { background-image:url('/fplcommon/wrapper/images/NT_outline_bl.gif'); background-position:top right; background-repeat:no-repeat; height:16px; width:11px; }
+.mainBox .botLineBg { background-image:url('/fplcommon/wrapper/images/NT_outline_bcBG.gif'); background-repeat:repeat-x; height:16px; }
+.mainBox .leftLineBg { background-image:url('/fplcommon/wrapper/images/left_line.gif'); background-position:0 0; background-repeat:repeat-y; width:20px; }
+.mainBox .rightLineBg { background-image:url('/fplcommon/wrapper/images/right_line.gif'); background-position:0 0; background-repeat:repeat-y; width:20px; }
+
+.mainBox2 .topLeft { background-image:url('/fplcommon/wrapper/images/NT_outline_tl.gif'); background-position:right bottom; background-repeat:no-repeat; height:16px; width:11px; }
+.mainBox2 .topRight { background-image:url('/fplcommon/wrapper/images/NT_outline_tr.gif'); background-position:left bottom; background-repeat:no-repeat; height:16px; width:11px; }
+.mainBox2 .topLineBg { background-image:url('/fplcommon/wrapper/images/NT_outline_TOP.gif'); background-position:top; background-repeat:repeat-x; height:16px; }
+.mainBox2 .botRight { background-image:url('/fplcommon/wrapper/images/NT_outline_br.gif'); background-position:top left; background-repeat:no-repeat; height:16px; width:11px; }
+.mainBox2 .botLeft { background-image:url('/fplcommon/wrapper/images/NT_outline_bl.gif'); background-position:top right; background-repeat:no-repeat; height:16px; width:11px; }
+.mainBox2 .botLineBg { background-image:url('/fplcommon/wrapper/images/NT_outline_bcBG.gif'); background-repeat:repeat-x; height:16px; }
+.mainBox2 .leftLineBg { background-image:url('/fplcommon/wrapper/images/left_line.gif'); background-position:0 0; background-repeat:repeat-y; width:20px; }
+.mainBox2 .rightLineBg { background-image:url('/fplcommon/wrapper/images/right_line.gif'); background-position:0 0; background-repeat:repeat-y; width:20px; }
+
+* html .mainBox .topLeft { background-image:none; border:1px solid #AEC3D0; border-right:0; border-bottom:0; }
+* html .mainBox .topRight { background-image:none; border:1px solid #AEC3D0; border-left:0; border-bottom:0; }
+* html .mainBox .topLineBg { background-image:none; border-top:1px solid #AEC3D0; }
+* html .mainBox .botRight { background-image:none; border:1px solid #AEC3D0; border-top:0; border-left:0; }
+* html .mainBox .botLeft { background-image:none; border:1px solid #AEC3D0; border-top:0; border-right:0; }
+* html .mainBox .botLineBg { background-image:none; border-bottom:1px solid #AEC3D0; }
+* html .mainBox .leftLineBg { background-image:none; border-left:1px solid #AEC3D0; }
+* html .mainBox .rightLineBg { background-image:none; border-right:1px solid #AEC3D0; }
+
+/** html .mainBox .topLeft { background-image:url('/fplcommon/wrapper/images/NT_outline_tl.gif'); background-position:bottom right; background-repeat:no-repeat; height:16px; width:20px; }
+* html .mainBox .topRight { background-image:url('/fplcommon/wrapper/images/NT_outline_tr.gif'); background-position:bottom left; background-repeat:no-repeat; height:16px; width:20px; }
+* html .mainBox .topLineBg { background-image:url('/fplcommon/wrapper/images/NT_outline_TOP.gif'); background-repeat:repeat-x; height:16px; }
+* html .mainBox .botRight { background-image:url('/fplcommon/wrapper/images/NT_outline_br.gif'); background-position:bottom left; background-repeat:no-repeat; height:16px; width:20px; }
+* html .mainBox .botLeft { background-image:url('/fplcommon/wrapper/images/NT_outline_bl.gif'); background-position:bottom right; background-repeat:no-repeat; height:16px; width:20px; }
+* html .mainBox .botLineBg { background-image:url('/fplcommon/wrapper/images/NT_outline_bcBG.gif'); background-repeat:repeat-x; height:16px; }
+* html .mainBox .leftLineBg { background-image:url('/fplcommon/wrapper/images/left_line.gif'); background-position:0 0; background-repeat:repeat-y; width:10px; }
+* html .mainBox .rightLineBg { background-image:url('/fplcommon/wrapper/images/right_line.gif'); background-position:0 0; background-repeat:repeat-y; width:10px; }*/
+
+.output
+{
+height:200px;
+font-family:Arial;
+font-size:10pt;
+color:black;
+padding-left:3px;
+padding-top:3px;
+border:1px solid #000000;	
+background:#fff;
+overflow:auto;	
+}
+.shadow
+{
+font-family:Arial;
+font-size:10pt;
+color:black;
+border:1px solid #000000;	
+overflow:auto;	
+top:2px;
+left:2px;
+background:#fff;
+z-index:5000;
+display:block;
+}
+.indiseDiv{
+z-index:5000;
+}
+
+.mainBox #submitBtn { margin-left:285px; }
+.mainBox2 #submitBtn { margin-left:285px; }

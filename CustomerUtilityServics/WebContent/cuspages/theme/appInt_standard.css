@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*reset*/
+table{border:none; border-collapse:collapse;}
+td, th{border:none;}
+
+/*app_standard adjust*/
+label {display:inline-block; vertical-align:center; width:300px; color:#4b4b4b;}
+li, .buttonNew, table{font:10pt Verdana, Arial, Helvetica, sans-serif;}
+fieldset .ui-selectmenu{display:inline-block; margin-left:-5px;}
+.formFieldset h3{font:bold 11pt Verdana, Arial, Helvetica, sans-serif;}
+
+/*page specific*/
+#searchResult{width:100%;}

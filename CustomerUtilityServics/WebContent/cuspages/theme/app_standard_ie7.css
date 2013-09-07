@@ -1,0 +1,195 @@
+/* -----------------------------------
+Site:Florida Power & Light Company, Inc.
+CSS author: Web Services Team
+Updated: 
+Updated by: 
+----------------------------------- */
+
+/* General Styles */
+.required.right { font-size:11px; }
+
+
+
+/* Forms */
+.formFieldset { margin:5px 0; }
+ol.forms li { clear:both; padding:5px 0 8px; margin:0; }	/*  NOTE: added to fix spacing on web_scheduling  */
+ol.forms li b { margin-left:0; }	/* to fix single column indent */
+ol.forms .right { clear:none; float:left; width:322px; margin-left:3px; }
+
+input.rndTextbox { border:none; height:27px; padding:0 5px; line-height:2; overflow:hidden; }
+input.small { width:47px; background:#f4f5f6 url("/fplcommon/wrapper/1024images/solar_textboxSm.gif") no-repeat; background-position:100% 0; }
+input.smallmed { width:70px; background:#f4f5f6 url("/fplcommon/wrapper/1024images/solar_textboxSmMd.gif") no-repeat; background-position:100% 0; }
+input.medium { width:177px; background:#f4f5f6 url("/fplcommon/wrapper/1024images/solar_textboxMd.gif") no-repeat; background-position:100% 0; }
+input.large { width:308px; background:#f4f5f6 url("/fplcommon/wrapper/1024images/solar_textboxLg.gif") no-repeat; background-position:100% 0; }
+input.xlarge { width:427px; background:#f4f5f6 url("/fplcommon/wrapper/1024images/solar_textboxXL.gif") no-repeat; background-position:100% 0; }
+
+input.small.invalidField { background:#f4f5f6 url("/fplcommon/wrapper/1024images/solar_textboxSm_red.gif") no-repeat; background-position:100% 0; }
+input.smallmed.invalidField { background:#f4f5f6 url("/fplcommon/wrapper/1024images/solar_textboxSmMd_red.gif") no-repeat; background-position:100% 0; }
+input.medium.invalidField { background:#f4f5f6 url("/fplcommon/wrapper/1024images/solar_textboxMd_red.gif") no-repeat; background-position:100% 0; }
+input.large.invalidField { background:#f4f5f6 url("/fplcommon/wrapper/1024images/solar_textboxLg_red.gif") no-repeat; background-position:100% 0; }
+input.xlarge.invalidField { background:#f4f5f6 url("/fplcommon/wrapper/1024images/solar_textboxXL_red.gif") no-repeat; background-position:100% 0; }
+
+textarea.commentBox { border:none; width:439px; height:62px; background:#f4f5f6 url("/fplcommon/wrapper/1024images/solar_commentBox.gif") no-repeat; /*padding:5px;*/ }
+textarea.commentBox.large { width:740px; background:#f4f5f6 url("/fplcommon/wrapper/1024images/solar_commentBoxLg.gif") no-repeat;/* background-position:0px 0px;*/ }
+
+/*.right .rndTextbox.large { margin-left:-15px; }
+.right .rndTextbox#phone_one { margin-left:-15px; }*/
+
+ol.alignRight li { }
+ol.forms.alignRight.closeable li { float:right; margin-left:30px; width:465px; }
+.formFieldset.blueBox ol.forms.alignRight.closeable label.formLabel { float:left; }
+.formFieldset.blueBox ol.forms.alignRight.closeable input.rndTextbox { float:right; }
+
+.lightbox-content .lightbox-form ol.alignRight li { float:right; margin-left:30px; width:430px; }
+.lightbox-content .lightbox-form .formFieldset.blueBox ol.forms.alignRight.closeable label.formLabel { float:left; }
+.lightbox-content .lightbox-form .formFieldset.blueBox ol.forms.alignRight.closeable input.rndTextbox { float:right; }
+.lightbox-content .lightbox-form .formFieldset.blueBox ol.forms.alignRight.closeable .sizeDropdown { float:right; }
+
+
+/* Lightbox */
+.lightbox { display:none; background:#262626; opacity:0.9;filter:alpha(opacity=50)!important;position:absolute;top:0px;left:0px;min-width:200%;min-height:200%; height:200%; width:200%; z-index:1000;}
+
+/*label.formLabel { display:inline; height:20px; }*/
+label.blockLabel { display:block; height:20px; }
+
+/* Buttons */
+.button { margin-top:10px; }
+.button.ltgray { float:left; }
+
+/*.button.center { margin-left:280px; overflow:hidden; }*/
+.button.center { float:left; margin-left:150px; }
+.buttonNew.center { float:left; margin-left:280px; }
+.button.center span, .buttonNew.center span { padding:5px 40px 0 40px; }
+.button.centerGroup, .buttonNew.centerGroup { float:left; margin-left:5px; }
+.button.centerGroup span, .buttonNew.centerGroup span { padding:5px 15px 0 15px; }
+.button.rightGroup, .buttonNew.rightGroup { float:left; margin-left:5px; }
+.button.rightGroup span, .buttonNew.rightGroup span { padding:5px 8px 0 8px; }
+.button.wide, .buttonNew.wide { margin-left:335px; overflow:hidden; width:auto; }
+.resEEForm #pvNext1 {margin-top:0px;}
+
+.button.bigRight, .buttonNew.bigRight { display:inline-block; margin-left:280px; overflow:hidden; }
+.button.bigRight span, .buttonNew.bigRight span { padding:5px 40px 0 40px; }
+
+input.dispFieldConf { border:1px thin #fff; position:absolute; width:350px; left:300px; color:#4b4b4b; }
+#manageResJob input.dispFieldConf { width:400px; left:350px; } /*370px*/
+#manageResJobSWH input.dispFieldConf { width:400px; left:370px; }
+input.dispFieldRight { border:1px thin #fff; position:absolute; right:0; color:#4b4b4b; text-align:right; margin-right:30px; width:330px; }
+
+table { border-collapse:collapse; }
+
+/*.blueContentNoTab { display:inline-block;display:block; width:678px; padding:10px 25px 30px 25px; border:1px solid #0090d3; }*/
+
+.blueContentNoTab#firstTabDiv { border:1px solid #0090d3; height:auto!important; }
+*:first-child+html .blueContentNoTab#firstTabDiv { display:inline-block; width:678px; padding:20px 25px; border:1px solid #0090d3; position:relative; height:auto!important; }
+*:first-child+html .blueContentNoTab#firstTabDiv #apptNote { display:inline-block; position:relative; height:auto!important; }
+
+.blueContentNoTab#secondTabDiv { border:1px solid #0090d3; height:auto!important; }
+*:first-child+html .blueContentNoTab#secondTabDiv { display:inline-block; width:678px; padding:20px 25px; border:1px solid #0090d3; position:relative; height:auto!important; }
+*:first-child+html .blueContentNoTab#secondTabDiv #apptNote { display:inline-block; position:relative; height:auto!important; }
+
+*:first-child+html .blueContentNoTab { display:inline-block; width:678px; padding:20px 25px; border:1px solid #0090d3; position:relative; height:auto!important; }
+*:first-child+html .blueContentNoTab #apptNote { display:inline-block; position:relative; height:auto!important; }
+
+.blueContentNoTab#thirdTabDiv { border:1px solid #0090d3; height:auto!important; }
+*:first-child+html .blueContentNoTab#thirdTabDiv { display:inline-block; width:678px; padding:20px 25px; border:1px solid #0090d3; position:relative; height:auto!important; }
+*:first-child+html .blueContentNoTab#thirdTabDiv #apptNote { display:inline-block; position:relative; height:auto!important; }
+
+ol.forms li {list-style-position:outside;}
+
+#faqFrame { margin-top:5px;}
+#outerMostTable { margin: 0px; }
+
+/*  Fix for JAVA  */
+#schWindowTable { overflow:auto; width:675px; height:150px; border:2px solid #ffffff; }
+#schWindowTable td { text-align:center; }
+#schWindowTable td input { margin:0 40px; }
+
+/* WORS Fixes */
+.lightbox-content input.dispFieldLeft { border:none; outline:none; background:none}
+.lightbox-content .formRows li { float:left; }
+#breakerLB_frame h2 { font-size:12pt; }
+#worsFrame, #worsSidebar { height:910px; }
+.FAQ_question { padding-bottom:0; }
+#submitConfirmation .formFieldset { margin:20px 0 10px 0; }
+
+
+/* Solar Job Managment Fixes */
+.solarMgmt #acctInfo ol.forms li { padding-top:3px; padding-bottom:0; }
+.solarMgmt #acctInfo ol.forms li.blueFont { padding-top:0; }
+.solarMgmt #acctInfo ol.forms li.infoBreak { padding-top:15px; }
+.solarMgmt #anotherRes { margin-top:-20px; }
+.solarMgmt .dispInfoField { padding-top:0; vertical-align:top; } 
+.solarMgmt .detailBox .dispFieldRight { right:6px; }
+.solarMgmt .xIcon.panel { padding-top:56px; }
+.solarMgmt .xIcon.inverter { padding-top:24px; }
+.solarMgmt .xIcon.tank { padding-top:22px; }
+.solarMgmt .xIcon.buscollector { padding-top:54px; }
+.solarMgmt .radioAdd { margin-top:0; }
+.solarMgmt #swhGeneralInfoRes ol.forms .left { clear:both; }
+.solarMgmt #swhGeneralInfoRes .radioFlds { height:51px; }
+.solarMgmt #sysInfoBusSWH { width:100% }
+.solarMgmt #systemInfoBus label { width:300px; }
+.solarMgmt #sysInfoConf .formLabel { margin-left:-15px; }
+.solarMgmt ol.forms li.jobMgmtDoc { padding-top:0; padding-bottom:0; }
+.solarMgmt .jobMgmtDoc .buttonNew { top:-9px; margin-top:6px; }
+.solarMgmt .jobMgmtDoc input { padding-top:5px; height:22px; letter-spacing:-1px; }
+.solarMgmt #acctInfo li.blueFont input  { color:#006dcc; }
+.solarMgmt #acctInfo li.blueFont .displayArea { color:#006dcc; position:absolute; height:none; }
+.solarMgmt .docLink, .solarMgmt .docSize { margin-top:-17px; }
+.solarMgmt .jobMgmtDoc label { vertical-align:top; }
+.solarMgmt .jobMgmtDoc label.helpTip { padding-top:2px; }
+.solarMgmt .jobMgmtDoc .helpTipIcon { vertical-align:top; padding-top:1px;}
+.solarMgmt .jobMgmtDoc.uploaded input { padding-top:0; height:none; }
+.solarMgmt #rebateCert, .solarMgmt .certButtons { position:relative; }
+.solarMgmt #doc_rebateCert { position:absolute; left:248px; top:0; padding-top:5px; height:22px; letter-spacing:-1px; }
+.solarMgmt #doc_rebateCert.uploaded { padding-top:0; height:none; }
+.solarMgmt #browseBtn { width:70px; margin-left:445px; margin-top:7px; }
+.solarMgmt #downloadBtn { width:244px; }
+.solarMgmt #downloadBtn.disabled span {white-space:nowrap; width:198px; display:inline-block;}
+.solarMgmt #addDocs { width:145px; }
+.solarMgmt #submitJob { margin-left:215px; }
+.solarMgmt .jobMgmtDoc input.inputFile { height:28px; width:270px; }
+.solarMgmt .certButtons .inputFile { height:28px; width:265px; }
+.solarMgmt .certButtons .docSize { margin:-20px 10px 0 0; }
+.solarMgmt .certButtons .docLink { position:relative; top:-34px; margin-top:17px; }
+.solarMgmt #docCancel_rebateCert { margin-top:13px; }
+.solarMgmt .newDoc .docSize { margin-top:0; }
+.solarMgmt .mailingList .radioLabel { margin-right:0; width:450px; }
+.helpTipContainer { position:relative; height:30px; }
+.helpTipContainer .helpTipIcon#addDocsHelpMsg { position:relative; left:150px; top:-40px; }
+.helpPlacement .helpTipIcon#addDocsHelpMsg { left:0; top:0; }
+.solarFAQ #selectFAQ-menu { height:250px; overflow:visible; z-index:1000; }
+.solarFAQ .ui-selectmenu span { padding:0; }
+.solarFAQ .answer_icon { height:42px; }
+.solarMgmt input.rndTextbox { height:27px; padding:0 5px; }
+
+/* Channel Sync-up */
+.soDates .ui-datepicker-header { width:190px; }
+.soDates .ui-datepicker-calendar { width:190px; }
+.editCancelOrders input.medium { background-position:bottom right;} /*fixes background image scroll issue for IE*/
+.channelSync input.medium { background-position:bottom right;} /*fixes background image scroll issue for IE*/
+.editCancelOrders input.displayField {padding-bottom:3px;}
+
+#tabs li.active span{top:1px;}
+
+#billPayInfo input.rndTextbox { height:27px; padding:0 5px; }
+#billPayInfo fieldset ol {margin-top:10px; margin-bottom:-8px;}
+#billPayInfo fieldset#statusInfo ol.forms { margin-top:-5px; }
+#billPayInfo fieldset#statusInfo ol.forms li{ padding-top:0; padding-bottom:0; }
+#billPayInfo fieldset#emailInfoEnroll ol.forms {margin-top:10px;}
+#billPayInfo fieldset#withdrawalInfoEnroll ol.forms li {padding-top:0;}
+
+#printPDF {margin-right:175px;}
+
+a#toAcctSumm {margin-right:175px;}
+
+
+/* Fix for Web Sched */
+#500_height { height:500px; }
+
+/*Fix for Flyout Navigation Menu*/
+#accountAccess .flyoutMenu {z-index:500;}
+
+/*ECC*/
+#ssoZipGo{margin-top:-10px;}
+

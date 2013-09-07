@@ -1,0 +1,335 @@
+<cmignore>
+@charset "utf-8";
+/* CSS Document */
+/* Navigation Styles */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+	color:#666666;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	margin:0px;
+	padding:0px;	
+	text-align:center;
+	background-color:#EEEEEE;
+}
+
+#pageWrap { width:780px; background-color:#FFFFFF; }
+#outerMostTable { text-align:left; background-color:#FFFFFF; }
+
+/*#Wrapper {
+width:621px;
+margin:10px 0px;
+padding-bottom:0px;
+float:left;
+border:1px solid red;
+	}*/
+
+/*#Wrapper {width:1000px;margin:50px 0px;padding-bottom:0px;float:left;}
+#Wrapper { width:626px; background-color:#fff; margin:0 auto; border:1px solid #ddd; }*/
+
+/* slightly enhanced, universal clearfix hack */
+.clearfix:after { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0; }
+.clearfix { display:inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height:1%; }
+.clearfix { display:block; }
+/* close commented backslash hack */
+
+/* Header Search and top site links */
+.Search { float:right; vertical-align:top; height:25px; margin-right:3px; }
+
+.Search ul { /*float:left;*/ list-style-type:none; font:Verdana; margin-right:0px; padding-top:2px; vertical-align:middle; }
+.Search ul li { float:left; font-size:11px; height:1.25em; line-height:1em; background:url("/fplcommon/wrapper/images/bgNavPipe.gif") no-repeat 100% .35em; padding:0 10px; }
+
+.Search ul li a { height:1em; color:#616161; text-decoration:none; }
+.Search ul li a:hover { height:1em; color:#0000CD; text-decoration:none; }
+.Search ul li.selected a { color:#616161; text-decoration:none; }
+.Search ul li.last { padding-right:10px; background:none; }
+
+.Search #print a, img { vertical-align:top; color:#616161; padding-right:1px; background:none; }
+.Search #print a:hover { color:#0000CD; }
+.Search #print.selected a { color:#616161; }
+
+.SearchField #fpl_search { width:113px; height:14px; float:left; color:#616161; font-size:10px; padding-left:5px; }
+.SearchButton #btnG2 { float:left; padding-left:3px; }
+
+
+/* Top Navigation - no images used */
+#TopNav { position:relative; font:Verdana; text-align:left; }
+#TopNav ul { list-style-type:none; list-style-position:outside; font-size:10px; height:24px; line-height:24px; background-color:#FFFFFF; border-top:2px solid #6699CC; border-bottom:2px solid #6699CC; padding-left:0px; }
+#TopNav ul ul { border-bottom:0; }
+#TopNav ul li { float:left; font-size:13px; font-weight:bold; display:list-item; position:relative; margin-left:0px; }
+
+#TopNav ul ul li { font-size:11px; font-weight:normal; }
+#TopNav ul li a { height:24px; float:left; display:inline; color:#616161; text-decoration:none; overflow:hidden; }
+#TopNav ul li a:hover { color:#0000CD; }
+#TopNav ul li.selected a { color:#0000CD; }
+
+#TopNav ul li.hover a { }
+#TopNav ul li.hoverSub { background-color:#BCD2EE; color:#0000CD; height:24px; } /* height added */
+#TopNav ul li.hoverSub a { }
+
+/* Residential */
+#TopNav ul li.li1 a { width:66px; }
+/* Business */
+#TopNav ul li.li2 a { width:86px; }
+/* Customer Service */
+#TopNav ul li.li3 a { width:124px; }
+/* Environment */
+#TopNav ul li.li4 a { width:91px; }
+/* Community */
+#TopNav ul li.li5 a { width:82px; }
+/* About Energy */
+#TopNav ul li.li6 a { width:99px; }
+/* About FPL */
+#TopNav ul li.li7 a { width:78px; }
+
+/* Navigation ---------------------------------> Dropdowns opening to right of tab */
+/*Drop menu background area: Set width inline on .shtml file - as widths will vary according to number of columns.*/
+#TopNav ul li div.subnav { position:absolute; top:25px;	left:0; display:none; padding:0px 0px 0px 2px; margin-left:0px;/*keeps drop menu aligned with left of tab*/
+overflow:hidden; border:1px solid #6699CC; background-color:#FFFFFF; }
+#TopNav ul li.hoverSub div.subnav { display:block; }
+#TopNav ul li div.subnav div.subnavImg {}
+#TopNav ul li div.subnav div.contentWrapper { text-align:left; }
+
+/* applies to drop menu content area - including column h3 */
+#TopNav ul li div.subnav div.content {padding:0px 2px 2px 3px; position:relative; }
+/* left drop menu, left column's right margin */
+#TopNav ul li div.subnav div.col { float:left; margin-right:10px; }
+
+/* left drop menu, right column's right margin */
+#TopNav ul li div.subnav div.col.last { margin-right:2px; }
+#TopNav ul li div h3 { font-size:12px; color:#616161; font-weight:bold; }
+
+#TopNav ul li div ul { float:left; border-top:0; font-size:11px; height:auto; background:none; padding-left:0px; }
+#TopNav ul li div ul.sep { margin-right:0px; margin-left:0px; }
+#TopNav ul li div ul li { float:none; line-height:5px; }
+
+#TopNav ul li div ul li a,
+#TopNav ul li.selected div ul li a,
+#TopNav ul li.hoverSub div ul li a { display:block; height:auto; width:auto; float:none; color:#616161; padding:5px 0px 2px 0px; background:url("/fplcommon/wrapper/images/bgSubNavArrowOff.gif") no-repeat 0px 0px; text-indent:0px; overflow:hidden; border:0; }
+* html #TopNav ul li.hoverSub div ul li a { text-indent:-15px; }
+
+#TopNav ul li div ul li a:hover,
+#TopNav ul li.selected div ul li a:hover,
+#TopNav ul li.selected div ul li.selected a { color:#0000CD; }
+
+
+/* Navigation --------------------------> Wide Dropdowns opening to MIDDLE of tab */
+#TopNav ul li div.Msubnav { position:absolute; top:25px; left:0; display:none; padding:0px 0px 0px 2px; margin-left:-63px; overflow:hidden; border:1px solid #6699CC; background-color:#FFFFFF; }
+#TopNav ul li.hoverSub div.Msubnav { display:block; }
+#TopNav ul li div.Msubnav div.MsubnavImg { }
+#TopNav ul li div.Msubnav div.contentWrapper { text-align:left; }
+#TopNav ul li div.Msubnav div.content { padding:0px 2px 2px 3px; position:relative; }
+#TopNav ul li div.Msubnav div.col { float:left; margin-right:10px; }
+#TopNav ul li div.Msubnav div.col.last { margin-right:2px; }
+/* END Navigation ----> MIDDLE Dropdown */
+
+/* Navigation --------------------------> Wide Dropdowns opening to MIDDLE-MIDDLE of tab */
+#TopNav ul li div.MMsubnav { position:absolute; top:25px; left:0; display:none; padding:0px 0px 0px 2px; margin-left:-120px; overflow:hidden; border:1px solid #6699CC; background-color:#FFFFFF; }
+#TopNav ul li.hoverSub div.MMsubnav { display:block; }
+#TopNav ul li div.MMsubnav div.MMsubnavImg { }
+#TopNav ul li div.MMsubnav div.contentWrapper { text-align:left; }
+#TopNav ul li div.MMsubnav div.content { padding:0px 2px 2px 3px; position:relative; }
+#TopNav ul li div.MMsubnav div.col { float:left; margin-right:10px; }
+#TopNav ul li div.MMsubnav div.col.last { margin-right:2px; }
+/* END Navigation ----> MIDDLE Dropdown */
+
+
+/* Navigation --------------------------> Dropdowns opening to left of tab */
+#TopNav ul li div.Rsubnav {	position:absolute; top:25px; right:0px; display:none; padding:0px 0px 0px 2px; overflow:hidden; border:1px solid #6699CC; background-color:#FFFFFF; }
+#TopNav ul li.hoverSub div.Rsubnav { display:block; }
+#TopNav ul li div.Rsubnav div.RsubnavImg { }
+#TopNav ul li div.Rsubnav div.contentWrapper { text-align:left; }
+#TopNav ul li div.Rsubnav div.content { padding:0px 2px 2px 3px; position:relative; }
+/*right drop menu, left column's right margin*/
+#TopNav ul li div.Rsubnav div.col { float:left; margin-right:10px; }
+/*right drop menu, right column's right margin*/
+#TopNav ul li div.Rsubnav div.col.last { margin-right:2px; }
+/* END Navigation ----> RIGHT Dropdown */
+
+
+/* Dynamic Left Navs */
+.arrowlistmenu { width:130px; border-top:1px solid #6699CC; border-bottom:1px solid #6699CC; }
+.arrowlistmenu .menuheader { 
+font-size:12px; 
+font-weight:bold; 
+color:#616161; 
+border-top:1px solid #6699CC; 
+border-bottom:1px solid #ffffff; 
+margin:0px; 
+padding:5px 0 3px 0px; 
+cursor:auto; 
+cursor:pointer; }
+.arrowlistmenu .menuheaderLOG { font-size:11px; font-weight:bold; color:#616161; border-bottom:1px solid #6699CC; margin:0px; padding:5px 0 3px 0px; cursor:auto; cursor:pointer; }
+.arrowlistmenu .menuheaderNO { font-size:12px; font-weight:bold; color:#616161; border-top:1px solid #ffffff; border-bottom:1px solid #ffffff; margin:0px; padding:5px 0 3px 0px; cursor:auto; cursor:pointer; }
+
+.arrowlistmenu .menuheader a, 
+.arrowlistmenu .menuheader a:visited { color:#616161; text-decoration:none; }
+.arrowlistmenu .menuheader a:hover,
+.arrowlistmenu .menuheader.selected a { color:#0000CD; text-decoration:none; }
+
+.arrowlistmenu .menuheaderLOG a, 
+.arrowlistmenu .menuheaderLOG a:visited { color:#616161; text-decoration:none; }
+.arrowlistmenu .menuheaderLOG a:hover,
+.arrowlistmenu .menuheaderLOG.selected a { color:#0000CD; text-decoration:none; }
+.arrowlistmenu .menuheaderLOG img { border:0; }
+
+.arrowlistmenu .menuheaderNO a, 
+.arrowlistmenu .menuheaderNO a:visited { color:#616161; text-decoration:none; }
+.arrowlistmenu .menuheaderNO a:hover,
+.arrowlistmenu .menuheaderNO.selected a { color:#0000CD; text-decoration:none; }
+
+.arrowlistmenu .openheader{ 
+font-size:12px; 
+font-weight:bold; 
+color:#0000CD; 
+border-bottom:1px solid #6699CC; 
+background-color:#BCD2EE; }
+
+.arrowlistmenu ul{ list-style-type:none; list-style-position:outside; margin:0; padding:0; margin-bottom:0px; }
+.arrowlistmenu ul li { list-style-type:none; list-style-position:outside; font-size:11px; font-weight:bold; color:#616161; padding-left:2px; padding-bottom:1px; }
+
+.arrowlistmenu ul li .opensubheader{ font-size:11px; font-weight:bold; text-decoration:none; color:#616161; padding-bottom:1px; }
+
+.arrowlistmenu ul li .closedsubheader{ font-size:11px; font-weight:bold; color:#0000CD; padding-bottom:1px; }
+
+.arrowlistmenu ul li.noArrow { margin-left:8px; }
+
+.arrowlistmenu ul li a{ color:#616161; padding:0 0 1px 0px; text-decoration:none; font-weight:bold; }
+.arrowlistmenu ul li a:visited{ color:#616161; padding-bottom:1px; }
+.arrowlistmenu ul li a:hover{ background-color:#FFFFFF; color:#0000CD; text-decoration:none; }
+.arrowlistmenu ul li a.subexpandable:hover{ background-color:#FFFFFF; color:#0000CD; padding-bottom:1px; }
+
+.arrowlistmenu ul li ul li { list-style-type:none; list-style-position:outside; font-size:11px; font-weight:normal; margin-left:2px; line-height:1.5em; }
+
+/* Third level sub category items link behaviors */
+.arrowlistmenu ul li .subcategoryitems li a,
+.arrowlistmenu ul li .subcategoryitems li a:visited { font-weight:normal; color:#616161; }
+.arrowlistmenu ul li .subcategoryitems li a:hover,  
+.arrowlistmenu ul li .subcategoryitems li.selected a { font-weight:normal; color:#0000CD; text-decoration:none; text-decoration:none; }
+
+
+<!-- Static Right Menu --> 
+.rightMenu { width:130px; font:Verdana; }
+.rightMenu .Rmenuheader { font:bold 11px; color:#616161; margin:6px 0px 0px 0px; /*top & bottom spacing*/
+border-bottom-style:dashed; border-width:1px; border-color:#6699CC; padding-left:3px; /*header text indent*/
+padding-bottom:5px; cursor:auto; cursor:pointer; }
+.rightMenu .Rmenuheader a:hover { font:bold 11px; color:#0000CD; }
+
+/*sub menu items*/
+.rightMenu ul { list-style-type:none; margin:0px 0px 0px 2px; padding:0px; margin-bottom:1px; }
+.rightMenu ul li { font-size:10px; padding-bottom:3px; }/*spacing between menu items*/
+.rightMenu ul li a,
+.rightMenu ul li a:visited { color:#616161; background:url("/fplcommon/wrapper/images/bgSubNavArrowOff.gif") no-repeat 1px 8px; /*bullet list image positioning*/
+display:block; padding-left:8px; /*menu item text indented*/
+text-decoration:none; }
+
+.rightMenu ul li a:hover,
+.rightMenu ul li.selected a { 
+color:#0000CD;
+background:url("/fplcommon/wrapper/images/bgSubNavArrowOff.gif") no-repeat 1px 8px;
+}
+
+/*New white menu welcome*/
+.w_welcomeText{
+font-family:Verdana;
+font-size:11px;
+font-weight:bold;
+color:#cccccc;
+}
+#w_welcome {
+padding-top:1px;
+padding-bottom:3px;
+border-bottom:1px solid #6699CC;
+}
+
+#w_welcome a:link,
+#w_welcome a:visited {
+	font-family:Verdana;
+	color: #000;
+	font-size: 11px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#w_welcome a:hover {
+	font-family:Verdana;
+	color: #0000CD;
+	font-size: 11px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.w_welcomeContent {
+display:block;  
+background-color:#FFFFFF; /*:url("/fplcommon/wrapper/images/loginRegister_bg.gif"); */
+height:18px;
+padding-left:8px;
+padding-bottom:4px;
+font-family:Verdana;
+text-align:left;
+font-weight:bold;
+font-size:10px;
+color:#616161;
+}
+
+.w_welcomeTD{
+	width: 130px;
+	vertical-align: top;	
+}
+
+.centerContent { padding-left:3px;  }
+.centerContent, li, td, ul {
+margin-top:2px;
+font-family : arial;
+font-size : 10pt;
+color : #000000;
+weight : normal;
+list-style-position:inside;
+}
+
+p {
+margin-left:4px;
+font-size: 10pt;
+}
+
+h1 {
+font-family : arial, helvetica, sans serif;
+font-size : 14pt;
+color : #0000CD;
+font-weight : bold;
+background: #FFFFFF;
+padding:8px 2px 9px 2px;
+margin:3px 3px 3px 3px;
+}
+
+h2 {
+font-family : arial, helvetica, sans serif;
+font-size : 11pt ;
+font-color : #000000;
+font-weight : bold;
+margin-left:3px;
+margin-right:3px;
+}		
+
+h5{
+font-family : arial, helvetica, sans serif;
+font-size : 14pt;
+color : #FFFFFF;
+font-weight : bold;
+background: #6F6F6F;
+text-align:center;
+padding:8px 2px 9px 2px;
+margin:3px 3px 3px 3px;
+width:527px;
+height:25px;
+vertical-align:middle;
+}
+
+</cmignore>

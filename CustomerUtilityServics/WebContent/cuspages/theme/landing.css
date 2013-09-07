@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+/*Landing Page*/
+
+/*Border right no padding left, typically used for first column */
+/*.centerContent_PG .landingBanner h1 {font-weight:bold;font-size:22px;}
+.centerContent_PG .landingBanner h2 {font-weight:bold;font-size:14px;padding-bottom:10px;}*/
+.centerContent_PG .land_bdr {padding:0 12px 0 0; border-right:1px dotted #666666;}
+.centerContent_PG .land_bdr .innerPageHeading {font-size: 16px;font-family:Arial;color: #4B4B4B;font-weight: bold; margin-bottom:0;}
+.centerContent_PG .land_bdr .innerPageSub {font-family: Verdana;font-size: 11px;color: #666666; line-height:12px;}
+.centerContent_PG .land_bdr .land_list .innerPageSub {font-family: Verdana;font-size: 11px;color: #666666;}
+.centerContent_PG .land_bdr .land_list ul {padding: 0;margin: 0;text-align: left;}
+/*.centerContent_PG .land_bdr .land_list li {background: url("/fplcommon/wrapper/1024images/1024_navArrow_Icon.gif"); background-repeat:no-repeat; background-position:10px;list-style-type: none; padding-left:20px;}*/
+.centerContent_PG .land_bdr .innerPageSub a {font-family: Verdana;color: #0066CC;}
+.centerContent_PG .land_bdr .learnMore { background-image:url("/fplcommon/wrapper/1024images/1024_bluePlus.jpg"); background-repeat:no-repeat; background-position:80px; padding: 0 5px 0 0; } 
+.centerContent_PG .land_bdr p.learnMore { }                                 
+.learnMore * { padding-left:18px; }
+
+/* Border right and padding left*/
+/*.centerContent_PG .landingBanner h1 {font-weight:bold;font-size:22px;}
+.centerContent_PG .landingBanner h2 {font-weight:bold;font-size:14px;padding-bottom:10px;}*/
+.centerContent_PG .land_bdr2 {padding:0 12px; border-right:1px dotted #666666;}
+.centerContent_PG .land_bdr2 .innerPageHeading {font-size: 16px;font-family:Arial;color: #4B4B4B;font-weight: bold;margin-bottom:0;}
+.centerContent_PG .land_bdr2 .innerPageSub {font-family: Verdana;font-size: 11px;color: #666666; line-height:12px;}
+.centerContent_PG .land_bdr2 .land_list .innerPageSub {font-family: Verdana;font-size: 11px;color: #666666;}
+.centerContent_PG .land_bdr2 .land_list ul {padding: 0;margin: 0;text-align: left;}
+/*.centerContent_PG .land_bdr .land_list li {background: url("/fplcommon/wrapper/1024images/1024_navArrow_Icon.gif"); background-repeat:no-repeat; background-position:10px;list-style-type: none; padding-left:20px;}*/
+.centerContent_PG .land_bdr2 .innerPageSub a {font-family: Verdana;color: #0066CC;}
+.centerContent_PG .land_bdr2 .learnMore { background-image:url("/fplcommon/wrapper/1024images/1024_bluePlus.jpg"); background-repeat:no-repeat; background-position:80px; padding: 0 5px 0 0;} 
+.centerContent_PG .land_bdr2 p.learnMore { }                                 
+.learnMore * { padding-left:18px; }
+
+/* No border, but padding left*/
+.centerContent_PG .land_no {padding:0 12px;}
+.centerContent_PG .land_no .innerPageHeading {font-size: 16px;font-family:Arial;color: #4B4B4B;font-weight: bold;margin-bottom:0;}
+.centerContent_PG .land_no .innerPageSub {font-family: Verdana;font-size: 11px;color: #666666; line-height:12px;}
+.centerContent_PG .land_no ul {padding: 0;margin: 0;text-align: left;}
+/*.centerContent_PG .land_c2 li {background: url("/fplcommon/wrapper/1024images/1024_navArrow_Icon.gif"); background-repeat:no-repeat; background-position:10px;list-style-type: none; padding-left:20px;}*/
+.centerContent_PG .land_no .innerPageSub a {font-family: Verdana;color: #0066CC;}
+.centerContent_PG .land_no .learnMore { background-image:url("/fplcommon/wrapper/1024images/1024_bluePlus.jpg"); background-repeat:no-repeat; background-position:80px; padding: 0 5px 0 0; }
+.centerContent_PG .land_no p.learnMore { }                                 
+.learnMore * { padding-left:18px; }
+
+
+/* Table column boxes*/
+.centerContent_PG .land_bx {padding:5px 12px; border:1px solid #cccccc; width:240px;}
+.centerContent_PG .land_bx .innerPageHeading {font-size: 14px;font-family:Arial;color: #4B4B4B;font-weight: bold;}
+.centerContent_PG .land_bx .innerPageSub {font-family: Verdana;font-size: 11px;color: #666666; line-height:12px;}
+.centerContent_PG .land_bx ul {padding: 0;margin: 0;text-align: left;}
+.centerContent_PG .land_bx li { list-style-image:url("/fplcommon/wrapper/images/arrowBlue2.gif"); list-style-position:outside; margin-left:15px; font-size:11px;}
+.centerContent_PG .land_bx .innerPageSub a {font-family: Verdana;color: #0066CC;}
+.centerContent_PG .land_bx .learnMore { background-image:url("/fplcommon/wrapper/1024images/1024_bluePlus.jpg"); background-repeat:no-repeat; background-position:60px; padding: 0 5px 0 0; }
+.centerContent_PG .land_bx p.learnMore { }                                 
+.learnMore * { padding-left:18px; }
+
+/*.centerContent_PG ul.arrow li { list-style-image:url("/fplcommon/wrapper/images/arrowBlue2.gif"); list-style-position:outside;}*/
+
+
+/* Controls MC tab actions */
+#stormtabs .tab_hover { color:#0066CC; cursor:pointer; width:138px; height:29px; background-image:url("../tab_active.jpg"); background-repeat:no-repeat; border:0px; text-align:center; text-transform:uppercase; color:#2d2d2d; font:bold 12px Arial; }
+#stormtabs .tab { color:#003366; cursor:pointer; width:138px; height:29px; background-image:url("../tab_inactive.jpg"); border:0px; text-align:center; text-transform:uppercase; color:#2d2d2d; font:bold 12px Arial; }
+
+/* Draws grey lines around MC customer entry forms */
+.storm_tabBody { padding:10px; border-right:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB; border-left:1px solid #BBBBBB; margin-top:-1px; }
+
+/* from community styles */
+.storm_tabBody .land_no {padding:0 0px;}
+.storm_tabBody .land_no .innerPageHeading { font-size:16px; font-family:Arial; color:#4B4B4B; font-weight:bold; margin-bottom:5px; }
+.storm_tabBody .land_no .innerPageSub { font-family:Verdana; font-size:11px; color:#666666; line-height:12px; margin-top:5px; }
+.storm_tabBody .land_no ul { padding:0; margin:0; text-align:left; }
+.storm_tabBody .land_no .innerPageSub a { font-family:Verdana; color:#0066CC; }
+.storm_tabBody .land_no .learnMore { background-image:url("/fplcommon/wrapper/1024images/1024_bluePlus.jpg"); background-repeat:no-repeat; margin-left:80px; }
+.storm_tabBody .land_no .learnMore a { padding-left:20px; font-size:11px; }
+
+.storm_tabBody .land_bx { padding:0px 0px; }
+.storm_tabBody .land_bx .innerPageHeading {font-size:14px; font-family:Arial; color:#4B4B4B; font-weight:bold; }
+.storm_tabBody .land_bx .innerPageSub {font-family:Verdana; font-size:11px; color:#666666; line-height:12px; }
+.storm_tabBody .land_bx ul {padding:0; margin:0; text-align:left; }
+.storm_tabBody .land_bx li {background: url("/fplcommon/wrapper/images/arrowBlue2.gif"); background-repeat:no-repeat; background-position:6px; list-style-type:none; padding-left:16px; }
+.storm_tabBody .land_bx .innerPageSub a {font-family:Verdana; color:#0066CC; }
+
+/*  Email Bill  */
+.hidden { display:none; }
+#howToEnroll { margin:0; background:url("/landing/images/howToEnroll_BG.jpg") no-repeat; width:244px; height:223px; padding-top:40px; }
+#howToEnroll p { margin:0px 10px 0 10px; font-size:10px; }
+#howToEnroll span { font-weight:bold; color:#0099FF; margin-right:5px; }
+
+.embLaunch a { margin:20px 1px 0 0; *margin:2px 1px 0 0; float:left; width:129px; height:203px; background:url("/landing/images/emb_launch_BG.jpg") no-repeat; text-decoration:none; }
+.embLaunch a:hover { margin:20px 1px 0 0; *margin:2px 1px 0 0; float:left; width:129px; height:203px; background:url("/landing/images/emb_launch_BGover.jpg") no-repeat; }
+.embLaunch h2 { display:block; height:30px; padding:10px; color:#FFFFFF; font-weight:bold; font-family:Geneva, Arial, Helvetica, sans-serif; font-size:16px; }
+.embLaunch img { display:block; padding:0 10px; }
+.embLaunch p { display:block; padding:10px; color:#FFFFFF; font-size:11px; font-family:Geneva, Arial, Helvetica, sans-serif; }
+
+.embLaunch_B a { margin:0 1px 20px 0; float:left; width:129px; height:203px; background:url("/landing/images/emb_launch_BG.jpg") no-repeat; text-decoration:none; }
+.embLaunch_B a:hover { margin:0 1px 20px 0; float:left; width:129px; height:203px; background:url("/landing/images/emb_launch_BGover.jpg") no-repeat; }
+.embLaunch_B h2 { display:block; height:30px; padding:10px; color:#FFFFFF; font-weight:bold; font-family:Geneva, Arial, Helvetica, sans-serif; font-size:16px; }
+.embLaunch_B img { display:block; padding:0 10px; }
+.embLaunch_B p { display:block; padding:10px; color:#FFFFFF; font-size:11px; font-family:Geneva, Arial, Helvetica, sans-serif; }
+
+#quickLinks { margin:0px 0 0 0; background:url("/landing/images/quickLinks_BG.gif") no-repeat; width:244px; height:223px; padding-top:45px; }
+#quickLinks img { margin:0 5px 5px 8px; }
+
+/* SHADOWBOX - Version 2.2 */
+#shadowBox { margin:0px; background-color:#ffffff; overflow:hidden; /*}
+#shadowBox form {*/ 
+padding:0px; border:2px solid #FFFFFF /*#ACACAC*/;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+ }
+
+#shBoxHeader { height:41px; background:#FFFFFF; /*padding:5px 0; vertical-align:middle;*/
+border-top-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-webkit-border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+-webkit-border-top-right-radius: 5px;
+}
+#shBoxHeader h2 { float:left; display:inline; margin:10px 0 0 20px; }
+#shadowBox h3 { margin:0 0px; }
+#shBoxHeader .button { float:right; width:58px; margin:10px 40px 0 0;}
+
+#shBoxFooter { height:41px; background:#FFFFFF; /*margin-top:20px; padding:0px 0px;*/
+border-bottom-left-radius: 5px;
+-moz-border-radius-bottomleft: 5px;
+-webkit-border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-webkit-border-bottom-right-radius: 5px;
+}
+#shBoxFooter .logo { float:left; padding:1px 0 0 20px; }
+#shBoxFooter .buttons { float:right; padding:10px 35px 0 0; }
+#shBoxFooter input { margin-right:5px; }
+
+
+/*  New Landing Page Styles */
+#landingPage { margin: 0 auto; width:980px;  }
+#landingPage h1, h2, h3, h4 { margin:0 0 2px 0; background:none; }
+#landingPage h2 { margin:0 0 2px 0; }
+#landingPage ul { margin:0 0 0 8px; padding:0 0 0 8px; *margin:0 0 0 8px; }
+#landingPage li { list-style-image:url("/fplcommon/wrapper/images/blueArrow.gif"); margin:5px 0; padding:0; font-size:12px;}
+#landingPage a { color:#0066cc; }
+#landingPage .blueFont { color:#0066cc; }
+#landingPage .whiteFont {  color:white; font-weight:bold; }
+/*@media \0screen { #landingPage .whiteFont { padding-bottom:5px; line-height:1.8; } }*/
+
+#landingPage .blueBackground { background-color:#0069b3; }
+#landingPage .largeFont { font-size:25pt; font-weight:bold; }
+#landingPage .grayLine { margin-bottom:5px; padding-bottom:5px; border-bottom:3px solid #ddd;}
+
+#landingPage #mainTable { margin:10px 0 25px 0; }
+#landingPage #mainImage { vertical-align:top; }
+#landingPage #mainContent { vertical-align:top; }
+#landingPage #mainContent td { padding-left:8px; padding-right:5px; }
+#landingPage .leftText { vertical-align:top; font-size:14px; }
+#landingPage .rightText { width:38%; vertical-align:top; border-left:1px dotted #ddd; }
+
+#landingPage .landSection { font-size:11px; vertical-align:top; padding:0 10px; border-right:1px dotted #ddd; }
+#landingPage .landSection h4 { font-size:14px; margin:10px 0 15px 0; }
+#landingPage .sectionImg { text-align:center; }
+#landingPage .first { padding-left:0; }
+#landingPage .last { padding-right:0; border-right:none; }
+
+#landingPage #disclaimer { font-size:10px; font-weight:bold; }
+#landingPage #disclaimerBox { border:1px solid #ddd; background-color:#EBEBEB; font-size:10px; font-weight:bold; padding:15px; height:30px; }
+
+
+/*Tableless Container */
+body {text-align: center;} /*for older browsers*/
+div#landingContainer {margin:0 auto; width: 980px; text-align: left;}
+
+/*BUTTONS*/
+.buttonNew {cursor: pointer; margin-top:10px;}
+.buttonNew a {background: url("/fplcommon/wrapper/1024images/solar_buttonCorners.gif") no-repeat scroll 0 0 transparent; color: #FFFFFF; cursor: pointer; float: left; font-size: 13px; font-weight: bold; text-decoration: none;}
+.buttonNew a:hover{color:#ffffff; text-decoration:none;}
+.buttonNew span {background: url("/fplcommon/wrapper/1024images/solar_buttonCorners.gif") no-repeat scroll 100% 100% transparent; display: inline-block; height: 22px; padding: 5px 8px 0;}
+.buttonNew.green {background: url("/fplcommon/wrapper/1024images/solar_buttonGradient.png") repeat-x scroll 0 0 #49AB07;}
+.buttonNew.noarrow a {background: url("/fplcommon/wrapper/1024images/solar_buttonCorners.gif") no-repeat scroll 0 0 transparent;}
+.buttonNew.noarrow span {background: url("/fplcommon/wrapper/1024images/solar_buttonCorners.gif") no-repeat scroll 100% 100% transparent; padding: 5px 20px 0;}
+
+

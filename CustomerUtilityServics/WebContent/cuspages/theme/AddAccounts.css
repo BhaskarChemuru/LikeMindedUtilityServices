@@ -1,0 +1,71 @@
+/* Container for the content of the Add Account Page */
+#AdAct { z-index:-1; }
+#AdAct .h5 { width:100%; }
+#AdAct .master { width:98%; margin-left:3px; margin-top:40px; font-size:12px; z-index:-1; }
+/* Font size for the step displayed on the header*/
+#AdAct  font.step { font-size:12px; }
+#AdAct  font.tooltip { font-size:12px; font-family:verdana; }
+#AdAct  ul.simple { margin-left:0px; padding-left:0px; display:inline; }
+/*Green colored Line*/
+#AdAct  hr.greenLine { color:#669900; top:20px; position:relative; }
+/*Error Message displayed at the top of the screen*/
+#AdAct .errorMessage { color:red; text-align:justify; position:relative; top:15px; }
+#AdAct .otherConfirmMsg { color:red; text-align:justify; position:relative; top:5px; }
+/* Spacer to add horizontal space between the elements*/
+#AdAct .spacer { width:530px; height:1px; }
+/*Message*/
+#AdAct .message { top:8px; text-align:justify; /*position:relative;*/ }
+/*Header of the Add Account table*/
+#AdAct .accountTableRowHeader { width:85%; position:relative; left:20%; top:8x; height:40px; z-index:0; }
+/*Header of Add email table*/
+#AdAct .addEmailRowHeader { position:relative; top:20px; height:35px; font-weight:bold; /*z-index:-1;*/ }
+* html #AdAct .addEmailRowHeader { position:relative; top:30px; height:35px; font-weight:bold; /*z-index:-1;*/ }
+/*Even row Add email table*/
+#AdAct .addEmailRowEven { position:relative; top:20px; height:34px; background:#ccffcc; vertical-align:middle; z-index:0; }
+* html #AdAct .addEmailRowEven { position:relative; top:30px; height:34px; background:#ccffcc; vertical-align:middle; z-index:0; }
+/*Odd row Add email table*/
+#AdAct .addEmailRowOdd { position:relative; top:1x; height:34px; background:#ffffff; vertical-align:middle; }
+/*Style for Account number column Header in the Add Email Page of Add Accounts*/
+#AdAct .addEmailAccountNoColumnHeader { text-align:center; left:0px; width:80px; }
+/*Style for Address column Header in the Add Email Page of Add Accounts*/
+#AdAct .addEmailAddressColumnHeader { top:0px; left:70px; position:absolute; width:180px; z-index:0; }
+/*Style for Email column Header in the Add Email Page of Add Accounts*/
+#AdAct .addEmailEmailColumnHeader { top:0px; left:228px; position:absolute; width:250px; z-index:0; }
+#AdAct .addEmailUseSameColumnHeader { top:0px; left:450px; position:absolute; width:75px; z-index:0; }
+/*Style for Enroll column Header in the Add Email Page of Add Accounts*/
+#AdAct .addEmailEnrollColumnHeader { top:0px; left:523px; position:absolute; width:100px; z-index:0; }
+#AdAct .tootlTipLink { top:0px; left:572px; position:absolute; width:100px; }
+/*Style for Account number column in the Add Email Page of Add Accounts*/
+#AdAct .addEmailAccountNoColumn { left:2px; width:80px; position:absolute; top:2px; }
+/*Style for Address column in the Add Email Page of Add Accounts*/
+#AdAct .addEmailAddressColumn { top:2px; left:85px; position:absolute; width:175px; }
+/*Style for Email column in the Add Email Page of Add Accounts*/
+#AdAct .addEmailEmailColumn { top:3px; left:260px; position:absolute; width:250px; z-index:0; }
+#AdAct .addEmailUseSameColumn { top:3px; left:475px; position:absolute; width:30px; }
+/*Style for Enroll column in the Add Email Page of Add Accounts*/
+#AdAct .addEmailEnrollColumn { top:2px; left:527px; position:absolute; width:100px; }
+/* 1 row consisting of the account number and the SSN with the error message*/
+#AdAct .accountTableRowError { width:85%; position:relative; left:20%; top:5px; height:45px; }
+/* 1 row consisting of the account number and the SSN */
+#AdAct .accountTableRow { width:85%; position:relative; left:20%; top:5px; height:30px; }
+/* Account Number with error message*/
+#AdAct .accountNumberError { position:relative; text-align:center; left:5px; top:10px; width:150px; height:45px; }
+/* Password or the SSN with error message*/
+#AdAct .passwordError { position:absolute; text-align:center; left:140px; top:10px; width:200px; height:45px; }
+/* Account Number */ 
+#AdAct .accountNumber { position:relative; text-align:center; left:5px; top:10px; width:150px; height:30px; }
+/* Password or the SSN*/
+#AdAct .password { position:absolute; text-align:center; left:140px; top:10px; width:200px; height:30px; }
+/*style for delete check box and font*/
+#AdAct .delete { position:absolute; text-align:center; left:210px; top:10px; width:200px; color:red; font-size:8pt; }
+/*style for the error message displyed below the account number or the ssn*/
+#AdAct .accountError { font-size:8pt; height:25px; text-align:top; }
+#AdAct .image { position:absolute; left:285px; top:10px; width:20x; }
+#AdAct .image2 { position:relative; left:0px; top:0px; width:20x; }
+#AdAct .image3 { position:relative; left:10px; top:0px; width:10x; }
+#AdAct .multipleAccountLink { position:absolute; left:360px; top:10px; width:100px; text-align:center; }
+#AdAct .submit { position:relative; top:10px; left:125px; }
+#AdAct .submit2 { position:relative; top:10px; left:140px; }
+#AdAct .bold { font-weight:bold; }
+#AdAct .useSameEmailDropDownDisplay { display:inline; width:16em; }
+/*End of Add Account Styles*/

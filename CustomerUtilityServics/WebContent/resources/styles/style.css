@@ -1,0 +1,3532 @@
+/* ---- Below CSS should be used along with PayNow*/
+
+/************ Containers Begin**************/
+.mainSection {
+	padding: 10px 30px;
+}
+.group { /* Conatiner wrapping form elements */
+	float: left;
+	padding: 5px;
+}
+.tpBdrSection { /*Sub section separating previous with a line*/
+	border-top: solid 1px #ccc;
+	margin-top: 20px;
+	padding-top: 15px;
+}
+.tpBtSpacer {
+	margin: 15px 0 0;
+}
+.ltBdr {
+	padding-left: 10px;
+	border-left: solid 1px #ccc;
+}
+.smallTable a {
+	font-size: 91.7%;
+}
+.smallTable td, th {
+	border: none;
+	padding: 0;
+	line-height: 12px;
+}
+.smallTable tr:first-child td, th {
+	padding-top: 10px;
+}
+.smallTable tbody tr:last-child td, th {
+	padding-bottom: 10px;
+}
+.smallTable tr td:last-child {
+	text-align: right;
+}
+.smallTable thead td, th {
+	border-bottom: solid 1px #ccc;
+	padding-bottom: 12px;
+}
+.smallTable tfoot td {
+	border-top: solid 1px #ccc;
+	padding-top: 10px;
+}
+.listTable tr th, .listTable tr td {
+	border-right: 1px solid #ccc;
+	padding: 10px;
+	height: 40px;
+}
+.listTable tr th.smallHt {
+	height: 10px;
+}
+.listTable tr th.noRtBdr, .listTable tr td.noRtBdr {
+	border-right: none;
+}
+.listTable tr th.noBotPad, .listTable tr td.noBotPad {
+	padding-bottom: 0px;
+}
+.bdrTallBox {
+	border: solid 1px #ccc;
+	height: 24px;
+} /*Grey border with height: Used in Search Box */
+/* Containers END*/
+
+/* Misc styles */
+
+.sidePadding {
+	padding: 0px 15px;
+} /*this padding is the left and right spacing of any content in page */
+/***********Specific Element Styling Begins**************/
+.logoSpacing {
+	margin: 45px 0 0 12px;
+}
+.pairList {
+ *margin-left: 15px;
+}
+.pairList dt {
+	display: list-item;
+	list-style-type: none;
+	float: left;
+	min-width: 60%;
+}
+.pairList dd {
+	float: right;
+}
+.pairList.disc dt {
+	list-style-type: disc;
+	margin-left: 25px;
+	line-height: 18px;
+}
+.valuePair dt {
+	float: left;
+	min-width: 60%;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.valuePair dd {
+	float: right;
+	margin-top: 5px;
+}
+.valuePair em {
+	font-size: 12px;
+	font-weight: bold;
+}
+.pdfIcon {
+	background: url("../../../images/pdfIcon.png") no-repeat;
+	padding: 0 0 5px 20px;
+}
+.benefitDetails dt {
+	float: left;
+	min-width: 45%;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.benefitDetails dd {
+	float: left;
+	margin-top: 5px;
+}
+li.navNoIndent {
+	min-width: 50px;
+	padding-left: 28px;
+}
+table#benefitsDet th.vAlignTop {
+	padding-top: 20px;
+}
+/**************Logo-Login-Customer Service- Live Chat************/
+#logoCustServ {
+	background-color: #EEEEEE;
+	border-radius: 0 0 6px 6px;
+	box-shadow: 0 2px 3px 0 #666666;
+	height: 125px;
+	padding: 10px;
+}
+#logoCustServ .group { /* Conatiner wrapping form elements */
+	box-shadow: 0 0 7px -2px #BBBBBB inset;
+	float: left;
+	padding: 5px;
+}
+#logoCustServ input[type=text], #logoCustServ input[type=password] {
+	background-color: #EEEEEE;
+	border: 0 none;
+	padding-left: 0;
+}
+.LoginMain {
+	width: 100%;
+	padding-top: 5px;
+}
+.loginlinks {
+	float: right;
+	height: 22px;
+	padding-left: 260px;
+	width: auto;
+	position: relative;
+	z-index: 1000;
+}
+.loginlinks a, .loginlinks span {
+	display: block;
+	float: left;
+}
+.loginlinks span {
+	margin: 0px 10px 0px 10px;
+}
+.trigger {
+	background: url("../../../images/loginplus.png") no-repeat scroll 5px center transparent;
+	padding-left: 18px;
+}
+.logo {
+	float: left;
+	margin-top: 16px;
+}
+.live_chat {
+	clear: both;
+	color: #0078AB;
+	cursor: pointer;
+	margin-right: 90px;
+	text-align: right;
+}
+/*End*/
+
+/**************Customer Service Styling Begins****************/
+.cusServ {
+	background: url("../../../images/grl_live_chat.jpg") right 3px no-repeat;
+	float: right;
+	min-height: 72px;
+	padding: 10px 92px 0 0;
+	text-align: right;
+}
+.cusServ strong {
+	font-size: 133.3%;
+	color: #1879BF;
+}
+/*Customer Service Styling Ends*/
+
+/************Start Login Modal Trigger******************/
+
+a.trigger.active {
+	background: url("../../../images/minus.png") no-repeat scroll 3px center transparent;
+	margin-right: 25px;
+}
+#loginModal .userNamebox {
+	margin: 3px 0;
+}
+#loginModal .userNamebox input[type="text"] {
+	border: 0;
+	background: url("../../../images/form_field_password.png") no-repeat top left transparent;
+	width: 141px;
+	height: 29px;
+	line-height: 29px;
+	padding: 3px;
+	vertical-align: top;
+	color: #696969;
+}
+#loginModal .userNamebox input[type="password"] {
+	border: 0;
+	background: url("../../../images/form_field_password.png") no-repeat top left transparent;
+	width: 141px;
+	height: 29px;
+	line-height: 29px;
+	padding: 3px;
+	vertical-align: top;
+	color: #696969;
+}
+#loginModal .loginbtn_Modal {
+	background: url("../../../images/login_btn.jpg") no-repeat scroll left top transparent;
+	height: 30px;
+	margin-left: 7px;
+	padding: 0 0 0 15px;
+	width: 76px;
+	border: none;
+}
+#loginModal .loginArea {
+	padding: 2px 0 0 10px;
+	margin-top: 33px;
+}
+#loginModal .panel {
+	position: absolute; /*This will position panel absolute to its relative parent, snqWrap */
+	top: 1px;
+	right: 45px;
+	z-index: 0;
+	display: none;
+	height: 115px;
+	width: 412px;
+	background: url("../../../images/login_overlay_bg.png") bottom right no-repeat;
+}
+#loginModal .panel p {
+	margin: 0 0 15px 0;
+	padding: 0;
+	color: #cccccc;
+}
+#loginModal .panel a, .panel a:visited {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+#loginModal .panel a:hover, .panel a:visited:hover {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.placeholder {
+	color: #f00!important;
+	margin: 0;
+}
+/*****************End Login Modal Trigger****************/
+
+/**************** Compare Plan styles starts from here**********************/
+.compareDentalPlan {
+	margin-top: 10px;
+	position: relative;
+}
+.compareDentalPlan .smallTable {
+	position: absolute;
+	right: 30px;
+	top: 10px;
+}
+.tabWidget {
+	width: 682px;
+	margin: 8px 10px 0 0;
+}
+a.tabPlan {
+	display: inline;
+	border: solid 1px #ccc;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+	padding: 10px;
+	margin: 0 10px 0 0;
+	position: relative;
+	top: 6px;
+	z-index: 0;
+	font-weight: normal;
+	text-decoration: none;
+	color: #444;
+}
+.tabPlan.selected {
+	background-color: #fcfbe5;
+	position: relative;
+	z-index: 1;
+	font-weight: bold;
+}
+.tabSep {
+	background-color: #fcfbe5;
+	border-top: solid 1px #ccc;
+	height: 2px;
+	position: relative;
+	top: 12px;
+}
+.tabMenu {
+	background-color: #fcfbe5;
+	padding: 10px 20px 0px 10px;
+	margin: 10px 0 0 0;
+	height: 26px;
+	border: solid 1px #ccc;
+	border-top: none;
+	border-bottom: none;
+	position: relative;
+	z-index: 2;
+}
+#favMsg, #favHdr, #medSelTable, #subsHdr, #subsHdrOnly, .moreDental, .moreVision, #selectionDV, .moreMedBenefits {
+	display: none;
+}
+.subsHdrCMC {
+	font-size: 81.2%;
+}
+.overFlowhid {
+	overflow: hidden;
+}
+#favMsg .right {
+	display: inline-block;
+	white-space: nowrap;
+}
+#plansFilter label {
+	line-height: 16px;
+}
+.planResult {
+	border-top: solid 1px #ccc;
+	border-left: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+	padding: 15px 0 20px 20px;
+	display: none;
+	font-size: 91.7%;
+	position: relative;
+	height: 95px;
+}
+.planResult ul {
+	overflow: hidden;
+	height: 96px;
+}
+.planResult ul li {
+	float: left;
+	height: 80px;
+	min-height: 80px;
+	width: 130px;
+	margin: 0 25px 15px 0;
+}
+.planResult ul.inputPlanPair li {
+	min-height: 16px;
+	height: 16px;
+	margin: 0px;
+}
+.planResult ul li.mktCont {
+	/*width:55%;*/
+	min-height: 0;
+	height: auto;
+	margin-right: 5px;
+}
+.planResult dl {/*width: 135px;*/
+	width: 140px;
+}
+.planResult dt {
+	display: list-item;
+	list-style-type: none;
+	float: left;
+	min-width: 60%;
+	padding-left: 5px;
+}
+.planResult dd {
+	float: right;
+	color: #696969;
+	padding-left: 10px;
+}
+#plansMoreLink {
+	position: absolute;
+	bottom: 15px;
+	right: 10px;
+}
+.filterMore {
+	height: auto;
+}
+.scrollWidget {
+	margin: 0px 25px 20px 10px;
+	position: relative;
+}
+.scrollHdr {
+	height: 40px;
+	width: 620px;
+	float: right;
+	padding: 5px 20px 5px 40px;
+	border: solid 1px #ccc;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 1;
+	background: transparent;
+	font: normal 133.3%/40px Arial;
+}
+.compWidgetLt {
+	border-bottom: none;
+	float: left;
+	margin: 50px 0px 0 0;
+	padding: 0px;
+	width: 230px;
+	min-height: 578px;
+	background-color: #f9f9f9;
+}
+.compWidgetRt {
+	border-bottom: none;
+	float: right;
+	width: 680px;
+	min-height: 587px;
+	margin: 0px;
+	padding: 20px 0px 0px;
+	overflow: hidden;
+	position: relative;
+	background: -moz-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(245,245,245,0) 5%, rgba(245,245,245,0) 95%, rgba(245,245,245,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(245,245,245,1)), color-stop(5%, rgba(245,245,245,0)), color-stop(95%, rgba(245,245,245,0)), color-stop(100%, rgba(245,245,245,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(245,245,245,0) 5%, rgba(245,245,245,0) 95%, rgba(245,245,245,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(245,245,245,0) 5%, rgba(245,245,245,0) 95%, rgba(245,245,245,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(245,245,245,0) 5%, rgba(245,245,245,0) 95%, rgba(245,245,245,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(245,245,245,1) 0%, rgba(245,245,245,0) 5%, rgba(245,245,245,0) 95%, rgba(245,245,245,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#f9f9f9', GradientType=0 ); /* IE6-9 */
+}
+.alertPopup {
+	background-color: #0079C2;
+	border: 1px solid #0079C2;
+	border-radius: 8px 8px 8px 8px;
+	box-shadow: 3px 3px 4px #999999;
+	color: #fff;
+	height: 100px;
+	padding: 10px;
+	width: 170px;
+	position: absolute;
+	z-index: 1;
+}
+a.medAlertClose {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-align: right;
+}
+.floatBox {
+	position: absolute;
+	top: 29px;
+	width: 680px;
+	height: 570px;
+	z-index: 0;
+	left: 0px;
+}
+.floatBox.onLeft {
+	left: 263px;
+}
+.scrollArea {
+	padding: 0 0 0 0px;
+	margin: 0 40px;
+	/*	width: 590px;*/
+	min-height: 631px;
+	overflow: hidden;
+	position: relative;
+}
+.scrollList {
+	margin: 30px 0 0 0px;
+	white-space: nowrap;
+	display: block;
+	position: relative;
+	left: 0px;
+	width: 1800px;
+}
+.scrollList li a {
+	text-decoration: underline;
+}
+.scrollList li {
+	margin: 0;
+	border-right: solid 1px #ccc;
+	float: left;
+	font-size: 100%;
+}
+.scrollPlan.selected:first-child {
+	border-left: solid 1px #ccc;
+}
+.scrollPlanItem li:first-child {
+	border-left: none;
+}
+.scrollPlanItem img {
+	margin-right: 6px;
+}
+.scrollPlan {
+	width: 200px;
+	line-height: 18px;
+	white-space: normal;
+}
+.scrollPlan.selected {
+	background-color: #f2f8fc;
+}
+#plansHdr, #favHdr {
+	margin-left: 10px;
+}
+.planRow {
+	height: 41px;
+	border-bottom: solid 1px #ccc;
+}
+.planRow1 {
+	height: 180px;
+	border-bottom: solid 1px #ccc;
+}
+.planRow1 h2 {
+	height: 36px;
+	line-height: 18px;
+	margin-bottom: 6px;
+	overflow: hidden;
+}
+.planRow2 {
+	height: 50px;
+	border-bottom: solid 1px #ccc;
+}
+.planRow2mag {
+	margin-top: 4px;
+}
+.compWidgetLt .planRow1 {
+	padding: 20px;
+}
+.floatBox .planRow1 {
+	height: 220px;
+}
+.floatBox .planRow2 {
+	height: 70px;
+}
+.floatBox .planRow {
+	height: 61px;
+}
+.planRow1 p {
+	margin-top: 8px;
+}
+.planRow.last {
+	border-bottom: none;
+}
+.scrollPlan h5, .scrollPlan h3 {
+	font: normal 100% Arial;
+	color: #fff;
+	background-color: #0079C2;
+	padding: 2px;
+	text-align: center;
+}
+.scrollPlanItem {
+	padding: 10px;
+}
+.scrollPlanItem.planVisionRow, .compWidgetRtDental .planVisionRow {
+	background-color: #F7FBFE;
+}
+.ltScrollBtn {
+	position: absolute;
+	left: 225px;
+	top: 90px;
+	z-index: 10;
+}
+.ltScrollBtn:hover {
+	background-image: url("../../../images/icon_carousel_left_disabled.png");
+}
+.ltScrollBtn:hover img {
+	visibility: hidden;
+	background-image: url("../../../images/icon_carousel_left_disabled.png");
+}
+.rtScrollBtn {
+	position: absolute;
+	right: -22px;
+	top: 90px;
+	z-index: 10;
+}
+#arrowLeft, #arrowRight {
+	position: relative;
+	width: 41px;
+	height: 41px;
+	float: left
+}
+#slides ul li {
+	overflow: hidden;
+}
+#slides ul li div {
+	position: relative;
+	float: left;
+	margin: 0px 10px 0px 0px;
+	padding: 10px;
+	width: 155px;
+	height: 620px;
+	overflow: hidden;
+}
+.iconer {
+	padding: 5px 0 0px;
+}
+.planUtilBox {
+	position: absolute;
+	right: 25px;
+	top: 5px;
+}
+/*Compare Plan styles ends here*/
+
+/*Tooltip styles start here*/
+
+/*****************Tooltip start***************/
+#tooltip {
+	position: absolute;
+	display: none;
+	width: 250px;
+}
+#tooltip .close, #tooltipFav .close {
+	margin: -5px;
+}
+.close {
+	float: right;
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	margin-top: 1px;
+	line-height: 14px;
+	vertical-align: text-top;
+	background: url("../images/glyphicons-halflings.png") no-repeat scroll -48px -96px transparent;
+}
+.toolTipTop {
+	background-repeat: no-repeat;
+	background: url("../../../images/tooltip_arrow.png") no-repeat left top;
+	margin: -7px 0;
+	padding: 10px 0;
+}
+.toolTipBot {
+	font: normal 100%;
+}
+.toolTipDetails {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px #CCCCCC;
+	border: 1px solid #dadada;
+	margin-top: 10px;
+	width: 40%;
+	font-weight: normal;
+}
+.toolTipSmall {
+	width: 265px;
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px #CCCCCC;
+	border: 1px solid #dadada;
+	margin-top: 10px;
+	font-weight: normal;
+	padding-bottom: 9px;
+}
+.toolTipDetails {
+	font-weight: normal;
+}
+.tip:after, .toolTipFees:after {
+	border-bottom: 9px solid #ffffff;
+	border-left: 11px solid transparent;
+	border-right: 11px solid transparent;
+	content: "";
+	display: inline-block;
+	left: 50px;
+	position: absolute;
+	top: -9px;
+}
+.tip:before, .toolTipFees:before {
+	border-bottom: 10px solid #dadada;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	content: "";
+	display: inline-block;
+	left: 49px;
+	position: absolute;
+	top: -10px;
+}
+.tip, .toolTipFees {
+	background: none repeat scroll 0 0 #ffffff;
+	border: 1px solid #dadada;
+	box-shadow: 0 0px 10px #CCCCCC;
+	font-size: 100%;
+	padding: 12px;
+	position: absolute;
+	width: 40%;
+	display: none;
+}
+.tip h2, .toolTipFees h2 {
+	font: bold 100% Arial
+}
+#captchatooltip, #captchatooltip div {
+	overflow: visible
+}
+.tipPopup:after {
+	border-bottom: 9px solid #ffffff;
+	border-left: 11px solid transparent;
+	border-right: 11px solid transparent;
+	content: "";
+	display: inline-block;
+	left: 151px;
+	position: absolute;
+	top: -9px;
+}
+.tipPopup:before {
+	border-bottom: 10px solid #dadada;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	content: "";
+	display: inline-block;
+	left: 150px;
+	position: absolute;
+	top: -10px;
+}
+.tipPopup {
+	background: none repeat scroll 0 0 #ffffff;
+	border: 1px solid #dadada;
+	box-shadow: 0 0px 10px #CCCCCC;
+	font-size: 100%;
+	padding: 12px;
+	position: absolute;
+	width: 40%;
+	display: none;
+	right: 230px;
+}
+.tipPopup h2 {
+	font: bold 100% Arial
+}
+.tipPopup .close {
+	float: right;
+	background-image: url("../../../images/tooltip_close.png");
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	margin: 0px;
+}
+.tipfltRt:after {
+	border-bottom: 9px solid #ffffff;
+	border-left: 11px solid transparent;
+	border-right: 11px solid transparent;
+	content: "";
+	display: inline-block;
+	left: 180px;
+	position: absolute;
+	top: -9px;
+}
+.tipfltRt:before {
+	border-bottom: 10px solid #dadada;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	content: "";
+	display: inline-block;
+	left: 179px;
+	position: absolute;
+	top: -10px;
+}
+.tipfltRt {
+	background: none repeat scroll 0 0 #ffffff;
+	border: 1px solid #dadada;
+	box-shadow: 0 0px 10px #CCCCCC;
+	font-size: 100%;
+	padding: 12px;
+	position: absolute;
+	width: 40%;
+	display: none;
+	right: 230px;
+}
+.tipfltRt h2 {
+	font: bold 100% Arial
+}
+.tipContxt:after {
+	border-bottom: 9px solid #ffffff;
+	border-left: 11px solid transparent;
+	border-right: 11px solid transparent;
+	content: "";
+	display: inline-block;
+	left: 51px;
+	position: absolute;
+	top: -9px;
+}
+.tipContxt:before {
+	border-bottom: 10px solid #dadada;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	content: "";
+	display: inline-block;
+	left: 50px;
+	position: absolute;
+	top: -10px;
+}
+.tipContxt {
+	background: none repeat scroll 0 0 #ffffff;
+	border: 1px solid #dadada;
+	box-shadow: 0 0px 10px #CCCCCC;
+	font-size: 100%;
+	padding: 12px;
+	position: relative;
+	width: 200px;
+	display: none;
+	margin-bottom: 5px;
+}
+.tipContxt h2 {
+	font: bold 100% Arial
+}
+/*Tooltip styles ends here*/
+
+/*Tooltip styles for Quote Summary starts from here*/
+#planPicingList {
+	text-align: left;
+}
+#planPicingList .pairList dt {
+	display: list-item;
+	float: left;
+	list-style-type: none;
+	min-width: 60%;
+}
+#planPicingList .pairList dd {
+	float: right;
+}
+#planPicingList .pairList.disc dt {
+	line-height: 18px;
+	list-style-type: disc;
+	margin-left: 25px;
+}
+.toolTipPlanPricingBot {
+	padding: 25px 5px;
+	border-top: 1px solid #dadada;
+	height: auto;
+}
+.toolcolor {
+	border-bottom: 4px double #dadada;
+}
+.plantoolTip p {
+	line-height: 10px;
+}
+.planPricingBoldTxt {
+	font: Arial;
+	font-size: 100%;
+	font-weight: bold;
+	text-decoration: none;
+	color: #444444;
+}
+.planPricingNormalTxt {
+	font: Arial;
+	font-size: 91.7%;
+	font-weight: normal;
+	color: #666666;
+}
+.planPricingBoldNormalTxt {
+	font: Arial;
+	font-size: 91.7%;
+	font-weight: bold;
+	color: #666666;
+}
+.planPricingText {
+ *margin:10px 0 0 10px;
+}
+.planDiviBdrSingle {
+	border-top: #dadada 1px solid;
+	width: 50px;
+	margin-top: 10px;
+}
+.planDiviBdrdouble {
+	border-top: #dadada 4px double;
+	width: 250px;
+	margin-top: 10px;
+}
+.planDiviTop {
+	border-top: #dadada 1px solid;
+	margin: 15px 0;
+}
+.planTotalPricingAmount {
+	font: bold 100% Arial;
+	color: #b05900;
+}
+.planGrandTotalAmount {
+	font: bold 116.7% Arial;
+	color: #b05900;
+}
+.planTotalMembPay {
+	border-bottom: #dadada 1px solid;
+	margin: 0px 10px
+}
+.planPricingMainBlock {
+ *margin: 0 7px;
+}
+.topMarginNeg21 {
+	margin-top: -21px;
+}
+.planPricingDentalTxt {
+	margin-top: 15px;
+	width: 80px;
+}
+.planPicingTotalPremium {
+	font: normal 100%/18px Arial;
+	color: #444444;
+	clear: both;
+}
+.planPicingList {
+	margin-left: 25px;
+}
+.planTotalPremium {
+	font: bold 100%/18px Arial;
+	color: #444444;
+	clear: both;
+	margin-top: -3px;
+}
+.planPicingSubsidized {
+	height: 15px;
+	border-bottom: 1px solid #666666;
+	margin-top: 5px;
+	padding-bottom: 5px;
+}
+.planPicingNonSubsidized {
+	height: 15px;
+	margin-top: 5px;
+	padding-bottom: 5px;
+}
+.planNonSubsidizedTotalAmt {
+	font-size: 150%;
+	color: #333333;
+	font-weight: bold;
+}
+.totalAmtNonSubsidyBlock {
+	height: 46px;
+	width: 223px;
+	text-align: right;
+	margin-top: 10px;
+	background-color: #f2f2f2;
+}
+.planDentalVisionMainBlock {
+	height: 250px;
+	border-top: 1px solid #444444;
+	margin-top: 10px;
+}
+.planTotalMemberResponse {
+	height: 50px;
+	border-top: 1px solid #444444;
+	margin-top: 15px;
+	width: 230px;
+}
+.planTotalMemberResponseSubBlock {
+	margin-top: 25px;
+	background-color: #f2f2f2;
+	width: 230px;
+	height: 46px;
+}
+.totalResponseTxtPlanSubBlock {
+	width: 130px;
+	text-align: right;
+}
+.planPremiumTop {
+	font-size: 83.3%;
+	font-weight: normal;
+	color: #333333;
+	vertical-align: text-top;
+}
+/*Tooltip styles for Quote Summary ends here*/
+
+/* Quick Quote */
+
+/****** Add Child******/
+
+.getQuoteMembersChild {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.getQuoteMembersChild select {
+	font-size: 108.3%;
+	color: #000000;
+}
+/* Styles for small dependents icons */
+.you {
+	background: url("../../../images/icons_Small/you_sm.png") no-repeat scroll left center transparent;
+	padding-left: 40px;
+}
+.spouse {
+	background: url("../../../images/icons_Small/spouse_sm.png") no-repeat scroll left center transparent;
+	padding-left: 40px;
+}
+.dep1 {
+	background: url("../../../images/icons_Small/dep_1_sm.png") no-repeat scroll left center transparent;
+	padding-left: 40px;
+}
+.depsmall1 {
+	background: url("../../../images/icons_Small/dep_1_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depsmall2 {
+	background: url("../../../images/icons_Small/dep_2_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depsmall3 {
+	background: url("../../../images/icons_Small/dep_3_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depsmall4 {
+	background: url("../../../images/icons_Small/dep_4_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depsmall5 {
+	background: url("../../../images/icons_Small/dep_5_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depsmall6 {
+	background: url("../../../images/icons_Small/dep_6_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depsmall7 {
+	background: url("../../../images/icons_Small/dep_7_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depsmall8 {
+	background: url("../../../images/icons_Small/dep_8_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depsmall9 {
+	background: url("../../../images/icons_Small/dep_9_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depsmall10 {
+	background: url("../../../images/icons_Small/dep_10_sm.png") no-repeat center left transparent;
+	padding-left: 40px;
+}
+.depsmall11 {
+	background: url("../../../images/icons_Small/dep_1_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depsmall12 {
+	background: url("../../../images/icons_Small/dep_2_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depsmall13 {
+	background: url("../../../images/icons_Small/dep_3_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depsmall14 {
+	background: url("../../../images/icons_Small/dep_4_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depsmall15 {
+	background: url("../../../images/icons_Small/dep_5_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depsmall16 {
+	background: url("../../../images/icons_Small/dep_6_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depsmall17 {
+	background: url("../../../images/icons_Small/dep_7_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depsmall18 {
+	background: url("../../../images/icons_Small/dep_8_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depsmall19 {
+	background: url("../../../images/icons_Small/dep_9_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depsmall20 {
+	background: url("../../../images/icons_Small/dep_10_sm.png") no-repeat 0px 15px;
+	padding-left: 40px;
+}
+.depSmallExtra {
+	padding: 10px 5px 10px 40px;
+	display: inline-block;
+}
+.txtboxMid {
+	width: 60px;
+	margin-right: 10px;
+}
+input.tallBox {
+	height: 25px;
+	margin: 5px 10px 5px 2px;
+	text-align: center;
+	width: 21px;
+}
+.modalPopupMainContent {
+	border-top: 2px solid #444444;
+	margin: 10px auto;
+	padding: 10px;
+}
+.contentBox {
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding: 10px;
+	margin: 20px;
+}
+.heading {
+	border-bottom: 1px #CCC solid;
+	color: #444444;
+}
+.grey {
+	background-color: #f2f2f2;
+}
+.green {
+	background-color: #cce6cc;
+}
+.pink {
+	background-color: #ffcccc;
+}
+.btmBdr {
+	border-bottom: 1px #CCC solid;
+}
+.langLt {
+	margin: 22px 0;
+	padding-left: 10px;
+}
+/* Quick Quote end*/
+
+/*Common ibility Pop-up styles starts from here*/
+
+.stateSel {
+	font: normal 108.3%;
+	margin: 0 0 30px 0;
+	color: #444444;
+}
+.modalPopup h2 {
+	margin: 0 0 15px 0px;
+	padding: 0;
+	font: normal 133.3%;
+	color: #444444;
+}
+.modalPopup h3 {
+	margin: 0 0 8px 0px;
+	padding: 0 0 5px 0;
+	font-size: 150%;
+	color: #444444;
+	border-bottom: 1px solid #b4b4b4;
+}
+.modalPopupContent {
+	position: relative;
+	width: 850px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.leftPanel {
+	float: left;
+	margin: 0 10px;
+	padding: 0;
+	width: 63%;
+}
+.rightPanel {
+	float: left;
+	margin: 0px 0px;
+	padding: 0 20px 0 0;
+	width: 30%;
+	height: 440px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.leftPanel ul {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.leftPanel ul.bg {
+	background: #e1f0fa;
+}
+.modalPopupContent .leftPanel ul li:first-child {
+	width: 190px;
+	line-height: 30px;
+	font-size: 108.3%;
+	color: #006cad;
+	float: left;
+	cursor: pointer
+}
+.modalPopupContent .leftPanel ul li {
+	width: 316px;
+	float: left;
+	margin: 0;
+	padding: 4px 0 0px 10px;
+	font-size: 108.3%;
+	height: 36px;
+	float: left;
+	color: #444;
+	font: normal 108.3%;
+	vertical-align: middle;
+	border-right: #ccc 1px solid;
+}
+.modalPopupContent .leftPanel ul li span {
+	line-height: 30px;
+}
+.modalPopupContent .leftPanel ul li a {
+	text-decoration: underline
+}
+.modalPopupContent .leftPanel ul li a.active, .modalPopupContent .leftPanel ul li .current {
+	color: #444;
+	text-decoration: none;
+	font-weight: bold;
+}
+.modalPopupContent .rightPanel p {
+	margin: 0 0 10px 0
+}
+/*Common ibility Pop-up styles ends here*/
+
+/*Quote Summary styles starts from here*/
+
+.planPremiumTop {
+	font-size: 83.3%;
+	font-weight: normal;
+	color: #333333;
+	vertical-align: text-top;
+}
+/*Quote Summary styles ends here*/
+
+/* Plan  Details START */
+.planListing .tableWidth100 {
+	border: 1px solid #666;
+}
+.planDetailsMdmTxt {
+	font-size: 150%;
+	color: #444;
+}
+.rtPad40 {
+	padding-right: 40px;
+}
+.planListing .tableWidth100 td {
+	padding: 10px;
+	border: 1px solid #797979;
+}
+.pDdentaltxt {
+	width: 150px;
+	padding: 20px 0px;
+	display: block;
+}
+.blackBorder {
+	border: 1px #666 solid;
+	padding: 10px 5px;
+	margin-bottom: 30px;
+}
+.planDetaiolsImg {
+	background: url("../../../images/plandetails.png") no-repeat scroll left top transparent;
+	margin-bottom: 0;
+	vertical-align: bottom;
+	padding: 10px 0 0 50px;
+}
+.topBorder {
+	border-top: solid 1px #999 !important;
+	width: 335px;
+}
+.pDdentalTblLft {
+	width: 30%;
+	float: left;
+	padding-left: 20px;
+}
+.pDdentalTblRt {
+	width: 65%;
+	float: left;
+}
+.pDdentalTblRt .pDdentalTbl td {
+	padding: 3px 0px;
+}
+.width250 {
+	width: 250px;
+}
+.width925 {
+	width: 925px;
+}
+.width240 {
+	width: 240px;
+}
+/* Plan  Details END */
+
+/*Create User Profile Styles starts here*/
+
+.createUserProfileMainBlock {
+	width: 825px;
+	margin-left: 20px;
+}
+.allMargin10 {
+	margin: 10px;
+}
+.snq1ColumnFormGroup {
+	width: auto;
+	height: 40px;
+}
+.snq1ColumnFormGroup p {
+	margin-top: 5px;
+}
+.width170 {
+	width: 170px;
+}
+.width330px {
+	width: 330px;
+}
+.width425px {
+	width: 425px;
+}
+.width660px {
+	width: 660px;
+	border: 1px solid #EEEEEE;
+}
+.captchaCodeBlock {
+	width: 150px;
+	text-align: center;
+	height: 50px;
+	margin-top: 10px;
+}
+.captchaCode {
+	font-size: 30px;
+	font-weight: bold;
+	color: #000;
+}
+.captchaTxtCode {
+	width: 220px;
+}
+input.captchaTxtCode {
+	margin-top: 10px
+}
+.noteMandatory {
+	color: #F00;
+}
+/*Create User Profile Styles ends here*/
+
+
+/*Non-Spanish Landing Page styles starts from here*/
+.nonSpanishLandingSubBlock {
+	width: 500px;
+	height: 400px;
+}
+.nonSpanishLandingSubBlockStyle {
+	width: 450px;
+}
+.nonSpanishLandingSecondSubBlock {
+	width: 345px;
+	margin-left: 60px;
+}
+.nonSpanishLandingSecondSubBlock ul li {
+	margin-top: 15px;
+}
+.nonSpanishLandingFontStyle {
+	font-size: 166.7%;
+}
+/*Non-Spanish Landing Page styles ends here*/
+
+/*Live Chat Form Page styles starts from here*/
+
+.liveChatInner {
+	margin: 0 auto;
+	background-color: #FFF;
+	padding-left: 25px;
+}
+.chatDateBirth {
+	width: 300px;
+}
+.chatDateBirth p {
+	font-size: 91.7%;
+	color: #8f8f8f;
+	line-height: 12px;
+	margin: -23px 0 0 115px;
+}
+.liveChatModal {
+/*height:417px;*/
+}
+/*Live Chat Form Page styles ends here*/
+
+/*Live Call Form Page styles starts from here*/
+.liveCallModal {
+/*height:320px;*/
+}
+.liveCallMainText {
+	font-size: 150%;
+}
+.liveCallInner {
+	margin: -15px auto 0;
+	background-color: #FFF;
+	padding: 0 45px 0 30px;
+}
+.liveCallText {
+	margin-top: 15px;
+}
+.liveCallInput {
+	width: 190px;
+}
+.topMargin57 {
+	margin-top: 57px;
+}
+.callPleaseNoteTxt {
+	padding-left: 25px;
+}
+/*Live Call Form Page styles ends here*/
+
+/************Start Tab Modal ******************/
+#snqTabbedPanelHead .snqTabbedPanels {
+	width: 850px;
+	margin: 0 auto;
+	padding: 10px;
+	overflow: hidden;
+}
+.snqTabbedPanels ul {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.snqTabbedPanels ul li {
+	float: left;
+	width: auto;
+	padding: 0;
+	margin: 0;
+}
+#snqTabbedPanelHead ul.snqHixTabbedPanelsTabGroup {
+	list-style: none;
+	position: relative;
+	z-index: 2;
+	margin: 0 0 -1px 15px;
+	width: 897px;
+}
+#snqTabbedPanelHead ul.snqHixTabbedPanelsTabGroup li {
+	float: left;
+	width: auto;
+	padding: 0;
+	margin: 0 10px 0 0;
+}
+ul.snqHixTabbedPanelsTabGroup li a {
+	font: normal 100%;
+	color: #5170b0;
+	background: #FFFFFF;
+	border: 1px solid #999999;
+	border-radius: 6px 6px 0 0;
+	margin: 0;
+	padding: 5px 10px;
+	float: left;
+	width: 170px;
+	height: 25px;
+	text-decoration: none;
+}
+#snqTabbedPanelHead ul.snqHixTabbedPanelsTabGroup li a:hover, ul.snqHixTabbedPanelsTabGroup li a.active {
+	background: #ddd5d3;
+	border: 1px solid #000000;
+	border-radius: 6px 6px 0 0;
+	border-bottom: 0;
+	padding-bottom: 6px;
+	width: 170px;
+	color: #000000;
+	height: 25px;
+	text-decoration: none;
+}
+#snqTabbedPanelHead ul.snqTabbedPanelsContentGroup {
+	border: 1px solid #CCCCCC;
+	background: #FFFFFF;
+	position: relative;
+	z-index: 1;
+	width: 900px;
+}
+#snqTabbedPanelHead ul.snqTabbedPanelsContentGroup li h2 {
+	font-size: 100%;
+}
+#snqTabbedPanelHead ul.snqTabbedPanelsContentGroup li p {
+	padding-top: 10px;
+}
+#snqTabbedPanelHead .snqTabbedPanelsContentGroup .iblePlans {
+	width: 360px;
+}
+#snqTabbedPanelHead .snqTabbedPanelsContentGroup .ibleFinance {
+	margin-left: 70px;
+	width: 420px;
+}
+#snqTabbedPanelHead .snqTabbedPanelsContentGroup .ibleFinance h1 {
+	color: #999999;
+}
+#snqTabbedPanelHead .snqTabbedPanelsContentGroup .ibleFinance .ibleFiinanceAmt {
+	font-size: 150%;
+	color: #000;
+	margin-left: 10px;
+}
+#snqTabbedPanelHead .snqTabbedPanelsContentGroup .iblePlans h1 {
+	color: #999999;
+}
+/*****************End Tab Modal ***************/
+
+/************ Scrolling Effect Starts*************/
+#snqHixPlanListSlider {
+	background-color: #9C9;
+	width: 900px;
+}
+#snqHixPlanListSlider .slyWrap {
+	margin: 3em 0;
+}
+#snqHixPlanListSlider .scrollbar {
+	margin: 1em 0;
+	height: 5px;
+	display: none
+}
+#snqHixPlanListSlider .scrollbar .handle {
+	width: 100px;
+	height: 100%;
+}
+#snqHixPlanListSlider .sly {
+	height: 530px;
+	width: 630px;
+	float: left;
+	margin: 0px 8px 0px 5px;
+}
+#snqHixPlanListSlider .sly ul {
+	height: 100%;
+}
+#snqHixPlanListSlider .sly ul li {
+	float: left;
+	margin: 0 10px 0 0;
+	font-size: 100%;
+	cursor: default;
+}
+#snqHixPlanListSlider .sly ul li.active {
+	background: #fff;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	height: 530px;
+}
+#snqHixPlanListSlider .sliderControl {
+	width: 44px;
+	float: left;
+}
+#snqHixPlanListSlider .sliderControl #arrowLeft, #snqHixPlanListSlider #sliderControls #arrowRight {
+	position: relative;
+	width: 41px;
+	height: 41px;
+	float: left
+}
+#snqHixPlanListSlider .sliderControl #arrowLeft a {
+	background: url(../images/compPlanArrowLeft.png) 0px -41px;
+	display: block;
+	width: 41px;
+	height: 41px;
+}
+#snqHixPlanListSlider .sliderControl #arrowRight a {
+	background: url(../images/compPlanArrowRight.png) 0px -41px;
+	display: block;
+	width: 41px;
+	height: 41px;
+}
+.btnDisabled {
+	background-position: 0px 0px !important;
+}
+.disableBtn {
+	color: Gray;
+}
+.disableBtn:hover {
+	background-image: linear-gradient(#ECF3FB, #C3DDFF);
+	border: 1px solid #ECF3FB;
+}
+#snqHixPlanListSlider #slides ul li {
+	width: 630px;
+	overflow: hidden;
+	margin: 0px 0px 0px 5px;
+}
+#snqHixPlanListSlider #slides ul li .planScrollBlock {
+	position: relative;
+	float: left;
+	border: 1px solid #cccccc;
+	margin: 0px 12px 0px 0px;
+	padding: 10px;
+	width: 175px;
+	height: 530px;
+}
+#snqHixPlanListSlider #slides h2 {
+	color: #007dbf;
+	font-size: 150%;
+	padding: 0px;
+	margin: 0px
+}
+/*****************Scrolling effects ends here***************/
+
+/* View Compare Plans- Medical + CMC Start */
+
+.scrollerHeading {
+	color: #007dbf;
+	font-size: 150%;
+}
+.viewTabBottomSpace {
+	background-color: #d7d7d7;
+	margin-top: 0px;
+	padding: 10px;
+	width: 880px;
+	border: 1px solid #797979;
+}
+.sortPlanBox {
+	margin-bottom: -30px;
+	line-height: -50px;
+}
+.scrollBoxTextborderTop {
+	border-top: 1px #aeaeae solid;
+	margin-top: 15px;
+}
+.scrollBoxTextBottom p {
+	border-top: 1px #d8d8d8 solid;
+	padding-bottom: 20px;
+}
+.snqHixScrollContentLeft {
+	width: 20%;
+}
+.snqHixScrollContentLeft a {
+	text-decoration: none;
+}
+.snqHixScrollContentLeft a:hover {
+	font-weight: bold;
+}
+.morePlansView {
+	width: 100%;
+	padding-top: 50px;
+}
+.expandedPlanDetails {
+	border: 1px solid #CCC;
+	float: left;
+	margin: 0px 10px 0px 0px;
+	width: 195px;
+	text-align: center;
+}
+.expandedPlanDetails p {
+	border-bottom: 1px #CCC solid;
+	padding-bottom: 20px;
+}
+.viewComparePlanToolTip {
+	z-index: 1000;
+}
+.toolTipHeadding {
+	font: bold 100%/30px Arial;
+	margin-left: 10px;
+}
+.totalStyleRight {
+	margin-right: 10px;
+}
+.totalMonthlyRight {
+	margin-right: 40px;
+}
+.snqHixScrollContentLeft #comparePlanMedicalSubBlock ul li {
+	margin: 10px 0 45px 0;
+}
+.scrollContentHideBlockHeading ul li {
+	padding: 10px 0;
+}
+.scrollContentHideBlock ul li {
+	border-bottom: 1px solid #d8d8d8;
+	padding: 10px 0;
+}
+.triggerArrow {
+	background: url("../../../images/loginplus.png") no-repeat scroll 5px center transparent;
+	padding-left: 18px;
+}
+a.triggerArrow.active {
+	background: url("../../../images/minus.png") no-repeat scroll 5px center transparent;
+}
+.leftMargin52 {
+	margin-left: 52px;
+}
+.topMargin100 {
+	margin-top: 100px;
+}
+.topMargin220 {
+	margin-top: 220px;
+}
+.topMarginMinus30 {
+	margin-top: -30px;
+	padding-bottom: 10px;
+}
+.fontBlack {
+	color: #000000;
+}
+.text90 {
+	font-size: 90%;
+}
+.impAmt {
+	color: #000;
+	margin-left: 5px;
+}
+.botPadding35 {
+	padding-bottom: 35px !important;
+}
+/* View Compare Plans- Medical + CMC End */
+
+/*****************What important Start***************/
+#whatImp {
+	float: left;
+	width: 880px;
+	padding-left: 10px;
+}
+#whatImp #head {
+	margin: 0;
+	padding: 0 5px;
+	font-size: 133.3%;
+	height: 33px;
+}
+#whatImp #head p {
+	font-size: 100%;
+}
+#whatImp #head p a {
+	color: #0078AB;
+	text-align: right;
+}
+#whatImpCont {
+	margin: 0;
+	padding: 5px;
+	display: none;
+}
+.whatImpBoxes {
+	position: relative;
+	width: 22%;
+}
+.whatImoNote {
+	position: relative;
+	width: 380px;
+	margin: 0px 60px 0px 0px;
+}
+/*What important end*/
+
+/* Edit Profile */
+.editUsernamePassword {
+	margin: 40px 0px 40px 0px;
+	padding: 40px 0px 30px 0px;
+	width: 570px;
+	border-bottom: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+}
+.editProfileInnerBox {
+	float: left;
+	padding-right: 50px;
+	border-right: 1px solid #CCC;
+	height: 110px;
+}
+.editEmailtxtBox {
+	width: 550px;
+}
+/*Edit Profile End */
+
+/*Page styles which comes under modal folder(pop-up's, dialog boxes) starts from here*/
+
+/*General Dialog boxes styles starts here*/
+.modalDialogBody {
+	background: none;
+}
+.modalDialogWrapper {
+	margin: 0 auto;
+	padding-bottom: 3px;
+}
+#errorHandlerBlock ol, .tipContxt ol {
+	padding-left: 20px;
+	list-style: decimal outside none;
+}
+.modalDialogWrapper ol {
+	padding: 18px 0 0 20px;
+	list-style: decimal outside none;
+}
+.modalDialogWrapper h1, h2 {
+	color: #444444
+}
+/*General Dialog boxes styles ends here*/
+
+/*Dental Plan slect plan popup styles starts from here*/
+.everyOneMainBlock {
+	margin: 10px 0 0 70px;
+}
+.everyOneSubBlock {
+	margin: 10px 0 0 90px;
+}
+.everyOneSubBlock p {
+	margin: 10px;
+}
+/*Dental Plan slect plan popup styles ends here*/
+
+/*Choose Profile Data popup styles starts here*/
+.widthMainBlock {
+	width: 300px;
+}
+.profileSubBlockPopup {
+	width: 220px;
+	margin-top: 10px;
+	float: left;
+}
+.profileNameBlockPopup {
+	margin-left: 18px;
+	width: 185px;
+	height: auto;
+}
+/*Choose Profile Data popup styles ends here*/
+
+/*General Infromation Dialog styles starts here*/
+#generalDialog {
+	width: 400px;
+}
+.btnGeneralInform {
+	width: 126px;
+}
+.informationSubBlock {
+	margin: 15px;
+}
+/*General Infromation Dialog styles ends here*/
+
+/*Catastrophic and Changed Demo Data page styles starts from here*/
+
+.basicInformMainBlock {
+	height: 55px;
+	border-bottom: 1px solid #bcbcbc;
+	width: 440px;
+}
+/*Catastrophic and Changed Demo Data page styles ends here*/
+
+/*Page styles which comes under modal folder ends here*/
+
+/* New classes for quote summary */
+.quoteSummary table td {
+	padding: 10px 20px 0;
+}
+/*.quoteSummary table dl{min-height: 30px;}*/
+.quoteSummary table dl dt span {
+	line-height: 26px;
+}
+.medicalIconSmall {
+	background: url("../../../images/MedicalIcon_lg.png") no-repeat scroll 0 0px transparent;
+	padding: 6px 0 10px 30px;
+}
+.dentalIconSmall {
+	background: url("../../../images/icon_plancompare_left_dental.png") no-repeat scroll 0 0 transparent;
+	padding: 6px 0 10px 30px;
+}
+/* New classes for quote summary End */
+
+/* Grey button for quote summary page starts here */
+.navBtnGrey {
+	height: 38px;
+	color: #ffffff;
+	margin: 0 0 15px;
+	padding: 0 20px;
+	font: bold 116.7% Arial;
+	text-align: center;
+	line-height: 32px;
+	border: 1px solid #006e8b;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #c9c9c9;
+	background-repeat: repeat-x;
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#c9c9c9), to(#c2c2c2));
+	background-image: -moz-linear-gradient(#c9c9c9, #c2c2c2);
+	background-image: -ms-linear-gradient(#c9c9c9, #c2c2c2);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c9c9c9), color-stop(100%, #c2c2c2));
+	background-image: -webkit-linear-gradient(#c9c9c9, #c2c2c2);
+	background-image: -o-linear-gradient(#c9c9c9, #c2c2c2);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9c9c9', endColorstr='#c2c2c2', GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9c9c9', endColorstr='#c2c2c2', GradientType=0)";
+	background-image: linear-gradient(#c9c9c9, #c2c2c2);
+	cursor: pointer;
+}
+.navBtnGrey:hover {
+	border: 1px solid #c2c2c2;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #c9c9c9;
+	background-repeat: repeat-x;
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#c9c9c9), to(#a2a2a2));
+	background-image: -moz-linear-gradient(#c9c9c9, #a2a2a2);
+	background-image: -ms-linear-gradient(#c9c9c9, #a2a2a2);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c9c9c9), color-stop(100%, #a2a2a2));
+	background-image: -webkit-linear-gradient(#c9c9c9, #a2a2a2);
+	background-image: -o-linear-gradient(#c9c9c9, #a2a2a2);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9c9c9', endColorstr='#a2a2a2', GradientType=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9c9c9', endColorstr='#a2a2a2', GradientType=0)";
+	background-image: linear-gradient(#c9c9c9, #a2a2a2);
+}
+.tblInline {
+	display: inline-table;
+}
+.borderRightLeft {
+	border-left: 1px solid #c9c9c9;
+	border-right: 1px solid #c9c9c9;
+}
+/* Grey button for quote summary page ends here */
+
+/*For matching with comp new styles for Edit Shopper Profile page the starts from here*/
+.editUserProfile .group .noPadMar {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+/*---Matching with comp new Styles to fix page 6.3_CMC_Landing_Page---*/
+.lineHeight10 {
+	line-height: 10px;
+}
+.bottomPadding4 {
+	padding-bottom: 4px;
+}
+.labelMargin {
+	margin-bottom: 10px;
+	margin-top: 14px;
+}
+.labelPass {
+	margin: 1px 0 10px 0;
+}
+.width29 {
+	width: 29%;
+}
+.leftPadding57 {
+	padding-left: 57px;
+}
+.width71 {
+	width: 71%;
+}
+.fontSize42 {
+	font-size: 42px;
+}
+.marginBtm18 {
+	margin-bottom: 18px;
+}
+.marginLft35 {
+	margin-left: 35px;
+}
+/*---Matching with comp new Styles to fix page 6.3_CMC_Landing_Page---*/
+
+/*For Demographic Shopper Agent header starts here*/
+#snqHeaderShopperAgent {
+	margin: 0px 20px 0 30px;
+	overflow: hidden;
+}
+.cusServCmcHpa {
+	float: right;
+	padding: 0 18px 0 0;
+	width: 270px;
+}
+table.agentDetail td, table.agentDetail th {
+	border: medium none;
+	line-height: 18px;
+	margin: 0;
+	padding: 0;
+}
+table.agentDetail td.btPad15 {
+	padding-bottom: 15px;
+}
+/*For Demographic Shopper Agent header ends here*/
+
+/*For matching with comp new styles  for Edit Shopper Profile page ends here*/
+
+/*For Scroll event added styles starts from here*/
+#left_button_enabled {
+	display: none;
+	position: absolute;
+	cursor: hand;
+	left: 205px;
+	top: 90px;
+	z-index: 100;
+}
+#left_button_disabled {
+	position: absolute;
+	left: 205px;
+	top: 90px;
+	z-index: 100;
+}
+#right_button_enabled {
+	position: absolute;
+	cursor: hand;
+	left: 900px;
+	top: 90px;
+	z-index: 100;
+}
+#right_button_disabled {
+	position: absolute;
+	left: 900px;
+	top: 90px;
+	z-index: 100;
+	display: none;
+}
+.slider_buttons {
+	border: none;
+}
+.disabled {
+	color: #ccc !important;
+}
+/*For Scroll event added styles ends here*/
+
+/*For Compare Plan Medical Tool tip starts here*/
+.toolTipSmallComparePlan {
+	width: auto;
+	display: none;
+	height: auto;
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px #CCCCCC;
+	border: 1px solid #dadada;
+	margin-top: 10px;
+	font-weight: normal;
+	padding-bottom: 9px;
+	margin-left: -46px;
+}
+.closeComparePlan {
+	float: right;
+	background-image: url("../../../images/tooltip_close.png");
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	margin: -7px -7px 0 0;
+}
+.toolTipPlanPricingBotComparePlan {
+	padding: 8px 0;
+	border-top: 1px solid #dadada;
+	height: auto;
+}
+.toolTipDetailsComparePlan {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px #CCCCCC;
+	border: 1px solid #dadada;
+	margin-top: 10px;
+	font: normal 100% Arial;
+	z-index: 1001;
+	padding: 12px;
+	white-space: nowrap;
+}
+.toolTipDetailsComparePlan:after {
+	border-bottom: 9px solid #ffffff;
+	border-left: 11px solid transparent;
+	border-right: 11px solid transparent;
+	content: "";
+	display: inline-block;
+	left: 50px;
+	position: absolute;
+	top: -9px;
+}
+.toolTipDetailsComparePlan:before {
+	border-bottom: 10px solid #dadada;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	content: "";
+	display: inline-block;
+	left: 49px;
+	position: absolute;
+	top: -10px;
+}
+/* tooltip postion top - start */
+.toolTipDetailsComparePlanTop {
+	background-color: #FFFFFF;
+	border: 1px solid #DADADA;
+	bottom: 62px;
+	box-shadow: 0 0 10px #CCCCCC;
+	display: none;
+	font: 100% Arial;
+	margin-top: 10px;
+	padding: 12px;
+	position: absolute;
+	white-space: nowrap;
+	z-index: 1001;
+}
+.toolTipDetailsComparePlanTop:after {
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-top: 10px solid #FFFFFF;
+	content: "";
+	display: inline-block;
+	left: 50px;
+	position: absolute;
+	top: 49px;
+}
+.toolTipDetailsComparePlanTop:before {
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-top: 10px solid #DADADA;
+	content: "";
+	display: inline-block;
+	left: 49px;
+	position: absolute;
+	top: 49px;
+}
+/* tooltip postion top - end */
+.overFlHid {
+	height: 80px;
+	overflow: hidden;
+}
+.toolTipMoreDetails {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px #CCCCCC;
+	border: 1px solid #dadada;
+	margin-top: 10px;
+	margin-left: 65px;
+	width: auto;
+	font-weight: normal;
+	z-index: 1000;
+	padding-bottom: 10px;
+}
+.zIndex1050 {
+	z-index: 1050;
+}
+.tooltipNarrowMnthly {
+	left: 455px;
+	position: fixed;
+	top: 378px;
+	z-index: 999;
+}
+.tooltipNarrowMnthlyCMC {
+	top: 400px;
+}
+.tooltipNarrowDeduct {
+	left: 645px;
+	position: fixed;
+	top: 375px;
+	z-index: 999;
+}
+.cmcPlanMedical .tooltipNarrowMnthly {
+	left: 664px;
+	position: fixed;
+	top: 398px;
+	z-index: 999;
+}
+/*For Compare Plan Medical Tool tip ends here*/
+
+/* For Compare Plan Dental styles starts here */
+
+.topCrvBdr {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+.compWidgetLtDental {
+	border-bottom: none;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 230px;
+	min-height: 699px;
+	background-color: #f9f9f9;
+}
+.compWidgetRtDental {
+	position: relative;
+	border-bottom: none;
+	float: right;
+	width: 680px;
+	min-height: 659px;
+	margin: 0px;
+	padding: 20px 0px 0px 0px;
+	overflow: hidden;
+	background: -moz-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(245,245,245,0) 5%, rgba(245,245,245,0) 95%, rgba(245,245,245,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(245,245,245,1)), color-stop(5%, rgba(245,245,245,0)), color-stop(95%, rgba(245,245,245,0)), color-stop(100%, rgba(245,245,245,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(245,245,245,0) 5%, rgba(245,245,245,0) 95%, rgba(245,245,245,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(245,245,245,0) 5%, rgba(245,245,245,0) 95%, rgba(245,245,245,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(245,245,245,0) 5%, rgba(245,245,245,0) 95%, rgba(245,245,245,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(245,245,245,1) 0%, rgba(245,245,245,0) 5%, rgba(245,245,245,0) 95%, rgba(245,245,245,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#f5f5f5', GradientType=0 ); /* IE6-9 */
+}
+.compWidgetRtDental .floatBox {
+	top: 49px;
+}
+.compWidgetLtDental .planDentalRow1 {
+	padding: 20px;
+}
+.compWidgetLtDental .FirstRow {
+	height: 133px;
+}
+.orangeColor {
+	color: #B05900;
+}
+.scrollHdrDentalLt {
+	height: 50px;
+	width: 250px;
+	border-bottom: solid 1px #ccc;
+	right: 0px;
+}
+.premiumIncludes {
+	width: 150px;
+	height: 100px;
+}
+.premiumIncludesLt {
+	float: left;
+	max-width: 67px;
+	text-align: left;
+	padding-right: 30px;
+	overflow: visible !important;
+}
+.premiumIncludesLt li {
+	display: list-item;
+	height: auto;
+	list-style-type: disc;
+	border-right: none;
+	margin-left: 13px;
+}
+.premiumIncludesLt .pairList {
+	margin-left: 15px;
+}
+.premiumIncludesLt .pairList dt {
+	display: list-item;
+	list-style-type: disc;
+	float: left;
+	min-width: 60%;
+}
+.premiumIncludesLt .pairList dd {
+	float: right;
+}
+.premiumIncludesRt {
+	max-width: 50px;
+	float: left;
+	text-align: right;
+}
+.premiumIncludesRt li {
+	display: list-item;
+	height: auto;
+	list-style-type: none;
+	border-right: none;
+}
+.planDentalRow2 {
+	height: 125px;
+	border-bottom: solid 1px #ccc;
+	overflow: hidden;
+}
+.floatBox .planDentalRow2 {
+	height: 145px;
+}
+.planDentalRow1 {
+	height: 135px;
+	border-bottom: solid 1px #ccc;
+}
+.planDentalRow1 h2 {
+	margin-bottom: 6px;
+}
+.floatBox .planDentalRow1 {
+	height: 175px;
+}
+.planVisionRow {
+	height: 60px;
+	border-bottom: solid 1px #ccc;
+}
+.planVisionRow h2 {
+	margin-bottom: 5px;
+}
+.floatBox .planVisionRow {
+	height: 80px;
+}
+.scrollHdrPdDental {
+	/*	padding: 5px 10px 5px 30px;*/
+	background: transparent;
+}
+.scrollHdrPdDental .utilBtn {
+	font: bold 68.7% Arial;
+}
+.ht25 {
+	height: 25px;
+}
+.smallTable thead td, th {
+	border-bottom: solid 1px #ccc;
+	padding-bottom: 10px;
+}
+/* For Compare Plan Dental style ends here */
+
+/*For 1.6.2. Compare Plan tool tip styles starts here*/
+
+.planPicingTotalPremiumDental {
+	height: 15px;
+	padding-bottom: 5px;
+}
+.planPicingTotalPremiumDentalBt {
+	height: 15px;
+	border-bottom: 1px solid #666666;
+	padding-bottom: 5px;
+}
+.rtPad10 {
+	padding-right: 10px;
+}
+.totalResponseTxtPlanSubBlockDental {
+	width: 110px;
+	text-align: right;
+}
+.noBotPadIm {
+	padding-bottom: 0px !important;
+}
+.toolTipPlanDentalBt {
+	padding: 8px 0px 0px 0px;
+}
+.planPricingTextDental {
+	margin: 10px 0 8px 6px;
+}
+.planPricingTextDentalPop {
+	margin: 0px 0 8px 6px;
+}
+.marginLft35Imp {
+	margin-left: 35px !important;
+}
+/*For 1.6.2. Compare Plan tool tip styles ends here*/
+
+/*For 6.4 CMC Compare Plan style starts here*/
+
+.cmcPlanMedical .tabWidget {
+	width: 472px;
+}
+.cmcPlanMedical .scrollHdr {
+	width: 410px;
+}
+.cmcPlanMedical .compWidgetRt {
+	width: 470px;
+}
+.cmcPlanMedical #planLeftBtnDisabled {
+	left: 415px;
+}
+.cmcPlanMedical #planLeftBtnEnabled {
+	left: 415px;
+}
+.cmcPlanMedical .compWidgetLt {
+	width: 440px;
+}
+.cmcPlanMedical .scrollPlan {
+}
+.cmcPlanMedical .scrollArea {
+/*margin:0;*/
+}
+.cmcPlanMedical .scrollPlanItem {
+/*padding: 10px 10px 10px 40px;*/
+}
+.compWidgetLt .scrollPlanItem {
+	padding: 10px;
+}
+.ltMarginNeg15 {
+	margin-left: -15px;
+}
+.bgWhite {
+	background-color: #fff;
+}
+.cmcPlanMedical .leftFavSliderBtn {
+	position: absolute;
+	cursor: hand;
+	left: 225px;
+	top: 90px;
+	z-index: 100;
+}
+.cmcPlanMedical #noFavPlansAlert {
+	width: 370px;
+	height: 498px;
+	border-radius: 6px 6px 6px 6px;
+}
+.cmcPlanMedical .leftSliderBtn {
+	left: 415px;
+}
+.cmcLtWdth {
+	width: 210px !important;
+	left: 190px;
+	position: absolute;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-radius: 0;
+}
+.cmcPlanMedical .planTabMode {
+	height: 10px;
+	display: inline-block;
+	margin-bottom: 0px;
+	padding-bottom: 14px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.cmcPlanMedical .planTabSubBlock {
+	position: relative;
+	border: 0px solid blue;
+}
+.cmcPlanMedical .planTabDividentBlock {
+	position: relative;
+	margin: 0px;
+	background-color: #fcfbe5;
+	border-top: solid 1px #ccc;
+}
+.cmcPlanMedical .tabMenuQuickApply {
+	width: 440px;
+	margin: 0px;
+}
+.cmcPlanMedical #noFavPlansAlert {
+	left: 442px;
+}
+.cmcPlanMedical .tabwidth440 {
+	width: 440px;
+}
+/*For 6.4 CMC Compare Plan style ends here*/
+
+
+/*compare scroller btns start here*/
+
+.leftFavSliderBtn {
+	position: absolute;
+	cursor: hand;
+	left: 225px;
+	top: 90px;
+	z-index: 100;
+}
+.rightFavSliderBtn {
+	position: absolute;
+	cursor: hand;
+	left: 900px;
+	top: 90px;
+	z-index: 100;
+}
+.leftSliderBtn {
+	position: absolute;
+	cursor: hand;
+	left: 205px;
+	top: 90px;
+	z-index: 100;
+}
+.rightSliderBtn {
+	position: absolute;
+	cursor: hand;
+	left: 900px;
+	top: 90px;
+	z-index: 100;
+}
+.rightSliderBtn a, .leftSliderBtn a {
+	display: inline-block;
+}
+.clickBlocker {
+	z-index: 101;
+}
+/*compare scroller btns ends here*/
+#noFavPlansAlert {
+	z-index: 99;
+	position: absolute;
+	text-align: left;
+	padding: 50px;
+	margin: 53px 0px 1px 12px;
+	background-color: #fcfbe5;
+	width: 580px;
+	height: 498px;
+	left: 232px;
+}
+.orDivider {
+	border-right: 1px solid #dadada;
+	height: 65px;
+	width: 18px;
+	margin: 25px 0 0 0;
+}
+#medSelTable .tpPad10 {
+	padding: 10px 0px 10px 0px
+}
+/*Error Styling Start */
+.error {
+	background: url("../../../images/err_require.png") no-repeat top left transparent;
+	color: red;
+	line-height: 16px;
+	margin: 1px 0 5px;
+	max-width: 190px;
+	min-height: 16px;
+	padding-left: 20px;
+}
+.errorBorder {
+	border: solid 1px red;
+	margin-bottom: 0px !important;
+}
+.txtErrorColor {
+	color: red;
+}
+.errorForTop {
+	color: block;
+	line-height: 16px;
+	margin: 1px 0 5px -35px;
+	min-height: 16px;
+	padding-left: 20px;
+}
+.error.maxWidth410 {
+	max-width: 410px;
+}
+.width650 {
+	width: 650px;
+	border: solid 1px red;
+}
+#errorHandlerBlock ul li {
+	margin: 10px;
+}
+.tipContxtOver {
+	position: relative;
+	width: 200px;
+}
+.error.maxWidth {
+	max-width: 100%;
+}
+/*Error Styling End*/
+/*IE7 Specific styling for current plan button*/
+.btnCurrentPlan {
+	margin-top: 95px;
+ *margin-top:70px;
+}
+.bgPlan {
+	background-color: #f2f8fc;
+}
+.htNarrowPlan {
+	width: 210px;
+	height: 60px;
+}
+.bottomBdrNoResult {
+	border-bottom: solid 1px #ccc;
+	filter: none;
+}
+.noResults img {
+	padding: 0 15px 10px 0;
+}
+.noResults ul li {
+	margin-left: 15px;
+	list-style-type: disc;
+}
+/*for 5.11 and 5.12*/
+.profile_content p {
+	margin: 0 0 10px 0;
+}
+.close_btn {
+	float: right;
+	margin: 0;
+	padding: 4px 8px;
+	background: #ccc;
+	border: 1px solid #000;
+	font-weight: bold;
+	border-radius: 3px;
+}
+.profile_content {
+	float: left;
+	margin: 20px 0 20px 0px;
+	padding: 0;
+	width: 290px;
+}
+.width225 {
+	width: 210px;
+	margin-right: 80px;
+}
+.profile_content ul {
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+.profile_content ul li span {
+	float: left;
+	width: 130px;
+}
+.tabWidget label {
+	display: inline;
+}
+.planListing h2 {
+	font: bold 150% Arial;
+}
+.planListing h3 {
+	font: bold 100% Arial;
+}
+.Dental {
+	border: 1px solid #BBBBBB;
+	border-radius: 5px 5px 5px 5px;
+	margin-bottom: 10px;
+	padding: 10px;
+	position: relative;
+}
+.Dental_legend {
+	font-size: 133.3%;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0.4em 0.2em;
+}
+#snqHeaderAgent, #snqHeaderCMCHPA, #snqHeaderCMCAgent, #snqHeaderNoAgent, #snqHeaderShopperProposal, #snqHeaderUserNotLogIn, #snqHeaderDashboardNoAgent {
+	margin: 0 20px 0 30px;
+	overflow: hidden;
+}
+#costBreak .pairList {
+	margin-left: 20px
+}
+#costBreak .pairList dt {
+	display: list-item;
+	float: left;
+	list-style-type: disc;
+	min-width: 60%;
+}
+/*Insurance Glossary styles Start*/
+#alph_sort {
+	font-size: 133.3%;
+	font-weight: bold
+}
+#alph_sort ul {
+	background-color: #FFFFFF;
+	height: 16px;
+	list-style: none outside none;
+	margin: 0;
+	padding: 3px 0px;
+}
+#alph_sort ul li {
+	float: left;
+	border-left: solid 2px #444444;
+	padding: 0 9px 0 9px;
+}
+#alph_sort ul li:first-child {
+	float: left;
+	border-left: 0;
+	padding-left: 0;
+}
+#alph_sort ul li.selected a {
+	color: #000000;
+}
+.sortNav {
+	margin: 10px 0px 5px 0px;
+}
+.sortNavDiv {
+	padding: 10px 0px;
+	border-top: solid 1px #cdcdcd;
+	border-bottom: solid 1px #cdcdcd;
+}
+a.defaultLink, li a.defaultLink {
+	text-decoration: underline;
+	color: #0078AB;
+}
+#gloss_search div {
+	margin-top: 12px;
+	line-height: 17px;
+}
+/*Insurance Glossary styles End*/
+
+
+/* COMMON STYLES BEGINS : This should be the last style section*/
+
+/*Position Formatting */
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.textLeft {
+	text-align: left;
+}
+.textRight {
+	text-align: right;
+}
+.textCenter {
+	text-align: center;
+}
+.textJustify {
+	text-align: justify;
+}
+.vAlignTop {
+	vertical-align: top;
+}
+.hide {
+	display: none
+}
+.hidden {
+	visibility: hidden;
+}
+.block {
+	display: block
+}
+.inline {
+	display: inline;
+}
+.inlineBlock {
+	display: inline-block;
+}
+.relativePosition {
+	position: relative;
+}
+.lineHt12px {
+	line-height: 12px;
+}
+.lineHt14px {
+	line-height: 14px;
+}
+.lineHt20px {
+	line-height: 20px;
+}
+.lineHt9px {
+	line-height: 9px;
+}
+.tpMarginNeg4 {
+	margin-top: -4px;
+}
+.zIndex {
+	z-index: 3000;
+}
+/*Font Formatting */
+.smallTxt {
+	font-size: 80%;
+	line-height: 12px;
+}
+.frmFieldLarge {
+	width: 250px;
+}
+.bigTxt {
+	font-size: 116.7%;
+}
+.largeTxt {
+	font-size: 133.3%;
+	margin: 0;
+	padding: 0;
+	line-height: 15px;
+}
+.lightTxt {
+	color: #696969 !important
+}
+;
+.right.lightTxt {
+	padding-top: 4px;
+}
+.fontMandatory {
+	font-size: 133.3%;
+}
+.fontDefault {
+	font: normal 100% Arial;
+}
+.scrollHdr label.fontDefault {
+	font: 75%/45px Arial;
+}
+.lineHt45px {
+	line-height: 45px;
+}
+.bold {
+	font-weight: bold;
+}
+.noBold {
+	font-weight: normal;
+}
+.italic {
+	font-style: italic;
+}
+.underline {
+	border-bottom: 1px solid;
+}
+.highlight {
+	background: #eaeaea;
+	min-height: 40px;
+} /*This gives a background color*/
+/*Border Formatting*/
+.border {
+	border: solid 1px #ccc;
+}
+.borderBottom {
+	border-bottom: solid 1px #ccc;
+}
+.borderTop {
+	border-top: solid 1px #ccc;
+}
+.leftBdr {
+	border-left: solid 1px #ccc;
+}
+.rightBdr {
+	border-right: solid 1px #ccc;
+}
+.noBorder {
+	border: none;
+}
+.noLtBdr {
+	border-left: none;
+}
+.noRtBdr {
+	border-right: none;
+}
+.noBotBdr {
+	border-bottom: none;
+}
+.noTopBdr {
+	border-top: none;
+}
+.listDisc {
+	list-style-type: disc;
+}
+/*Formatting classes for Width*/
+.tableWidth65 {
+	width: 65%;
+}
+.tableNoBorder {
+	border: none !important
+}
+.tableNoBorder td {
+	border: none !important
+}
+.tableWidth100 {
+	width: 100%;
+}
+.widthAuto {
+	width: auto;
+}
+.minWidthAuto {
+	min-width: auto;
+}
+.width25 {
+	width: 25%;
+}
+.width30 {
+	width: 30%;
+}
+.width40 {
+	width: 40%;
+}
+.width50 {
+	width: 50%;
+}
+.width60 {
+	width: 60%;
+}
+.width70 {
+	width: 70%;
+}
+.width80 {
+	width: 80%;
+}
+.width90 {
+	width: 90%;
+}
+.width50px {
+	width: 50px;
+}
+.width60px {
+	width: 60px;
+}
+.width70px {
+	width: 70px;
+}
+.width90px {
+	width: 90px;
+}
+.width100 {
+	width: 100px;
+}
+.width125 {
+	width: 125px
+}
+;
+.width140 {
+	width: 140px;
+}
+.width142px {
+	width: 142px
+}
+.width150 {
+	width: 150px;
+}
+.width152 {
+	width: 152px;
+}
+.width156px {
+	width: 156px;
+}
+.width175 {
+	width: 175px;
+}
+.width200px {
+	width: 200px;
+}
+.width210px {
+	width: 210px;
+}
+.width220px {
+	width: 220px;
+}
+.width230px {
+	width: 230px;
+}
+.width245px {
+	width: 245px;
+}
+.width250px {
+	width: 250px;
+}
+.width260px {
+	width: 260px;
+}
+.width300px {
+	width: 300px;
+}
+.width275px {
+	width: 275px;
+}
+.width280px {
+	width: 280px;
+}
+.width310 {
+	width: 310px;
+}
+.width403px {
+	width: 403px;
+}
+.width400px {
+	width: 400px;
+}
+.width420px {
+	width: 420px;
+}
+.width500px {
+	width: 500px;
+}
+.width550px {
+	width: 550px;
+}
+.width228px {
+	width: 228px;
+}
+.width382px {
+	width: 382px
+}
+.htAuto {
+	height: auto;
+	min-height: 10px;
+}
+.ht181px {
+	height: 181px
+}
+.ht161px {
+	height: 161px;
+}
+.ht180px {
+	height: 180px;
+}
+.maxWidth165px {
+	max-width: 165px
+}
+.width285 {
+	width: 285px;
+}
+.width230 {
+	width: 230px;
+}
+/*Spacing Formating*/
+.noPadding {
+	padding: 0;
+}
+.noMargin {
+	margin: 0;
+}
+.noLeftPadding {
+	padding-left: 0;
+}
+.noRightPadding {
+	padding-right: 0;
+}
+.noTopPad {
+	padding-top: 0;
+}
+.noBotPad {
+	padding-bottom: 0;
+}
+.noTopMar {
+	margin-top: 0;
+}
+.noBotMar {
+	margin-bottom: 0;
+}
+.noBottomMargin {
+	margin-bottom: 0;
+}
+.bottomMargin20 {
+	margin-bottom: 20px
+}
+.noIndent {
+	margin-left: 0;
+	padding-left: 0;
+}
+.allMargin5 {
+	margin: 5px;
+}
+.allMargin15 {
+	margin: 15px;
+}
+.topMarginNeg10 {
+	margin-top: -10px;
+}
+.topMargin5 {
+	margin-top: 5px;
+}
+.topMargin3 {
+	margin-top: 3px;
+}
+.topMargin10 {
+	margin-top: 10px;
+}
+.topMargin12 {
+	margin-top: 12px;
+}
+.topMargin15 {
+	margin-top: 15px;
+}
+.topMargin20 {
+	margin-top: 20px;
+}
+.topMargin18 {
+	margin-top: 18px;
+}
+.topMargin25 {
+	margin-top: 25px;
+}
+.topMargin30 {
+	margin-top: 30px;
+}
+.topMargin36 {
+	margin-top: 36px;
+}
+.topMargin40 {
+	margin-top: 40px;
+}
+.topMargin45 {
+	margin-top: 45px;
+}
+.topMargin50 {
+	margin-top: 50px;
+}
+.topMargin60 {
+	margin-top: 60px;
+}
+.topMargin70 {
+	margin-top: 70px;
+}
+.topMargin80 {
+	margin-top: 80px;
+}
+.topMargin90 {
+	margin-top: 90px;
+}
+.tpBt18px {
+	padding: 18px 20px;
+}
+.leftMargin5 {
+	margin-left: 5px;
+}
+.ltPad13 {
+	padding-left: 13px !important;
+}
+.leftMargin15 {
+	margin-left: 15px;
+}
+.leftMargin7 {
+	margin-left: 7px;
+}
+.leftMargin10 {
+	margin-left: 10px;
+}
+.leftMargin12 {
+	margin-left: 12px;
+}
+.leftMargin20 {
+	margin-left: 20px;
+}
+.leftMargin30 {
+	margin-left: 30px;
+}
+.leftMargin40 {
+	margin-left: 40px;
+}
+.leftMargin45 {
+	margin-left: 45px;
+}
+.leftMargin60 {
+	margin-left: 60px;
+}
+.leftMargin70 {
+	margin-left: 70px;
+}
+.leftMargin90 {
+	margin-left: 90px;
+}
+.leftMargin180 {
+	margin-left: 180px;
+}
+.leftMargin715 {
+	margin-left: 715px;
+}
+.leftMargin100 {
+	margin-left: 100px;
+}
+.leftMargin260 {
+	margin-left: 260px;
+}
+.leftMargin300 {
+	margin-left: 300px;
+}
+.leftMargin82 {
+	margin-left: 82px;
+}
+.botMargin5 {
+	margin-bottom: 5px;
+}
+.botMargin10 {
+	margin-bottom: 10px;
+}
+.botMargin15 {
+	margin-bottom: 15px;
+}
+.botMargin20 {
+	margin-bottom: 20px;
+}
+.botMargin18 {
+	margin-bottom: 18px;
+}
+.botMargin30 {
+	margin-bottom: 30px;
+}
+.botMargin60 {
+	margin-bottom: 60px;
+}
+.rightMargin5 {
+	margin: 0 5px 0 0;
+}
+.rtMarg6 {
+	margin-right: 6px;
+}
+.rtMargin8 {
+	margin-right: 8px;
+}
+.rtMargin10 {
+	margin-right: 10px;
+}
+.rtMargin20 {
+	margin-right: 20px;
+}
+.rtMargin21 {
+	margin-right: 21px;
+}
+.rtMargin22 {
+	margin-right: 22px;
+}
+.rtMargin30 {
+	margin-right: 30px;
+}
+.rtMargin50 {
+	margin-right: 50px;
+}
+.rtMargin60 {
+	margin-right: 60px;
+}
+.rtMargin65 {
+	margin-right: 65px
+}
+.rightLeftPadding30 {
+	padding: 0px 30px;
+}
+.padding3 {
+	padding: 3px;
+}
+.padding5 {
+	padding: 5px;
+}
+.padding10 {
+	padding: 10px;
+}
+.padding20 {
+	padding: 20px;
+}
+.leftPadding10 {
+	padding-left: 10px;
+}
+.ltPad5 {
+	padding-left: 5px;
+}
+.ltPad20 {
+	padding-left: 20px;
+}
+.ltPad30 {
+	padding-left: 30px;
+}
+.ltPad60 {
+	padding-left: 60px;
+}
+.btPad10 {
+	padding-bottom: 10px;
+}
+.btPad15 {
+	padding-bottom: 15px;
+}
+.btPad25 {
+	padding-bottom: 25px;
+}
+.tpPad5 {
+	padding-top: 5px;
+}
+.tpPad6 {
+	padding-top: 6px;
+}
+.tpPad10 {
+	padding-top: 10px;
+}
+.topPad16 {
+	padding-top: 16px;
+}
+.topPad18 {
+	padding-top: 18px;
+}
+.tpPad20 {
+	padding-top: 20px;
+}
+.tpPad25 {
+	padding-top: 25px;
+}
+.tpPad30 {
+	padding-top: 30px;
+}
+.ltPad40 {
+	padding-left: 40px;
+}
+.lrMar30 {
+	margin: 0 30px;
+}
+.ltMarginNeg5 {
+	margin-left: -5px;
+}
+.padding15_10 {
+	padding: 15px 10px;
+}
+.ltMarginNeg185 {
+	margin-left: -185px
+}
+.btPad20 {
+	padding-bottom: 20px;
+}
+.btPad5 {
+	padding-bottom: 5px;
+}
+.btPad7 {
+	padding-bottom: 7px;
+}
+.rtPad50 {
+	padding-right: 50px;
+}
+.rtPad20 {
+	padding-right: 20px;
+}
+.rtPad15 {
+	padding-right: 15px;
+}
+.modalbdrTop {
+	border-top: 2px solid #b4b4b4;
+	padding-top: 15px;
+}
+.bottomBdr {
+	border-bottom: solid 1px #ccc;
+	padding-top: 10px;
+}
+.posAbsolute {
+	position: absolute;
+}
+.zIndx20 {
+	z-index: 20;
+}
+.topBdr {
+	border-top: 1px solid #CCCCCC;
+	padding-bottom: 10px;
+}
+.topBdrNoPad {
+	border-top: 1px solid #CCCCCC;
+}
+.nolineHt {
+	line-height: none
+}
+/*END of Common Styles SECTION */
+.rtMargin150 {
+	margin-right: 150px;
+}
+.rtPad7 {
+	padding-right: 7px;
+}
+.width275 {
+	width: 275px;
+}
+/* Style for NOn Spanish Landing Page Pop Up */
+
+.width740px {
+	width: 740px
+}
+.bigestTxt {
+	font-size: 150.7%;
+}
+.paperApplnMainBox {
+	width: 700px;
+}
+.paperApplnInLeft {
+	width: 200px;
+	float: left;
+}
+.paperApplnInLeft p {
+	padding-top: 5px;
+}
+.paperApplnInMiddle {
+	width: 250px;
+	float: left;
+}
+.paperApplnInRight {
+	width: 250px;
+	float: left;
+}
+.minHt150 {
+	min-height: 150px;
+}
+/* All Icons CSS starts*/
+.userIcon {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-top: 1px;
+	line-height: 14px;
+	vertical-align: text-top;
+	background: url("../images/glyphicons-halflings.png") no-repeat scroll -168px 0px transparent;
+}
+.pwIcon {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-top: 1px;
+	line-height: 14px;
+	vertical-align: text-top;
+	background: url("../images/glyphicons-halflings.png") no-repeat scroll -96px -120px transparent;
+}
+.logIcon {
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	margin-top: 1px;
+	line-height: 14px;
+	vertical-align: text-top;
+	background: url("../images/glyphicons-halflings.png") no-repeat scroll -286px -23px transparent;
+}
+.editIcon {
+	background: url("../images/glyphicons-halflings.png") no-repeat scroll 0 -72px transparent;
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+	margin-top: 1px;
+	vertical-align: text-top;
+	width: 14px;
+}
+.editIcon2 {
+	background: url("../images/glyphicons-halflings.png") no-repeat scroll -96px -72px transparent;
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+	margin-top: 1px;
+	vertical-align: text-top;
+	width: 14px;
+}
+.billsIcon {
+	background: url("../images/glyphicons-halflings.png") no-repeat scroll -168px -25px transparent;
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+	margin-top: 1px;
+	vertical-align: text-top;
+	width: 14px;
+}
+.historyIcon {
+	background: url("../images/glyphicons-halflings.png") no-repeat scroll -48px -25px transparent;
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+	margin-top: 1px;
+	vertical-align: text-top;
+	width: 14px;
+}
+.detailsIcon {
+	background: url("../images/glyphicons-halflings.png") no-repeat scroll -360px -49px transparent;
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+	margin-top: 1px;
+	vertical-align: text-top;
+	width: 14px;
+}
+.refreshIcon {
+	background: url("../images/glyphicons-halflings.png") no-repeat scroll -216px -25px transparent;
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+	margin-top: 1px;
+	vertical-align: text-top;
+	width: 14px;
+}
+.removeIcon {
+	background: url("../images/glyphicons-halflings.png") no-repeat scroll -457px 0 transparent;
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+	margin-top: 1px;
+	vertical-align: text-top;
+	width: 14px;
+}
+.logoutIcon {
+	background: url("../images/glyphicons-halflings.png") no-repeat scroll -385px 0 transparent;
+	display: inline-block;
+	width: 8px;
+	height: 14px;
+	margin-top: 0px;
+	line-height: 14px;
+	vertical-align: text-top;
+}
+.msgIcon {
+	background: url("../images/glyphicons-halflings.png") no-repeat scroll -72px 0 transparent;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-top: 3px;
+	line-height: 14px;
+	vertical-align: text-top;
+}
+.arrowIcon {
+	background:url("../images/glyphicons-halflings.png") no-repeat scroll -264px -99px transparent;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin: 2px 10px 0px 10px;
+	line-height: 14px;
+	vertical-align: text-top;
+}
+/* All Icons CSS ends*/
+
+/* Table Pager Styles*/
+
+.dash table
+{
+	border-top:solid 1px #cccccc;
+	border-right:solid 1px #cccccc;
+	width:100%;
+	margin-top:10px;
+	font-size:12px;
+}
+.dash td
+{
+	border-bottom:solid 1px #cccccc;
+	border-left:solid 1px #cccccc;
+	vertical-align:top;
+}
+.dash th 
+{
+	border-bottom:solid 1px #cccccc;
+	border-left:solid 1px #cccccc;
+	background: url("../images/Header_bg.png") repeat-x bottom left transparent;
+	color:#0277AC;
+	white-space:normal;
+	vertical-align:top;
+	text-align:left;
+	padding-left:3px;
+	padding-right:15px;
+}
+.pager input[type=text] 
+{
+	width:30px;
+	margin-right:10px;
+}
+.pager img 
+{
+	margin-right:10px;
+	margin-bottom:-5px;
+}
+.pagesize
+{
+	margin-left:5px;
+}
+.perPage
+{
+	margin-left:5px;
+	margin-right: 200px;
+}
+div.tablesorterPager {
+	padding: 10px 0 10px 0;
+	background-color: #D6D2C2;
+	text-align: center;
+}
+div.tablesorterPager span {
+	padding: 0 5px 0 5px;
+}
+div.tablesorterPager input.prev {
+	width: auto;
+	margin-right: 10px;
+}
+div.tablesorterPager input.next {
+	width: auto;
+	margin-left: 10px;
+}
+div.tablesorterPager input {
+	width: 50px;
+	border: 1px solid #330000;
+	text-align: center;
+}
+
+/* tables sorter */
+table.tablesorter {
+	font-family:arial;
+	/*background-color: #CDCDCD;*/
+	margin:10px 0 15px;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead
+{
+	background: url("../images/Header_bg.png") repeat-x scroll 0 0 transparent;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	/*background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;*/
+	
+}
+table.tablesorter thead tr .header {
+	background-image:url("../images/bg.gif");
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#f3f3f3;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image:url("../images/asc.gif")
+	background-position:center right;
+	background-repeat:no-repeat;
+	color:#ffffff;
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url("../images/desc.gif");
+	background-position:center right;
+	background-repeat:no-repeat;
+	color:#ffffff;
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #0277AC;
+}
+.odd
+{
+	background-color:#F0F0F6;
+}
+
+/* End of Table Pager Styles*/
+

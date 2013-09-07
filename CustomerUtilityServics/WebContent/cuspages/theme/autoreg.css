@@ -1,0 +1,67 @@
+/* -----------------------------------
+Site:Florida Power & Light Company, Inc.
+CSS author: Web Services Team
+Updated: 
+Updated by: 
+----------------------------------- */
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> 
+
+#autoOnlineContainer{ font:Verdana, Geneva, sans-serif; widht:984px;} 
+#autoBold{font-weight:bold;}
+#autoOnlineMain{background:url("/fplcommon/wrapper/1024images/Autobckgrnd.jpg") no-repeat; width:984px; height:280px; padding-left:30px;}
+#autoOnlineMainHeader{color:#006dd0; font-size:30px; font-weight:bold;padding-top:25px;width:700px;}
+.autoOnlineCaption{color:#484848; font-size:15px;padding-top:10px;width:600px;}
+#autoOnlineSmallCaption{color:#484848; font-size:12px;padding-bottom:15px;width:650px;}
+#autoSteps{padding-bottom:10px}
+.autonOnlineList{width:600px;}
+.autoOnlineListHeader{color:#006dd0; font-size:14px;}
+.autoOnlineDetail{color:#484848; font-size:14px;}
+.autoOnlineItalic{font-style:italic; font-size:11px;color:#484848;}
+#autoOnlineLeft{width:709px;float:left;margin-left:2px}
+#iFrame{width:709px;float:left; height:600px;}
+#autoOnlineRight{width:247px;height:255px;border:1px solid #dee1e3;float:left;margin-left:20px; padding-top: 10px;margin-top: 5px;}
+#autoOnlineRightLeft{float:left;background:url("/fplcommon/wrapper/1024images/clipboard.jpg") no-repeat;width:28px; height:30px;margin-left:15px;}
+#autoOnlineRightTitle{float:left;font-size:14px; font-weight:bold; padding: 5px 0 10px 10px;}
+#autoOnlineRight ul {padding-left:18px;}
+#autoOnlineRight ul li { list-style-image:url("/fplcommon/wrapper/1024images/blueCheck.gif"); font-size:12px;list-style-position: outside;line-height: 2.0em;}
+#autoRightTop{background:url("/fplcommon/wrapper/1024images/autoPoints.png") no-repeat; width:248px; height:48px;}
+#autoRightBottom{background-color: #f1f2f3;padding-top:5px;height:202px;}
+.autoRightsubTitle {font-size: 12px;}
+.textWhite{color:#FFF;}
+.autoSmallCaption {font-size: 11px;}
+.morelink { background: url("/fplcommon/wrapper/1024images/blue_arrow.gif") no-repeat  ; color:#0069b3;}
+.morelink a{padding-left:15px;}
+.contentWidth{text-align:left;width:653px;}
+.headerWidth{text-align:left;font-size:12px; cursor:default;}
+.Catnocursor{cursor:default;}
+ol,li #autoOnlineContainer{ margin-left: 10px;text-align: left;font-size:12px}
+li {  font-size:12px;text-align:left;}
+.tabContainer {width:705px;}
+.blueContentNoTab#firstTabDiv { border:1px solid #0090d3; height:auto!important; }
+*:first-child+html .blueContentNoTab#firstTabDiv { display:inline-block; width:653px; padding:20px 25px; border:1px solid #0090d3; position:relative; height:auto!important; }
+*:first-child+html .blueContentNoTab#firstTabDiv #apptNote { display:inline-block; position:relative; height:auto!important; }
+
+.blueContentNoTab#secondTabDiv { border:1px solid #0090d3; height:auto!important; }
+*:first-child+html .blueContentNoTab#secondTabDiv { display:inline-block; width:653px; padding:20px 25px; border:1px solid #0090d3; position:relative; height:auto!important; }
+*:first-child+html .blueContentNoTab#secondTabDiv #apptNote { display:inline-block; position:relative; height:auto!important; }
+
+*:first-child+html .blueContentNoTab { display:inline-block; width:653px; padding:20px 25px; border:1px solid #0090d3; position:relative; height:auto!important; }
+*:first-child+html .blueContentNoTab #apptNote { display:inline-block; position:relative; height:auto!important; }
+
+.blueContentNoTab#thirdTabDiv { border:1px solid #0090d3; height:auto!important; }
+*:first-child+html .blueContentNoTab#thirdTabDiv { display:inline-block; width:653px; padding:20px 25px; border:1px solid #0090d3; position:relative; height:auto!important; }
+*:first-child+html .blueContentNoTab#thirdTabDiv #apptNote { display:inline-block; position:relative; height:auto!important; }
+
+span.hint_error { display:none; position:relative; left:15px; top:0px; height:20px; z-index:50; }
+span.hint_error b { margin:0px; padding:0px; position:absolute; top:0px; font-weight:bold; color:#cc0000;
+width:215px; margin:0px 0 0 0 -10px; background-color:#fff; padding:0px;  border:1px solid #cc0000;
+border-radius:5px; 
+-moz-border-radius:5px; 
+-webkit-border-radius:5px; 
+padding:7px 20px;
+background:#ffecec url("/fplcommon/wrapper/1024images/pointer_error.gif") no-repeat -10px 5px; }
+span.hint_error .hint_error-pointer { position:absolute; left:-19px; top:5px; width:10px; height:19px; background:url("/fplcommon/wrapper/1024images/pointer_error.gif") left top no-repeat; z-index:100; }

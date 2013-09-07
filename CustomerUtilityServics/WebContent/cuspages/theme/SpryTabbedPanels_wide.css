@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.TabbedPanels { margin-top:0px; float:left; background:url("../images/big_back.gif") repeat-x top left; width:640px; line-height:12px; }
+.TabbedPanelsTabGroup { margin:0px 0 0 0; padding:0px 0 0 0; list-style:none; }
+.TabbedPanelsTab { display:block; float:left; height:35px; background:url("../images/big_tabs.gif") no-repeat left top; position:inherit; top:1px; margin:0; padding:0 0 0 9px; color:#004275; font-family:Arial, Helvetica, sans-serif; font-size:12px; }
+.TabbedPanelsTabHover { float:left; background:url("../images/big_tabs.gif") no-repeat left -35px; margin:0; padding:0 0 0 9px; color:#004275; }
+.TabbedPanelsTab a { display:-moz-inline-block; display:inline-block; background:url("../images/big_tabs.gif") no-repeat right top; padding:5px 20px 5px 6px; text-transform:uppercase; text-decoration:none; font-weight:bold; color:#004275; }
+.TabbedPanelsTab a:hover { background:url("../images/big_tabs.gif") no-repeat right -35px; color:#004275; }
+.TabbedPanelsTabSelected { background:url("../images/big_tabs.gif") no-repeat left -35px; }
+.TabbedPanelsTabSelected a { background:url("../images/big_tabs.gif") no-repeat right -35px; color:#004275; }
+.TabbedPanelsContentGroup { clear:both; border-left:solid 1px #cccccc; border-bottom:solid 1px #cccccc; border-right:solid 1px #cccccc; margin:12px 0; *margin:0; background-color:#FFFFFF; color:#525252; font-family:Arial, Helvetica, sans-serif; font-size:12px; }
+.TabbedPanelsContent { padding:5px 15px; line-height:17px; }
+.TabbedPanelsContentVisible { }
+

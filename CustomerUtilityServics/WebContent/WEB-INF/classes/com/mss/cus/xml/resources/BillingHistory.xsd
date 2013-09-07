@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Wed Aug 21 2013 14:19:58 GMT-0400 (Eastern Daylight Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="BillingHistory">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="AccountInfo">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="AccountNumber" type="xs:int"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="BillingInfo">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="Billing" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="BillDate" type="xs:string"></xs:element>
+                                                               <xs:element name="EndingBalance" type="xs:string"></xs:element>
+                                                               <xs:element name="Counter" type="xs:int"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>

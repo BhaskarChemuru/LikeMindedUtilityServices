@@ -1,0 +1,351 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+/*generic (reusable) ECC styles*/
+
+.whiteBox{background:#ffffff; border:1px solid #c4c7c8; padding:15px;}
+.whiteBox h3{font-size:14px;}
+.whiteBox p, .whiteBox input{font-size:11px;}
+
+
+
+
+ul.liBlue {list-style: none outside none; margin: 0; padding: 0;}
+.liBlue li {border-bottom: 2px solid #CCE0F5; padding: 5px 0; width: 100%;}
+.liBlue li.first {padding-top: 0;}
+.liBlue li.last {border-bottom: 0 none;}
+
+.dollar span {display: inline-block; float: left; font-size: 24px; padding: 0 5px 20px;}
+
+.eccTable {border-collapse: collapse; font-size: 12px; margin: 5px auto; text-align: left; width: 85%;}
+.eccTable td, .eccTable th {padding: 3px 8px;}
+.eccTable td.fontLg {font-size: 14px;  padding-bottom: 10px;}
+.eccTable a{font-size:12px;}
+
+.bordertop {border-top: 2px solid #CCE0F5; padding-top: 5px !important;} 
+
+/*ecc global  styles adjustments */
+div.buttonNew img.lock {float: left; width: 17px;}/*pay button*/
+
+.blueBox.gradtop{background:url("/fplcommon/wrapper/1024images/bg-blueboxtop.png") repeat-x scroll 0 0 #E8F1FA; border:0; overflow:hidden; padding:5px 10px; margin-bottom:20px;}/*bluebox*/
+
+.onlineBill .formFieldset {margin-bottom: 50px;}/*fieldset*/
+
+.onlineBill .helpQM {background: url("/fplcommon/wrapper/1024images/solar_questionMark.gif") no-repeat scroll 0 0 transparent;}/*help icon*/
+
+.ui-selectmenu-menu li a, .ui-selectmenu-status, .ui-selectmenu span {font-size: 11px; color:#666666;}/*select dropdown font*/
+.ui-selectmenu-open li.ui-selectmenu-item-focus a { color:#005198; font-weight:normal; }
+
+.blueMid p{font-size:11px;}/*help bubble p text size adjustment*/
+
+
+.button.noarrow a:hover, .buttonNew.noarrow a:hover {color: #FFFFFF; text-decoration: none;} /*button hover state*/
+
+
+
+
+/*ecc online bill frameset*/
+ul.obSections{margin:0; padding:0; list-style:none outside none; overflow:hidden;}
+.obSections li{float:left; margin-right:10px;}
+.obSections li.rt{margin-right:0; width:210px;}
+.obSections li.ct{width:585px;}
+.obSections li.lt{width:155px; border-top:2px solid #006dcc;}
+
+.obSections li.lt h3{color: #006AB6; font-size: 16px;}
+.obSections li.lt p{font-size:12px;}
+.obSections li.lt input{color:#4b4b4b;}
+
+.obSections li.rt .whiteBox {margin-bottom: 20px;}
+
+/*ecc alerts (reusable)*/
+#alerts{float:right; width:170px; margin:5px 0;}
+#alerts span.alertclose {cursor: pointer; float: right; font-size: 15px; margin: -5px -3px;}
+
+
+/*ecc NAV MENU */
+#obMenu p#account {display:inline-block; position:relative; top:2px; left:0;}
+#obMenu { position:relative; float:left; width:100%; margin:0 0 10px; width:970px; background:#ffffff;}/*nav container*/
+
+#obMenu.sticky {position: fixed; top: 0; z-index:1000; width:970px; /*height:230px;*/}
+#obMenu #arrow.billPos {left:265px}
+#obMenu #arrow.accPos {left:458px}
+#obMenu #arrow.energyPos {left:650px}
+
+ul#obNav {list-style:none; width:100%; background-color:white; margin:-25px 0 0; padding: 0 175px;}
+ul#obNav li{margin:0px; float:left; text-align:center; position:relative; line-height:30px;}
+ul#obNav li a{text-decoration:none; display:block; position:relative; padding:0px 10px 20px;; font:bold 14px/14px Verdana; color:#006dcc; width:172px;}
+
+
+#obMenu #arrow { width:16px; height:13px; position:absolute; top:34px; z-index:100; background:url('/fplcommon/wrapper/1024images/smbNav_arrowDownWht.gif') no-repeat; border:none; }
+#nav-one #arrow { display:block; left:162px;}
+#nav-two #arrow { display:block; left: 453px; }
+#nav-three #arrow { display:block; left: 654px; }
+
+
+/*ecc Form fields */
+.onlineBill .displayField {color: #4B4B4B;}
+.onlineBill .displayField.blueFont {color: #006DCC;}
+.onlineBill .displayField.fontLg, .onlineBill label.fontLg{font-size: 14px; font-weight: bold;}
+.onlineBill .displayField.xxsmall {width: 20px;}
+.onlineBill .displayField.small, .onlineBill .displayField.medium{background:none;}/*IE 7 app standards override */
+
+.onlineBill .formLabel.fontNormal, .onlineBill input.fontNormal {font-weight: normal; font-size:12px;}
+
+.obSections #acctInfoNum, .obSections #meterNum {width: 100px;}
+
+.onlineBill #billdate-button.ui-selectmenu.large {display: inline-block;}
+.onlineBill #billdate {float: left; padding: 3px 5px 3px 0;}
+
+/*ecc online bill  My Bill Blue Container Section */
+
+#myBill.formFieldset {margin-bottom: 20px;}
+
+.myBillTxt {float: left; padding: 15px 20px 25px 160px;}
+.myBillTxt p {font-size: 14px; line-height: 18px;}
+.myBillTxt p input{color:#4b4b4b; font-size:14px;}
+.myBillTxt h1{background:transparent; color:#000000; margin-bottom:5px;}
+.myBillTxt h1 label, .myBillTxt h1 input {font-size: 26px; font-weight: normal; }
+
+.myBillTxt #newChargeAmount, .myBillTxt #newChargeDate {width: 125px; color:#000000;}
+
+
+/*ecc online bill  My Bill Fieldset Section */
+
+ul.custInfo {list-style:none; margin:0; padding:0;}
+ul.custInfo li {float: none; border-bottom:0;}
+.custInfo div#viewBtn1 {float: right; margin: 0 0 5px;} 
+.paywaylink{text-align:right;}
+
+#newcharge .formLabel.helpTip {margin-left: 10px;} /*move out helptip icons to allow font resizing*/
+
+
+#myBillCont p.newCharge {color: #000000; font-size: 18px; margin-top: 10px;}
+#myBillCont p.newCharge span {color: #006AB6; margin-right: 30px; display:inline-block;}
+#myBillCont #newChargeDate2, #myBillCont #prevAmntDate{font-size: 16px; width: 100px;}
+#myBillCont #prevAmnt {width:100px;}
+#myBillCont #payExtBal {text-align: center; width: 82px;}
+#myBillCont #payways{text-align:right;}/*IE7*/
+#myBillCont .printview{font-size: 10px; margin-right: 5px; float:right; clear:both;}
+
+#myBillCont ol.tier1 {width:100%;}
+#myBillCont .tier1 li {font-size: 16px; padding-left:50px; padding-top:0;}
+#myBillCont .tier1 label{font-size: 16px;}
+#myBillCont .tier1 input.floatRight {font-size: 16px; font-weight: bold; text-align: right;}
+#myBillCont .tier1 li.expand {background: url("/fplcommon/wrapper/1024images/icon-plus-blue.gif") no-repeat scroll -11px -11px transparent; cursor:pointer;}
+#myBillCont .tier1 li.expand.minus {background: url("/fplcommon/wrapper/1024images/icon-minus-blue.gif") no-repeat scroll -11px -11px transparent; cursor: pointer;}
+#myBillCont .tier1 li.underline, #myBillCont .tier1b li.underline{border-bottom: 2px solid #006DCC; padding-bottom: 5px;}
+#myBillCont ol.tier2 li{font-size: 12px;}
+#myBillCont ol.tier2 li {cursor: default; padding-left: 0;}
+#myBillCont ol.tier2 li label{font-size: 12px; font-weight:normal;}
+#myBillCont .tier2 input.floatRight {font-size: 12px; font-weight: normal;}
+#myBillCont ol.tier3 li{}
+#myBillCont ol.tier3 li input{clear:none;}/*IE 7 tier 3 list item spacing*/
+#myBillCont ol.tier3 {padding-left: 50px;  padding-right: 100px; padding-bottom:10px;}
+
+
+/*ecc online bill Comparisons Fieldset Section */
+
+#comparisons ul.obSections li.lt{border-top:1px solid #000000;}
+#comparisons ul.obSections li.lt h3{font-size:14px; color:#4b4b4b;}
+#comparisons input#meterRead {width: 50px;}
+#comparisons hr {border: 0; border-bottom: 1px solid #999999; clear: both; display: block; height: 0; margin: 0 auto 10px; width: 100%; padding:0;}
+#comparisons .eccTable hr {border-bottom: 1px solid #4b4b4b; margin-top: 10px;}
+
+
+
+/*ecc online bill Account History Fieldset Section */
+#history .tabContent {width: 565px; height:150px; overflow:auto;}
+
+.historyChart input.historyAmnt, .historyChart input.historyMth {font-weight:normal; font-size: 12px;}
+#tabPayments.historyChart input.historyAmnt{padding-right:0;}
+
+
+/*ecc online bill iframe */
+#onlineBillDyn {min-height:1250px; width:100%}
+
+/*ecc Bottom Menu */
+ul.bottomMenu{list-style:none outside none; margin:20px 0 0; padding:0; border-top:3px solid #49ab07; overflow:hidden;}
+.bottomMenu li{float:left; padding:15px 10px 20px 33px; width:270px; background:url("/fplcommon/wrapper/1024images/ecc-bottomMenu.png") no-repeat 0 0;}
+.bottomMenu li h4{font-size:14px; margin:0 0 5px;}
+.bottomMenu li p{font-size:12px;}
+.bottomMenu li.house{background-position:0 20px; padding-left:40px;}
+.bottomMenu li.bulb{background-position:0 -62px;}
+.bottomMenu li.money{background-position:0 -144px;}
+
+
+/*================= EMAIL Styles =====================*/
+
+a.readmore {background: url("http://webtest.fpl.com/business/images/smb_arrow_round_blue.gif") no-repeat scroll left center transparent; padding-left: 16px;}
+
+#emailSimulation{width:710px; padding:20px; border:1px solid #cccccc; margin:0 auto;}
+#emailHeader{overflow:hidden;}
+#emailHeader ul.menu{margin:0; padding:0; list-style:none;}
+#emailHeader .menu li{float:left;}
+#emailHeader .menu li a{padding:5px 10px; font-size:10px;}
+
+#emailHeader ul.custinfo{margin:0 50px; padding:0; list-style:none; float:right;}
+#emailHeader ul.custinfo li{ font-size:10px; line-height:12px;}
+#emailHeader ul.custinfo li.email {padding-top: 8px;}
+
+#emailBody{text-align:left; position:relative;}
+#emailBody h3 {display:inline-block; font-size:13px; padding-top:15px;}
+
+#emailBody h3 span {color: #999999; font-weight: normal; display:inline-block;}
+
+#emailBody #viewBtn1 {margin-right: 105px;}
+#emailBody #print {font-size: 10px; position: absolute; right: 10px; top: 18px;}
+
+#emailbox{margin:8px 0; padding:20px 20px 25px;}
+#emailbox h1 {background: none; font-size: 28px; font-weight: normal; margin-bottom:5px;}
+#emailbox p {font-size: 14px;}
+#emailbox ul {list-style: none outside none; width: 230px;}
+#emailbox li {font-size: 10px;}
+#emailbox li.first {padding:0 0 15px 25px; background: url("/fplcommon/wrapper/1024images/icon-lock-gray.gif") no-repeat scroll 0 0 transparent;}
+#emailbox span.viewbill{display:inline-block; margin:25px 20px 5px 10px; font-size:10px;}
+
+#chargesList {list-style: none outside none; margin: 0; padding: 0; width: 440px;}
+#chargesList li {border-top: 2px solid #CCE0F5; font-size: 16px; line-height: 18px;}
+#chargesList li.first {border-top: medium none;}
+#chargestList span.floatRight {text-align: right;}
+#chargesList #payBtn2 {float: right; width: 110px;}
+
+
+#emailBody p.dollar {font-size: 10px; margin: 15px 10px 40px; padding-left:35px; padding-bottom:5px; background:url("/fplcommon/wrapper/1024images/icon-dollar-block.gif") no-repeat 0 1px;}
+#emailBody p.dollar b {font-size: 12px;}
+
+
+#emailSimulation ul.bottomMenu li{width:185px; padding:15px 10px 0 40px; margin-bottom:25px;}
+#emailSimulation ul.bottomMenu li h4{font-size:11px;}
+#emailSimulation ul.bottomMenu li p{font-size:10px;}
+
+
+#emailFooter{border-top:1px solid #49AB07; clear:both; padding:10px 0;}
+#emailFooter p{font-size:10px;}
+#emailFooter ul{margin:0; padding:0; list-style:none;}
+#emailFooter li{float:left; font-size:10px;}
+#emailFooter li a{padding:5px;}
+
+.serviceDateDrop a#doDate {
+    background: url("/fplcommon/wrapper/1024images/dropDown.gif") no-repeat scroll left top transparent;
+    height: 23px;
+    margin: 0;
+}
+.serviceDateDrop a, .serviceDateDrop a:visited {
+    border: 0 none;
+    color: #4B4B4B;
+    display: block;
+    font: 10px Verdana;
+    height: 18px;
+    margin-left: 3px;
+    padding-left: 7px;
+    text-decoration: none;
+    text-transform: none;
+    width: 340px;
+}
+.serviceDateDrop .toplevel {
+    border-bottom: 0 none;
+    padding-top: 5px;
+}
+ul.doDateList li {
+
+    padding-top: 5px;
+}
+
+.serviceDateDrop li:hover > a {
+    color: #006AB6;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+.serviceDateDrop li ul.doDateList {
+    left: -3px;
+    position: absolute;
+    top: 19px;
+    visibility: hidden;
+}
+* html .serviceDateDrop li ul.doDateList {
+    left: -3px;
+    position: absolute;
+    top: 20px;
+    visibility: hidden;
+}
+.serviceDateDrop li:hover > ul {
+    visibility: visible;
+}
+.serviceDateDrop ul a:hover ul ul {
+    visibility: hidden;
+}
+.serviceDateDrop ul a:hover ul a:hover ul ul {
+    visibility: hidden;
+}
+.serviceDateDrop ul a:hover ul a:hover ul a:hover ul ul {
+    visibility: hidden;
+}
+.serviceDateDrop ul a:hover ul {
+    visibility: visible;
+}
+#doingBusFPL .serviceDateDrop {
+    padding-top: 0;
+    position: relative;
+    width: 340px;
+    z-index: 990;
+}
+.serviceDateDrop {
+    font: 10px Verdana;
+}
+.clearfix:after, #Banner:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+.serviceDateDrop .clearfix {
+    margin: 0;
+    padding: 0;
+    width: 340px;
+}
+.serviceDateDrop ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 340px;
+    z-index: 500;
+}
+.serviceDateDrop {
+    display:inline-block;
+    height: 23px;
+    margin: 0;
+}
+.serviceDateDrop a.first-child {
+    background: url("https://apptest.fpl.com/fplcommon/wrapper/1024images/dropDown_top.gif") no-repeat scroll left top transparent;
+    margin-top: 0;
+    padding-top: 5px;
+}
+.serviceDateDrop a.child {
+    background: url("https://apptest.fpl.com/fplcommon/wrapper/1024images/dropDown_middle.gif") no-repeat scroll left top transparent;
+    margin-top: 0;
+}
+.serviceDateDrop a.last-child {
+    background: url("https://apptest.fpl.com/fplcommon/wrapper/1024images/dropDown_bottom.gif") no-repeat scroll left bottom transparent;
+    margin-top: 0;
+}
+#selectedDate {position: absolute; z-index: 600;padding-top:8px;padding-left:5px;}
+
+ul.doDateList li.nopaddingli {
+    padding-top: 0px;
+}

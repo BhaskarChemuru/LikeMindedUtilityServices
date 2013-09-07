@@ -1,0 +1,346 @@
+/* MAIN PAGE */
+#app { width:780px; }
+#app input.app_input, input.app_input_sm, input.app_input_small { height:20px; float:left; }
+#app select { height:25px; width:259px; float:left; margin-left:0px; *line-height:25px; }
+#shadowbox #app select { height:25px; width:255px; float:left; margin-left:0px; *line-height:25px; }
+#app h1.leftFloat, #app h2.leftFloat { float:left; }
+#app #innerapp { padding:20px; }
+
+#hrTop { clear:both; background:url("https://apptest.fpl.com/fplcommon/wrapper/1024images/hrTop.gif") repeat-x; width:770px; padding-top:10px; }
+#app #hrMid { clear:both; background:url("https://apptest.fpl.com/fplcommon/wrapper/1024images/hrTop.gif") repeat-x; width:770px; padding-top:10px; margin-bottom:-30px; }
+#app #hrBottom { border-bottom:2px solid #cccccc; width:770px; padding-bottom:10px; }
+
+#app #topText { padding:50px 0px 10px 0px; }
+#app #btnHr { border-bottom:2px solid #cccccc; width:770px; padding-bottom:10px; }
+/** html #app #btnHr { border-bottom:2px solid #cccccc; width:770px; padding-bottom:10px; margin-bottom:30px; }*/
+* html #app #firstNameSection { padding-top:20px; }
+#app #checkMsg { background:url("https://apptest.fpl.com/fplcommon/wrapper/1024images/appInteract_BG.gif") no-repeat; margin: 0px 0pt 0pt 0px; padding:5px 10px; font-size:12px; line-height:25px; height:35px; width:367px; }
+#app #checkMsg b, #app #checkMsg span { float: left; }
+#app #checkMsg input { float: left; width: 25px; margin-top:4px; }
+#app .appRtBtn { float:right; margin:0 0 0 10px; }
+#checkMsgAR { background:url("https://apptest.fpl.com/fplcommon/wrapper/1024images/appInteractLg_BG.gif") no-repeat; margin: 0px 0pt 0pt 0px; padding:5px 10px; height:55px; }
+lookUpFields, moreFields { width:780px; }
+
+.title { float:left; height:23px; font-weight:bold; padding:4px 10px 0 0; }
+.between { padding:5px 10px; float:left; }
+.image { display:hidden; float:left; height:20px; background-repeat:no-repeat; margin-left:10px; padding-left:30px; }
+.help { display:none; float:left; width:326px; height:44px; background:url("https://apptest.fpl.com/fplcommon/wrapper/1024images/help_BG.gif") no-repeat; margin-left:10px; padding:5px 20px; color:#0066cc; }
+a img { vertical-align:bottom; }
+.disableField, .disableField .title { color:#CCC; }
+.blueText { color:#0066cc; }
+
+/* All form elements are within the definition list */
+dl { font:bold 12px/15px Verdana; position:relative; width:780px; text-align:left; }
+dt { clear:both; float:left; width:770px; padding:4px 0 2px 0; text-align:left; position:relative; }
+dd { float:left; width:780px; margin:0 0 15px 0; padding-left:0px; text-align:left; }
+
+/* Main pages --> The hint to Hide and Show */
+span.hint { display:none; position:relative; left:15px; top:0px; height:20px; z-index:50; }
+span.hint b { margin:0px; padding:0px; position:absolute; top:0px; font-weight:bold; color:#0066cc; font-size:12px;
+width:400px; margin:0px 0 0 0; background-color:#fff; padding:0px;  border:1px solid #3196d8;
+border-radius:5px; 
+-moz-border-radius:5px; 
+-webkit-border-radius:5px; 
+padding:7px 20px;
+background:#EEF7FF url("https://apptest.fpl.com/fplcommon/wrapper/1024images/pointer.gif") no-repeat -10px 5px; }
+span.hint .hint-pointer { position:absolute; left:-9px; top:5px; width:10px; height:19px; background:url("https://apptest.fpl.com/fplcommon/wrapper/1024images/pointer.gif") left top no-repeat; z-index:100; }
+
+/* Main pages --> The hint to Hide and Show */
+span.hint_error { display:none; position:relative; left:15px; top:0px; height:20px; z-index:50; }
+span.hint_error b { margin:0px; padding:0px; position:absolute; top:0px; font-weight:bold; color:#cc0000;
+width:400px; margin:0px 0 0 0; background-color:#fff; padding:0px;  border:1px solid #cc0000; font-size:12px;
+border-radius:5px; 
+-moz-border-radius:5px; 
+-webkit-border-radius:5px; 
+padding:7px 20px;
+background:#ffecec url("https://apptest.fpl.com/fplcommon/wrapper/1024images/pointer_error.gif") no-repeat -10px 5px; }
+span.hint_error .hint_error-pointer { position:absolute; left:-9px; top:5px; width:10px; height:19px; background:url("https://apptest.fpl.com/fplcommon/wrapper/1024images/pointer_error.gif") left top no-repeat; z-index:100; }
+
+#lastFields span.hint { margin-left:20px; margin-top:-5px; }
+#lastFields span.hint b { width:300px; }
+#lastFields span.hint_error { margin-left:20px; margin-top:-5px; }
+#lastFields span.hint_error b { width:300px; }
+#lastFields .image { display:none; position:absolute; float:left; height:20px; background-repeat:no-repeat; margin-left:-1px; padding-left:30px; }
+#lastFields .imageErr { display:inline; position:absolute; float:left; height:20px; background:url("https://apptest.fpl.com/fplcommon/wrapper/1024images/app_X.gif") no-repeat; margin-left:-1px; padding-left:30px; }
+#lastFields .imageOk { display:inline; position:absolute; float:left; height:20px; background:url("https://apptest.fpl.com/fplcommon/wrapper/1024images/app_Check.gif") no-repeat; margin-left:-1px; padding-left:30px; }
+
+
+
+/* Shadowbox pages --> The hint to Hide and Show */
+#shadowbox span.hint { display:none; position:relative; left:10px; *left:15px; top:0px; height:20px; z-index:50; }
+#shadowbox span.hint b { margin:0px; padding:0px; position:absolute; top:0px; font-weight:bold; color:#0066cc;
+width:320px; margin:0px 0 0 0; background-color:#fff; padding:0px;  border:1px solid #3196d8;
+border-radius:5px; 
+-moz-border-radius:5px; 
+-webkit-border-radius:5px; 
+padding:7px 20px;
+background:#EEF7FF url("https://apptest.fpl.com/fplcommon/wrapper/1024images/pointer.gif") no-repeat -10px 5px; }
+#shadowbox span.hint .hint-pointer { position:absolute; left:-9px; top:5px; width:10px; height:19px; background:url("https://apptest.fpl.com/fplcommon/wrapper/1024images/pointer.gif") left top no-repeat; z-index:100; }
+
+#shadowbox #searchTypeHelpDisplay { left:10px; width:300px; }
+
+/* Shadowbox pages --> The hint to Hide and Show */
+#shadowbox span.hint_error { display:none; position:relative; left:10px; /*left:-30px;*/ *left:15px; top:0px; height:20px; z-index:50; }
+#shadowbox span.hint_error b { margin:0px; padding:0px; position:absolute; top:0px; font-weight:bold; color:#cc0000;
+width:320px; margin:0px 0 0 0; background-color:#fff; padding:0px;  border:1px solid #cc0000;
+border-radius:5px; 
+-moz-border-radius:5px; 
+-webkit-border-radius:5px; 
+padding:7px 20px;
+background:#ffecec url("https://apptest.fpl.com/fplcommon/wrapper/1024images/pointer_error.gif") no-repeat -10px 5px; }
+#shadowbox span.hint_error .hint_error-pointer { position:absolute; left:-9px; top:5px; width:10px; height:19px; background:url("https://apptest.fpl.com/fplcommon/wrapper/1024images/pointer_error.gif") left top no-repeat; z-index:100; }
+
+/* The hint to Hide and Show --> Main .shtml pages - bottom */
+.hintB { z-index:50; color:#0066cc; position:absolute; display:none; bottom:52px; right:-5px; *right:-9px; width:420px; margin:0px 0 0 0; background-color:#fff; padding:0px;  border:1px solid #3196d8; 
+border-radius:5px; 
+-moz-border-radius:5px; 
+-webkit-border-radius:5px; 
+padding:7px 20px; 
+background-color:#EEF7FF;
+/* to fix IE6, duplicate pointer.gif image position so it doesn't show up within the box */
+/*background:#EEF7FF url("https://apptest.fpl.com/fplcommon/wrapper/1024images/pointerB.gif") no-repeat 345px 170px; *background:#EEF7FF url("https://apptest.fpl.com/fplcommon/wrapper/1024images/pointerB.gif") no-repeat 345px 168px;*/ }
+/* The pointer image is added by using another span */
+.hintB .hintB-pointer { position:absolute; left:180px; top:169px; *top:168px; width:19px; height:10px; background:url("https://apptest.fpl.com/fplcommon/wrapper/1024images/pointerB.gif") left top no-repeat; }
+
+dd#bottomHelp_dd { margin-left:10px; }
+
+/*span.error { display:none; font-weight:normal;  margin-left:10px; margin-top:4px; *margin-top:8px; }*/
+span.error { display:none; position:relative; left:2px; bottom:0px; height:20px; color:#FF0000; z-index:20; }
+span.error p { margin:0px; padding:0px; position:absolute; bottom:0px; width:550px; font-weight:normal; color:#FF0000; }
+
+/*span.error { display:none; font-weight:normal; color:#FF0000; position:absolute; bottom:10px; left:230px; }*/
+span.errorTerms { display:none; font-weight:normal; color:#FF0000; }
+input.app_input { width:255px; float:left; *z-index:10; }
+input.app_input_md { width:170px; float:left; }
+input.app_input_sm { width:115px; float:left; }
+input.app_input_xs { width:30px; float:left; }
+
+#lastFields dt { height:15px; line-height:15px; }
+#lastFields dt img#bottomHelp { vertical-align:text-bottom; margin-top:-19px; *margin-top:-5px; }
+#lastFields dd { height:15px; line-height:15px; margin:0px 0 0 0; }
+
+#embProgram { width:15px; margin:0px 5px 0 0; *margin-top:14px; }
+#embProgram span { padding:5px 0; float:left; }
+#bottomHelp { margin-left:8px; vertical-align:text-top; }
+#termsAndConditions { width:15px; margin-right:5px; }
+#termsAndConditions span { float:left; }
+
+body:first-of-type #termsAndConditionsImageDisplay.image { margin-top:-18px; margin-left:365px; }
+
+#activateButton { margin-top:40px; }
+
+/* SHADOWBOX - Version 2.2 */
+#shadowBox { margin:0px; background-color:#ffffff; overflow:hidden;
+padding:0px; border:2px solid #FFFFFF;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+
+#shBoxHeader { height:41px; background:url("https://apptest.fpl.com/fplcommon/wrapper/1024images/app_shboxHead_BG.gif") repeat-x; padding:5px 0; vertical-align:middle;
+border-top-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-webkit-border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+-webkit-border-top-right-radius: 5px;
+}
+#shBoxHeader h1 { float:left; display:inline; margin:10px 0 0 20px; background:none; }
+#shBoxHeader h2 { float:left; display:inline; margin:10px 0 0 20px; }
+#shBoxHeader .button { float:right; width:58px; margin:10px 40px 0 0;}
+#shBoxHeader #head { width:760px; } 
+
+#shadowbox #app { margin:20px; }
+#shadowbox #app input { height:20px; float:left; }
+#shadowbox #app select { height:25px; float:left; }
+
+#shadowbox .button_sh { float:left; margin:4px 0; }
+#shadowbox .button_sh #doneButton { margin-left:10px; }
+#shadowbox .radio { float: left; margin: 3px 0pt 0pt 10px; }
+#shadowbox .radioLabel { margin:5px; font-size:9pt; font-weight:normal; }
+#shadowbox select { margin-left: 0px; }
+#shadowbox #lastNameSearch { margin-left:15px; }
+
+#shadowbox h1.blueText { float:left; }
+#shadowbox #noResults #resultLink { float:left; margin-left:10px; }
+#shadowbox #noResults #resultLink a.blueText { font-weight:normal; }
+
+.fadeBack { width:100%; height:100%; margin:0; background-color:#000;
+/* for IE */ filter:alpha(opacity=30);
+/* CSS3 standard */ opacity:0.3; position:fixed; z-index:1000; top:0px; left:0px; }
+.fadeContent { z-index:1001; position:fixed; background-color:white; border:#4b4b4b 4px solid; }
+
+/* Fix to overwrite fplAPP.css file */
+.wc_directions a:visited, a:hover { color: #006AB6; text-decoration: underline; }      
+
+/* Fixes for Reg page styles */
+#searchHelpDisplay, #accountHelpDisplay { float:left; }
+
+/* Fixes for Account Lookup styles */
+#shadowbox #lastNameSearchHelpDisplay { float:left; }
+#shadowbox #doneButtonHelpDisplay { height:15px; }
+#shadowbox #searchTypeHelpDisplay { float:left; }
+#sb-container #sb-content.html { overflow-x:hidden; }
+#shadowbox #app { width:720px; }
+#shadowbox #app dl, dt, dd { width:720px; }
+#shadowbox #app #lookUpFields { width:720px; }
+#shadowbox #app .greyButton, #shadowbox #app .greyButton_OFF { height:29px; }
+#shadowbox #app .blueButton, #shadowbox #app .blueButton_OFF { height:29px; }
+
+
+/* Fixes for User Conversion screen styles */
+#convertTypeSection span.hint b { width:365px; }
+#convertTypeSection span.hint_error b { width:365px; }
+#convertTypeSection dd { margin-bottom:5px; }
+#convertTypeSection #updateUserId { float:left; }
+#convertTypeSection #hrBar { margin:10px 0 0; width:740px; }
+#convertTypeSection #hrBar hr { margin:0 0 5px 0; }
+#convertTypeSection #exitButtonMessageDisplay b { width:470px; }
+
+/*Fixes for Change Resgistration styles */
+#submitSection { float:left; }
+
+
+/*Fixes for Web Connect */
+#startServiceForm { *padding-bottom:5%; *margin-left:100px; }
+#startServiceTbl { margin:0 auto 18% auto; width:753px; }
+#startServiceTbl .WebConnect { width:753px; }
+#startServiceTbl #wc_interactTable { width:753px; position:relative; }
+#startServiceTbl #whiteSquoval { margin:5px 1em 20px; }
+#startServiceTbl .whiteSquovalContent { position:relative; }
+#startServiceTbl #mandatory { float:right; }
+#startServiceTbl #noRecordFoundID { padding:0 35px; }
+#startServiceTbl input { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; height:20px; *height:17px; margin-top:-2px; }
+#startServiceTbl input:disabled { background-color:#eeeeee; border:1px solid #cccccc; }
+#startServiceTbl #streetAddress { width:513px; *width:509px; margin-bottom:30px; }
+#startServiceTbl #city { width:170px; *width:166px; }
+#wc_interactTable td { vertical-align:top; padding-top:12px; }
+#startServiceTbl .wc_button { margin-right:0; margin-top:0; }
+#startServiceTbl .wc_button input { height:100%; }
+#startServiceTbl #wc_interactTable .wc_validation p { width:570px; float:left; }
+#startServiceTbl #loadingId { position:absolute; top:108px; left:50%; width:32px; height:32px; }
+#startServiceTbl #loadingId.reposition { left:38px; }
+#startServiceTbl #toAcctSumm { margin-top:0; vertical-align:top; }
+.ui-autocomplete .ui-menu-item a { line-height:1; font-size:11px; }
+ul.dd-custom { height:34px; width:511px; z-index:1; top:109px; left:149px; width:515px\9; top:115px\9; left:147px\9; *width:511px; *top:111px; *left:147px; margin:0; padding:0; border-radius:4px; cursor: default; position: absolute; list-style:none;	float: left; border: 1px solid #aaaaaa/*{borderColorContent}*/; background: #ffffff/*{bgColorContent}*/ url("images/ui-bg_flat_75_ffffff_40x100.png")/*{bgImgUrlContent}*/ 50%/*{bgContentXPos}*/ 50%/*{bgContentYPos}*/ repeat-x/*{bgContentRepeat}*/; color: #222222/*{fcContent}*/; }
+ul.dd-custom li { padding:7px 0 0; *padding:8px 0 9px; font-family:Verdana,Arial,Helvetica,sans-serif; font-size:14px; color:#999; list-style-position:outside;  }
+
+
+/* Rudy's Styles */
+.blocked{ color: #CCC; }
+input[type=text].blocked,input[type=password].blocked{ color: #CCC;	border:1px solid #ccc; }
+
+/* BUTTONS */
+.blueButton, .greyButton, .blueButton_OFF, .greyButton_OFF{
+display:block;
+float:left;
+margin:0 7px 0 0;
+background-image:url("https://apptest6.fpl.com/fplcommon/wrapper/1024images/appBtn_blue.gif"); background-repeat:repeat-x;
+border:1px solid #ffffff;
+border-top:1px solid #ffffff;
+border-left:1px solid #ffffff;
+font-family:Verdana;
+font-size:12px;
+line-height:100%;
+text-decoration:none;
+font-weight:bold;
+color:#FFFFFF;
+cursor:pointer;
+padding:5px 10px 6px 7px; /* Links */
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+button{
+width:auto;
+overflow:visible;
+padding:4px 15px 3px 12px; /* IE6 */
+}
+button[type]{
+padding:5px 15px 5px 12px; /* Firefox */
+line-height:17px; /* Safari */
+}
+*:first-child+html button[type]{
+padding:4px 15px 3px 12px; /* IE7 */
+}
+.blueButton img, .greyButton img, .blueButton_OFF img, .greyButton_OFF img{
+margin:0 3px -3px 0 !important;
+padding:0;
+border:none;
+width:16px;
+height:16px;
+}
+
+/* BLUE */
+.blueButton{background-image:url("https://apptest6.fpl.com/fplcommon/wrapper/1024images/appBtn_blue.gif"); background-repeat:repeat-x;color:#fffff;}
+.blueButton:hover{border:1px solid #ffffff;color:#ffffff;}
+.blueButton:active{border:1px solid #ffffff;color:#ffffff;}
+
+/* BLUE OFF */
+.blueButton_OFF{background-image:url("https://apptest6.fpl.com/fplcommon/wrapper/1024images/appBtn_blue_OFF.gif"); background-repeat:repeat-x;color:#fffff;}
+.blueButton_OFF:hover{border:1px solid #ffffff;color:#ffffff; cursor:default;}
+.blueButton_OFF:active{border:1px solid #ffffff;color:#ffffff;}
+
+/* GREY */
+.greyButton{background-image:url("https://apptest6.fpl.com/fplcommon/wrapper/1024images/appBtn_grey.gif"); background-repeat:repeat-x;color:#fffff;}
+.greyButton:hover{border:1px solid #ffffff;color:#ffffff;}
+.greyButton:active{border:1px solid #ffffff;color:#ffffff;}
+
+/* GREY OFF */
+.greyButton_OFF{background-image:url("https://apptest6.fpl.com/fplcommon/wrapper/1024images/appBtn_grey_OFF.gif"); background-repeat:repeat-x;color:#fffff;}
+.greyButton_OFF:hover{border:1px solid #ffffff;color:#ffffff; cursor:default;}
+.greyButton_OFF:active{border:1px solid #ffffff;color:#ffffff;}
+
+/* FIXES */
+#app #forgotIdLink a, #app #forgotIdLink a:visited { font-size:12px; font-weight:normal; text-decoration:none; }
+#app #forgotIdLink a:hover { color:#006AB6; text-decoration:underline; }		
+#app #forgotIdLink selected.a { color:#006AB6; }
+
+#userId_div1 { padding-left:20px; }
+#userId_div2 { padding-left:20px; }
+#userId_div3 { padding-left:20px; }
+#userId_div4 { padding-left:20px; }
+
+
+/*Green Account Summary Button*/
+
+#outerMostTable .centerContent .buttonASGreen {
+    background: url("/fplcommon/wrapper/1024images/solar_buttonGradient.png") repeat-x scroll 0 0 #49AB07;
+    float: left;
+	margin-bottom: 2px;
+}
+#outerMostTable .centerContent .buttonASGreen a {
+    background: url("/fplcommon/wrapper/1024images/solar_buttonCorners.gif") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#outerMostTable .centerContent .buttonASGreen span {
+    display: inline-block;
+    height: 22px;
+    padding: 5px 13px 0;
+    background: url("/fplcommon/wrapper/1024images/solar_buttonCorners.gif") no-repeat 100% 100%;
+}
+
+
+
+/*style for new reg error msg*/
+#activateButtonHelpDisplay, #activateButtonImageDisplay {margin-top:40px;}
+
+.blueBox {
+    background-color: #EFF9FD;
+    border: 1px solid #C4C7C8;
+    margin: 10px 0;
+    padding: 10px 10px 20px;
+}
+
+/* Styles for top wrapper fly outs */
+#TopNav ul li {
+    z-index: 200;
+}
+div.Msubnav, div.subnav, div.Rsubnav, div.RRsubnav {
+    z-index: 100;
+}

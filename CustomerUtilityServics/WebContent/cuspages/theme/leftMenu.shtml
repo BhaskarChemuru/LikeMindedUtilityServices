@@ -1,0 +1,136 @@
+<div id="leftBuckets">
+<div id="welcome" >
+  <table width="130" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><img src="/fplcommon/wrapper/images/greenCap.gif" width="130" height="5"></td>
+    </tr>
+    <tr>
+      <td><div class="welcomeContent">Welcome<br> 
+    <img src="/fplcommon/wrapper/images/arrowWhiteNoBG.gif" width="9" height="11"> <a href="https://apptest.fpl.com/eca/EcaController?command=toggle">Log In / Log Out </a></div>
+  </td>
+    </tr>
+  </table> 
+</div>
+<div id="myAccount">
+<table width="130"  border="0" cellpadding="0" cellspacing="0" id="leftMenuTopTD">
+  <tr>
+    <td class="leftMenuTopTD">My Account </td>
+  </tr>
+</table>
+<table id="leftMenuTable" width="130"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="myAccLinkTDs"><a href="https://apptest.fpl.com/AccountInfo/AccountInfo?command=accountSummary">Account Summary </a></td>
+  </tr>
+  <tr>
+    <td class="dottedTDGreen" height="1"><img src="/fplcommon/wrapper/images/smallDotsGreenBG.gif" width="130" height="1"></td>
+  </tr>
+  <tr>
+    <td class="myAccLinkTDs"><a href="https://apptest.fpl.com/Pbi/PbiHtmlController?command=validatePayment">Pay Bill </a></td>
+  </tr>
+  <tr>
+    <td class="dottedTDGreen"><img src="/fplcommon/wrapper/images/smallDotsGreenBG.gif" width="130" height="1"></td>
+  </tr>
+  <tr>
+    <td class="myAccLinkTDs"><a href="javascript:doLastStatement();">View Bill </a></td>
+  </tr>
+  <tr>
+    <td class="dottedTDGreen"><img src="/fplcommon/wrapper/images/smallDotsGreenBG.gif" width="130" height="1"></td>
+  </tr>
+  <tr>
+    <td class="myAccLinkTDs"><a href="https://apptest.fpl.com/sowww2/SowwwHtmlController?command=connectpremisesearch">Start Service </a></td>
+  </tr>
+  <tr>
+    <td><img src="/fplcommon/wrapper/images/smallDotsGreenBG.gif" width="130" height="1"></td>
+  </tr>
+  <tr>
+    <td class="myAccLinkTDs"><a href="javascript:callCustForm('CLOSE_ACCOUNT');">Stop Service </a></td>
+  </tr>
+  <tr>
+    <td><img src="/fplcommon/wrapper/images/smallDotsGreenBG.gif" width="130" height="1"></td>
+  </tr>
+  <tr>
+    <td class="myAccLinkTDs"><a href="https://apptest.fpl.com/sowww2/SowwwHtmlController?command=transferpremisesearch&searchType=transfer">Transfer Service </a></td>
+  </tr>
+  <tr>
+    <td><img src="/fplcommon/wrapper/images/smallDotsGreenBG.gif" width="130" height="1"></td>
+  </tr>
+  <tr>
+    <td class="myAccLinkTDs"><a href="javascript:doBillingHistory();">Bill History</a> </td>
+  </tr>
+  <tr>
+    <td><img src="/fplcommon/wrapper/images/smallDotsGreenBG.gif" width="130" height="1"></td>
+  </tr>
+  <tr>
+    <td class="myAccLinkTDs"><a href="javascript:doBillingGraph()">Bill History Graph</a> </td>
+  </tr>
+  <tr>
+    <td><img src="/fplcommon/wrapper/images/smallDotsGreenBG.gif" width="130" height="1"></td>
+  </tr>
+  <tr>
+    <td class="myAccLinkTDs"><a href="javascript:doPaymentHistory();">Payment History</a></td>
+  </tr>
+  <tr>
+    <td><img src="/fplcommon/wrapper/images/smallDotsGreenBG.gif" width="130" height="1"></td>
+  </tr>
+  <tr>
+    <td class="myAccLinkTDs"><a href="https://apptest.fpl.com/reg_app/AccountManagementController?command=manageAccountsDisplay">Select Account </a></td>
+  </tr>
+  <tr>
+    <td><img src="/fplcommon/wrapper/images/smallDotsGreenBG.gif" width="130" height="1"></td>
+  </tr>
+  <tr>
+    <td class="myAccLinkTDs"><a href="javascript:callChannelForm('OHES');">Online Home <br>
+      Energy Survey</a></td>
+  </tr>
+  <tr>
+    <td><img src="/fplcommon/wrapper/images/smallDotsGreenBG.gif" width="130" height="1"></td>
+  </tr>
+  <tr>
+    <td class="myAccLinkTDs"><a href="http://websb.fpl.com/customer/report_trouble.shtml">Report Power Disturbances </a></td>
+  </tr>
+  <tr>
+    <td><img src="/fplcommon/wrapper/images/smallDotsGreenBG.gif" width="130" height="1"></td>
+  </tr>
+
+</table> 
+ </div>
+<table width="130"  border="0" cellpadding="0" cellspacing="0" id="leftMenuTopTD">
+  <tr>
+    <td class="leftMenuTopTD">Business</td>
+  </tr>
+</table>
+<div id="blueBucket">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+    <td class="blueBucket"><a href="http://websb.fpl.com/business/customer_service.shtml">Customer Service </a></td>
+  </tr>
+<tr>
+<td class="blueBucketDottedTD"><img src="/fplcommon/wrapper/images/dottedLineBlueBG.gif" width="22" height="3"></td>
+</tr>
+  <tr>
+    <td class="blueBucket"><a href="http://websb.fpl.com/business/bill/index.shtml">Billing &amp; Payment </a></td>
+  </tr>
+  <tr>
+<td class="blueBucketDottedTD"><img src="/fplcommon/wrapper/images/dottedLineBlueBG.gif" width="22" height="3"></td>
+  </tr>
+  <tr>
+    <td class="blueBucket"><a href="http://websb.fpl.com/business/savings/index.shtml">Savings &amp; Rebates </a></td>
+  </tr>
+  <tr>
+<td class="blueBucketDottedTD"><img src="/fplcommon/wrapper/images/dottedLineBlueBG.gif" width="22" height="3"></td>
+  </tr>
+  <tr>
+    <td class="blueBucket"><a href="http://websb.fpl.com/business/products/index.shtml">Products &amp; Solutions </a></td>
+  </tr>
+  <tr>
+<td class="blueBucketDottedTD"><img src="/fplcommon/wrapper/images/dottedLineBlueBG.gif" width="22" height="3"></td>
+  </tr>
+  <tr>
+    <td class="blueBucket"><a href="http://websb.fpl.com/business/electric/index.shtml">Your Electric Service </a></td>
+  </tr>
+  
+</table>
+</div>
+
+ 
+</div>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Wed Aug 21 2013 14:19:38 GMT-0400 (Eastern Daylight Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="PaymentHistory">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="AccountInfo">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="AccountNumber" type="xs:int"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="PaymentInfo">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="Payments" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="PaymentAmount" type="xs:string"></xs:element>
+                                                               <xs:element name="PaymentDate" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>

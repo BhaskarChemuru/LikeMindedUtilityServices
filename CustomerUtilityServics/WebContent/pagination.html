@@ -1,0 +1,412 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+<meta content="text/html; charset=ISO-8859-1" http-equiv="Content-Type" />
+<title>Pay Now</title>
+<link rel="Stylesheet" href="resources/styles/global.css" />
+<link rel="Stylesheet" href="resources/styles/style.css" />
+<link rel="Stylesheet" href="resources/styles/jqueryUI.css" />
+<link rel="stylesheet" href="resources/styles/flexy-menu.css" />
+<link rel="stylesheet" href="resources/styles/font-awesome.css" />
+<script src="resources/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="resources/js/jquery-ui-1.9.2.custom.min.js" type="text/javascript"></script>
+<script src="resources/js/jqueryPlugins.js" type="text/javascript" ></script>
+<script src="resources/js/hix.js" type="text/javascript"></script>
+<script src="Scripts/swfobject_modified.js" type="text/javascript">
+</script>
+<script src="resources/js/flexy-menu.js" type="text/javascript"></script>
+<script type="text/javascript">$(document).ready(function(){$(".flexy-menu").flexymenu({speed: 400});});</script>
+</head>
+<body>
+<div>
+<div id="header-wrapper" class="clear">
+  <div id="header">
+    <div class="left tpPad5"><img width="255" height="65" src="resources/images/Milestone_Utility_ServicesFocus.png" alt="Milestone Utility Services"> </div>
+    <div class="right">
+      <form action="#logout">
+        <div id="logoCustServ" class="right width175">
+          <div class="botMargin5">
+            <p>Name:</p>
+            <p class="bold">JOHN SMITH</p>
+          </div>
+          <div class="botMargin5">
+            <p>Account#:</p>
+            <p class="bold">XXX-XXXXX</p>
+          </div>
+          <div class="left width40 tpPad5"> <a href="#" title="Message"> <span class="msgIcon left rightMargin5"></span>
+            <p>(3 Msgs)</p>
+            </a> </div>
+          <div class="right">
+            <button class="navBtn last noMargin" type="button"><span class="logoutIcon rtPad10"></span>Log Out&nbsp;</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div id="PriNav" class="clear">
+      <ul class="flexy-menu red">
+        <li class="showhide" style="display: none;"><span class="title">MENU</span><span class="icon"><em></em><em></em><em></em><em></em></span></li>
+        <li style=""><a href="index.html">Home</a></li>
+        <li style=""><a href="accountsummary.html">My Account</a>
+          <ul style="display: none;">
+            <li><a href="accountsummary.html">Account Summary</a></li>
+            <li><a href="personalInfo.html">Personal Info</a></li>
+            <li><a href="paymentMethods.html">Payment Methods</a>
+              <!--            <ul style="">
+              <li><a href="JavaScript:void(0)">Dropdown item</a></li>
+              <li><a href="JavaScript:void(0)">Dropdown item</a></li>
+              <li><a href="JavaScript:void(0)">Dropdown item</a>
+                <ul style="">
+                  <li><a href="JavaScript:void(0)">Dropdown item</a></li>
+                  <li><a href="JavaScript:void(0)">Dropdown item</a></li>
+                  <li><a href="JavaScript:void(0)">Dropdown item</a></li>
+                  <li><a href="JavaScript:void(0)">Dropdown item</a></li>
+                </ul>
+              </li>
+              <li><a href="JavaScript:void(0)">Dropdown item</a></li>
+            </ul>-->
+            </li>
+            <li><a href="JavaScript:void(0)">Dropdown item</a></li>
+            <li><a href="JavaScript:void(0)">Dropdown item</a></li>
+          </ul>
+        </li>
+        <li style=""><a href="JavaScript:void(0)">Payments</a>
+          <ul style="display: none;">
+            <li><a href="JavaScript:void(0)">On-Demand Pay</a></li>
+            <li><a href="JavaScript:void(0)">Payment History</a></li>
+            <li><a href="JavaScript:void(0)">Auto Pay</a>
+              <!--<ul style="">
+              <li><a href="JavaScript:void(0)">Dropdown item</a></li>
+              <li><a href="JavaScript:void(0)">Dropdown item</a></li>
+              <li><a href="JavaScript:void(0)">Dropdown item</a>
+                <ul style="">
+                  <li><a href="JavaScript:void(0)">Dropdown item</a></li>
+                  <li><a href="JavaScript:void(0)">Dropdown item</a></li>
+                  <li><a href="JavaScript:void(0)">Dropdown item</a></li>
+                  <li><a href="JavaScript:void(0)">Dropdown item</a></li>
+                </ul>
+              </li>
+              <li><a href="JavaScript:void(0)">Dropdown item</a></li>
+            </ul>
+--> </li>
+            <li><a href="JavaScript:void(0)">Dropdown item</a></li>
+            <li><a href="JavaScript:void(0)">Dropdown item</a></li>
+          </ul>
+        </li>
+        <li style=""><a href="billusage.html">Billing & Usage</a>
+          <ul style="display: none;">
+            <li class="active"><a href="billusage.html">Bill Summary</a></li>
+            <li><a href="JavaScript:void(0)">View Bill</a></li>
+            <li><a href="JavaScript:void(0)">View Usage</a></li>
+            <li><a href="eBillEnrollment.html">E-bill Enrollment</a></li>
+            <li class="active"><a href="budgetBilling.html">Budget Billing Enrollment</a></li>
+          </ul>
+        </li>
+        <li style=""><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="Wrap">
+
+  <!-- Main Section Begins --><!-- This will clear any floats from previous Section -->
+  <div class="Main">
+    <div>
+      <h1 class="bold left btPad10 tpPad6">E-Bill Enrollment</h1>
+    </div>
+    <!--Table sort Starts-->
+    <div>
+    <div id="tabs" class="clear">
+        <ul>
+          <li><a href="#tabs-1">Applications</a></li>
+          <li><a href="#tabs-2">Quotes</a></li>
+        </ul>
+        <div id="tabs-1" class="dash">
+          <h3>View All Applications</h3>
+          <table id="applications" border="0" cellpadding="2" cellspacing="0" class="searchData tablesorter">
+            <thead>
+              <tr>
+                <th> Primary Applicant</th>
+                <th> Primary Applicant’s Plan</th>
+                <th> Applications Control Number </th>
+                <th> Status </th>
+                <th> Effective Date </th>
+                <th> Remove </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td><a href="#">ID</a></td>
+                <td>Not yet Submitted</td>
+                <td>01/01/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td> SmartSense 6000 70%</td>
+                <td><a href="#">ID</a></td>
+                <td>Not yet Submitted</td>
+                <td>03/01/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td><a href="#">ID</a></td>
+                <td>Not yet Submitted</td>
+                <td>01/15/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td><a href="#">ID</a></td>
+                <td>Not yet Submitted</td>
+                <td>02/01/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td><a href="#">ID</a></td>
+                <td>Not yet Submitted</td>
+                <td>03/15/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td><a href="#">ID</a></td>
+                <td>Not yet Submitted</td>
+                <td>04/01/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td><a href="#">ID</a></td>
+                <td>Not yet Submitted</td>
+                <td>04/15/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td><a href="#">ID</a></td>
+                <td>Not yet Submitted</td>
+                <td>03/30/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td><a href="#">ID</a></td>
+                <td>Not yet Submitted</td>
+                <td>05/01/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td><a href="#">ID</a></td>
+                <td>Not yet Submitted</td>
+                <td>02/15/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td><a href="#">ID</a></td>
+                <td>Not yet Submitted</td>
+                <td>05/15/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td><a href="#">ID</a></td>
+                <td>Not yet Submitted</td>
+                <td>06/01/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td><a href="#">ID</a></td>
+                <td>Not yet Submitted</td>
+                <td>06/01/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td><a href="#">ID</a></td>
+                <td>Not yet Submitted</td>
+                <td>06/30/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td><a href="#">ID</a></td>
+                <td>Not yet Submitted</td>
+                <td>05/30/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <div id="appsPager" class="pager">
+            <form action="">
+              <span>Show</span>
+              <select class="pagesize">
+                <option selected="selected" value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+              </select>
+              <span class="perPage">per page</span> <img src="resources/images/first.png" class="first" alt="first" /> <img src="resources/images/prev.png" class="prev" alt="prev" />
+              <input type="text" class="pagedisplay" />
+              <img src="resources/images/next.png/" alt="next" class="next"/> <img src="resources/images/last.png" class="last" alt="last" />
+            </form>
+          </div>
+        </div>
+        <div id="tabs-2" class="dash">
+          <h3>View All Quotes</h3>
+          <table id="quotes" border="0" cellpadding="2" cellspacing="0" class="searchData tablesorter">
+            <thead>
+              <tr>
+                <th> Primary Applicant</th>
+                <th> Primary Applicant’s Plan</th>
+                <th> Effective Date </th>
+                <th> Date Created <span class="small">(Date Added to Cart)</span></th>
+                <th> Remove </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td>05/30/2012</td>
+                <td>04/01/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td>05/30/2012</td>
+                <td>04/01/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td>05/30/2012</td>
+                <td>04/01/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td>05/30/2012</td>
+                <td>04/01/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td>05/30/2012</td>
+                <td>04/01/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">First name (DOB)</a></td>
+                <td>SmartSense 6000 70%</td>
+                <td>05/30/2012</td>
+                <td>04/01/2012</td>
+                <td><a href="#" class="dashRemove">Remove</a></td>
+              </tr>
+              
+            </tbody>
+          </table>
+          <div id="quotesPager" class="pager">
+            <form action="">
+              <span>Show</span>
+              <select class="pagesize">
+                <option selected="selected" value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+              </select>
+              <span class="perPage">per page</span> <img src="resources/images/first.png" class="first" alt="first" /> <img src="resources/images/prev.png" class="prev" alt="prev" />
+              <input type="text" class="pagedisplay" />
+              <img src="resources/images/next.png" class="next" alt="next" /> <img src="resources/images/last.png" class="last" alt="last" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Table sort Ends-->
+  </div>
+</div>
+<!-- END of Main Content Section -->
+  <!-- Footer Begins -->
+  <!-- This div will clear any floats from the above Content area -->
+<div id="footer-wrapper" class="topMargin20">
+  <div id="footer">
+    <section>
+      <h2 class="btPad20">How about a truckload of links?</h2>
+      <div>
+        <div class="left rtPad20 width200px">
+          <ul class="link-list">
+            <li><a href="#">Sed neque nisi consequat</a></li>
+            <li><a href="#">Dapibus sed mattis blandit</a></li>
+            <li><a href="#">Quis accumsan lorem</a></li>
+            <li><a href="#">Suspendisse varius ipsum</a></li>
+            <li><a href="#">Eget et amet consequat</a></li>
+          </ul>
+        </div>
+        <div class="left rtPad20 width200px">
+          <ul class="link-list">
+            <li><a href="#">Quis accumsan lorem</a></li>
+            <li><a href="#">Sed neque nisi consequat</a></li>
+            <li><a href="#">Eget et amet consequat</a></li>
+            <li><a href="#">Dapibus sed mattis blandit</a></li>
+            <li><a href="#">Vitae magna sed dolore</a></li>
+          </ul>
+        </div>
+        <div class="left rtPad20 width200px">
+          <ul class="link-list">
+            <li><a href="#">Sed neque nisi consequat</a></li>
+            <li><a href="#">Dapibus sed mattis blandit</a></li>
+            <li><a href="#">Quis accumsan lorem</a></li>
+            <li><a href="#">Suspendisse varius ipsum</a></li>
+            <li><a href="#">Eget et amet consequat</a></li>
+          </ul>
+        </div>
+        <div class="left rtPad20 width200px">
+          <ul class="link-list">
+            <li><a href="#">Quis accumsan lorem</a></li>
+            <li><a href="#">Sed neque nisi consequat</a></li>
+            <li><a href="#">Eget et amet consequat</a></li>
+            <li><a href="#">Dapibus sed mattis blandit</a></li>
+            <li><a href="#">Vitae magna sed dolore</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="clear"></div>
+</div>
+<div>
+  <div id="copyright" style="text-align:center">
+    <p><a href="#">Privacy</a> | <a href="#">Terms</a></p>
+    <p>&copy; 2013 Milestone Utility Services. All rights reserved.</p>
+  </div>
+</div>
+<!-- END of snqWrap -->
+<div id="loadDialog"> </div>
+</body>
+</html>

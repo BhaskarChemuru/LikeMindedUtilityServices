@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+/* Homepage Styles
+--------------------------------------------------------------------*/
+/*BGT: New CSS Styles*/
+.mainTbl{ margin:0px auto; width:960px; }
+.homepage{ }
+.homepage .banner{ text-align:right; }
+.homepage .banner img{ vertical-align:text-bottom; }
+.homepage .left-side{ vertical-align:top; }
+.homepage .left-side img{ vertical-align:text-bottom; }
+.small-banner{ margin-bottom:10px; }
+.small-banner td{ text-align:center; }
+.small-banner td:first-child, .small-banner td.first-child{ text-align:left; }
+.small-banner td:last-child, .small-banner td.last-child{ text-align:right; }
+
+table.form-login{ background-color:#f7f7f7; width:185px; border:1px solid #c9c9c9; }
+table.form-login th{ padding:7px 10px; background:url("/fplcommon/wrapper/1024images/form-login-icon.gif") no-repeat 165px center; }
+table.form-login td{ padding:2px 10px; }
+table.form-login td,
+table.form-login td label,
+table.form-login td label a{ font:normal 10px Arial, Helvetica, sans-serif; color:#252525; }
+table.form-login td label a{ text-decoration:underline !important; }
+table.form-login tr.last-child td{ padding-bottom:15px; padding-top:5px; }
+table.form-login tr.last-child td-first-child{ padding-right:0px; }
+table.form-login tr.last-child td.last-child{ padding-left:0px; text-align:right; }
+table.form-login input.form-login-textbox{ border:1px solid #ccc; width:100%; }
+table.form-login input.form-login-button{ }
+
+.tab-control{ padding:10px 0px; }
+.tab-control ul.tab-titles{ display:block; background:url("/fplcommon/wrapper/1024images/border-tab-title.gif") repeat-x left bottom; margin:0px; padding:0px; }
+.tab-control ul.tab-titles li{ display:block; float:left; padding-right:15px; background:url("/fplcommon/wrapper/1024images/tab-title.gif") no-repeat right top; }
+.tab-control ul.tab-titles li a{ display: -moz-inline-block; display:inline-block; padding:6px 10px 6px 20px; text-transform:uppercase; color:#2d2d2d; font:bold 12px Arial; background:url("/fplcommon/wrapper/1024images/tab-title.gif") no-repeat left top; }
+.tab-control ul.tab-titles li:hover{ background-position:right bottom; }
+.tab-control ul.tab-titles li:hover a{ background-position:left bottom; }
+.tab-control ul.tab-titles li.tab-title-selected{ background-position:right -27px; }
+.tab-control ul.tab-titles li.tab-title-selected a{ background-position:left -27px; }
+.tab-control .tab-contents{ border:1px solid #ccc; border-top:none; padding:15px 10px; }
+.tab-control .tab-contents .tab-content td{ vertical-align:top; padding:5px 15px 10px 15px; background:url("/fplcommon/wrapper/1024images/separator_dotted.gif") repeat-y right top; }
+.tab-control .tab-contents .tab-content td.last-child{ background:none; }
+.tab-control .tab-contents h2{ font:bold 12px Verdana, Arial, Helvetica, sans-serif; padding:0px; margin:0px 0px 3px 0px; display:block; color:#000; }
+.tab-control .tab-contents a{ font:normal 11px Verdana, Arial, Helvetica, sans-serif; color:#006ab6; display:block; margin-bottom:2px; }
+
+.box-green{ background:url("/fplcommon/wrapper/1024images/box-green-bottom.gif") no-repeat left bottom; padding-bottom:15px; margin-bottom:5px; }
+.box-green table{ background:url("/fplcommon/wrapper/1024images/box-green-bg.gif") repeat-y left top; }
+.box-green table td{ padding:12px 10px 8px 10px; }
+.box-green table tr.first-child td{ background:url("/fplcommon/wrapper/1024images/box-green-top.gif") no-repeat left top; }
+.box-green table tr.first-child td.first-child{ background-position:left top; }
+.box-green table tr.first-child td.last-child{ background-position:right top; }
+.box-green, .box-green label, .box-green a{ font:normal 11px Verdana, Arial, Helvetica, sans-serif; color:#555555; }
+.box-green .box-view-more{ text-decoration:underline; }
+.box-green .learn-description{ display:block; background:url("/fplcommon/wrapper/1024images/green-arrow.gif") no-repeat left center; padding-left:10px; }
+.manage-account, { margin-bottom:7px; width:186px; height:22px; display:block; text-indent:-1000px; overflow:hidden; }
+.register-account{ margin-top:7px; width:186px; height:22px; display:block; text-indent:-1000px; overflow:hidden; }
+
+.manage-account{ background:url("/fplcommon/wrapper/1024images/manage-account.gif") no-repeat left top; }
+.register-account{ background:url("/fplcommon/wrapper/1024images/register-for-access.gif") no-repeat left top; }
+.manage-account:hover{ background-position:left bottom; }
