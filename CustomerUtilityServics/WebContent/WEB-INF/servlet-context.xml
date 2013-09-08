@@ -1,2 +1,0 @@
-<!-- Handles HTTP GET requests for /WebContent/** by efficiently serving up static resources in the ${webappRoot}/WebContent directory -->
-<resources mapping="/css/**" location="/css/" />
